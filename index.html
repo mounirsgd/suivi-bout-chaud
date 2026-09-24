@@ -12,11 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bleu:     #0e86d4;   /* barres — bleu plus clair que le Bout Froid */
-    --bleu-s:   #0a6ba8;
+    --bleu:     #0f9b8e;   /* barres — teal, distinct du bleu Bout Froid */
+    --bleu-s:   #0a7d72;
     --vert:     #158f4a;   /* objectif */
     --saumon:   #d9614a;   /* ecart defavorable */
-    --navy:     #0d3a52;   /* bandeau */
+    --navy:     #062a4d;   /* bandeau — bleu profond */
     --titre:    #0d1520;
     --texte:    #1c2733;
     --muted:    #5c6a7a;
@@ -39,8 +39,8 @@
     display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
   }
   header h1 { margin: 0; font-size: 19px; font-weight: 600; letter-spacing: .2px; }
-  header .site { color: #9dc5da; font-size: 14px; }
-  header .maj  { color: #9dc5da; font-size: 13px; margin-left: auto; }
+  header .site { color: #8fb4d6; font-size: 14px; }
+  header .maj  { color: #8fb4d6; font-size: 13px; margin-left: auto; }
 
   main { padding: 20px 24px 48px; max-width: 1360px; margin: 0 auto; }
 
@@ -63,7 +63,7 @@
   button.chip[aria-pressed="true"] {
     background: var(--bleu); border-color: var(--bleu); color: #fff;
   }
-  button.chip:focus-visible { outline: 3px solid #8cc9ea; outline-offset: 2px; }
+  button.chip:focus-visible { outline: 3px solid #7fd4ca; outline-offset: 2px; }
   .periodes { max-height: 104px; overflow-y: auto; padding-right: 4px; }
 
   /* ── Panneaux ─────────────────────────────────────────────────────────── */
@@ -98,6 +98,11 @@
 
   .part { display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 12px; margin-bottom: 9px; }
   .part-nom { font-size: 13px; color: var(--texte); font-weight: 600; }
+  .part-freq {
+    display: inline-block; margin-left: 6px; padding: 0 5px;
+    border-radius: 4px; background: #eef3f7; color: var(--muted);
+    font-size: 11px; font-weight: 500;
+  }
   .part-piste { position: relative; height: 22px; background: #eef3f7; border-radius: 5px; }
   .part-barre { position: absolute; left: 0; top: 0; bottom: 0; background: var(--bleu); border-radius: 5px; opacity: .9; }
   .part-val { font-size: 13px; font-weight: 600; color: var(--titre); white-space: nowrap; min-width: 128px; text-align: right; }
@@ -204,7 +209,7 @@
   var MOIS = ["janvier","fevrier","mars","avril","mai","juin",
               "juillet","aout","septembre","octobre","novembre","decembre"];
 
-  var BLEU = "#0e86d4", VERT = "#158f4a", SAUMON = "#d9614a";
+  var BLEU = "#0f9b8e", VERT = "#158f4a", SAUMON = "#d9614a";
 
   var donnees = null;
   var mode = "mois";
@@ -419,18 +424,23 @@
   // ── Tableau de detail ─────────────────────────────────────────────────────
 
   function construireTableau(metrique) {
+    var estRetard = (metrique === "MR2");
     var lignes = mesuresPeriode(metrique).slice();
 
-    lignes.forEach(function (m) {
-      var t = m.objectif_min;
-      m._ecart = (t === null || t === undefined) ? null : m.duree_min - t;
-    });
-
-    lignes.sort(function (a, b) {
-      if (a._ecart === null) return 1;
-      if (b._ecart === null) return -1;
-      return b._ecart - a._ecart;
-    });
+    if (estRetard) {
+      // la valeur EST deja le retard : un ecart n'aurait pas de sens
+      lignes.sort(function (a, b) { return a.duree_min - b.duree_min; });
+    } else {
+      lignes.forEach(function (m) {
+        var t = m.objectif_min;
+        m._ecart = (t === null || t === undefined) ? null : m.duree_min - t;
+      });
+      lignes.sort(function (a, b) {
+        if (a._ecart === null) return 1;
+        if (b._ecart === null) return -1;
+        return b._ecart - a._ecart;
+      });
+    }
 
     var bloc = document.createElement("div");
     bloc.className = "detail";
@@ -442,15 +452,18 @@
     var aide = document.createElement("p");
     aide.className = "aide";
     aide.textContent = lignes.length + " changement" + (lignes.length > 1 ? "s" : "") +
-                       " sur la periode, du plus lent au plus rapide.";
+                       " sur la periode, " + (estRetard ? "du plus gros retard au plus faible."
+                                                        : "du plus lent au plus rapide.");
     bloc.appendChild(aide);
 
     var cadre = document.createElement("div");
     cadre.className = "cadre";
     var table = document.createElement("table");
     table.innerHTML =
-      "<thead><tr><th>Date</th><th>Ligne</th><th>Duree</th>" +
-      "<th>Ecart objectif</th><th>Commentaire</th></tr></thead>";
+      "<thead><tr><th>Date</th><th>Ligne</th>" +
+      "<th>" + (estRetard ? "Retard" : "Duree") + "</th>" +
+      (estRetard ? "" : "<th>Ecart objectif</th>") +
+      "<th>Commentaire</th></tr></thead>";
 
     var corps = document.createElement("tbody");
     lignes.forEach(function (m) {
@@ -463,22 +476,25 @@
       td2.className = "ligne"; td2.textContent = m.ligne; tr.appendChild(td2);
 
       var td3 = document.createElement("td");
-      td3.className = "num"; td3.textContent = formater(m.duree_min); tr.appendChild(td3);
+      td3.className = "num" + (estRetard && m.duree_min < 0 ? " plus-lent" : "");
+      td3.textContent = formater(m.duree_min); tr.appendChild(td3);
 
-      var td4 = document.createElement("td");
-      td4.className = "num";
-      if (m._ecart === null) {
-        td4.textContent = "—";
-      } else if (m._ecart === 0) {
-        td4.textContent = "a l'objectif";
-      } else if (m._ecart > 0) {
-        td4.className += " plus-lent";
-        td4.textContent = "+" + formater(m._ecart);
-      } else {
-        td4.className += " plus-vite";
-        td4.textContent = formater(m._ecart);
+      if (!estRetard) {
+        var td4 = document.createElement("td");
+        td4.className = "num";
+        if (m._ecart === null) {
+          td4.textContent = "—";
+        } else if (m._ecart === 0) {
+          td4.textContent = "a l'objectif";
+        } else if (m._ecart > 0) {
+          td4.className += " plus-lent";
+          td4.textContent = "+" + formater(m._ecart);
+        } else {
+          td4.className += " plus-vite";
+          td4.textContent = formater(m._ecart);
+        }
+        tr.appendChild(td4);
       }
-      tr.appendChild(td4);
 
       var td5 = document.createElement("td");
       td5.className = "cmt";
@@ -516,6 +532,10 @@
     });
     if (!lignes.length) return;
 
+    // Chaque etape est ramenee au meme denominateur que le Grand T1 :
+    // le nombre total de changements de la periode. Une etape absente
+    // compte pour zero. Une etape rare pese donc peu, meme si elle est
+    // longue quand elle a lieu — c'est bien son poids reel qu'on cherche.
     var total = 0;
     var cumulParts = {};
     lignes.forEach(function (d) {
@@ -526,13 +546,16 @@
         cumulParts[k].nb += 1;
       });
     });
-    var moyenneTotal = total / lignes.length;
+    var nbChangements = lignes.length;
+    var moyenneTotal = total / nbChangements;
 
     var parts = Object.keys(cumulParts).map(function (k) {
       return {
         cle: k,
         nom: (donnees.decomposition_libelles || {})[k] || k,
-        valeur: cumulParts[k].somme / cumulParts[k].nb
+        valeur: cumulParts[k].somme / nbChangements,   // poids sur la periode
+        moyenneSaisie: cumulParts[k].somme / cumulParts[k].nb,
+        nb: cumulParts[k].nb
       };
     }).sort(function (a, b) { return b.valeur - a.valeur; });
 
@@ -545,8 +568,9 @@
 
     var sous = document.createElement("p");
     sous.className = "sous";
-    sous.textContent = "Objectifs saisis, moyenne sur " + libelleDe(periode) +
-                       " — ce qui pese le plus dans le Grand T1.";
+    sous.textContent = "Objectifs saisis sur " + libelleDe(periode) +
+                       " — ce qui pese le plus dans le Grand T1. Une etape rare " +
+                       "pese peu, meme si elle est longue quand elle a lieu.";
     panneau.appendChild(sous);
 
     var tot = document.createElement("div");
@@ -584,7 +608,20 @@
       var pct = document.createElement("em");
       pct.textContent = Math.round(p.valeur / moyenneTotal * 100) + " % du T1";
       val.appendChild(pct);
+      val.title = p.nb + " saisie" + (p.nb > 1 ? "s" : "") + " sur " +
+                  nbChangements + " changement" + (nbChangements > 1 ? "s" : "") +
+                  " — " + formater(p.moyenneSaisie) + " quand l'etape a lieu";
       rang.appendChild(val);
+
+      if (p.nb < nbChangements) {
+        var freq = document.createElement("span");
+        freq.className = "part-freq";
+        freq.textContent = p.nb + "/" + nbChangements;
+        freq.title = "Renseigne " + p.nb + " fois sur " + nbChangements +
+                     " changements — " + formater(p.moyenneSaisie) +
+                     " quand l'etape a lieu";
+        nom.appendChild(freq);
+      }
 
       panneau.appendChild(rang);
     });
@@ -609,8 +646,11 @@
       return cleDe(c.date) === periode;
     });
 
-    var retenues = periodeCauses.filter(function (c) { return c.type !== "releve"; });
-    var nbReleves = periodeCauses.length - retenues.length;
+    var retenues = periodeCauses.filter(function (c) {
+      return c.type !== "releve" && c.type !== "normal";
+    });
+    var nbReleves = periodeCauses.filter(function (c) { return c.type === "releve"; }).length;
+    var nbNormaux = periodeCauses.filter(function (c) { return c.type === "normal"; }).length;
 
     var compte = {};
     retenues.forEach(function (c) {
@@ -636,7 +676,8 @@
     var partListee = liste.reduce(function (s, c) { return s + c.part; }, 0);
 
     return { liste: liste, total: total, causesUniques: uniques.length,
-             nbUniques: nbUniques, releves: nbReleves, partListee: partListee };
+             nbUniques: nbUniques, releves: nbReleves, normaux: nbNormaux,
+             partListee: partListee };
   }
 
   function dessinerCauses() {
@@ -738,6 +779,10 @@
       bouts.push(res.releves + " releve" + (res.releves > 1 ? "s" : "") +
                  " d'horaire, hors calcul");
     }
+    if (res.normaux) {
+      bouts.push(res.normaux + " libelle" + (res.normaux > 1 ? "s" : "") +
+                 " de deroulement normal, hors calcul");
+    }
     var note = document.createElement("p");
     note.className = "hors-liste";
     note.textContent = bouts.join(" · ") + ".";
@@ -772,8 +817,9 @@
       sous.className = "sous";
       var multiples = lignes.some(function (l) { return l.nb > 1; });
       if (estRetard) {
-        sous.textContent = "Retard par rapport a la cible de " +
-          donnees.cible_mise_en_regime + " min — " + libelleDe(periode);
+        sous.textContent = "Retard sur la cible de " +
+          donnees.cible_mise_en_regime + " min — " + libelleDe(periode) +
+          ". Plus la barre est haute, plus le retard est important.";
       } else {
         sous.textContent = (multiples ? "Moyenne par ligne — " : "Valeur par ligne — ")
                          + libelleDe(periode);
@@ -799,22 +845,33 @@
 
       var legende = document.createElement("div");
       legende.className = "legende";
-      legende.innerHTML = '<span><i class="b"></i>' +
-        (estRetard ? "Retard" : "Temps reel") + '</span>' +
-        (aDesTargets ? '<span><i class="t"></i>Objectif saisi</span>' : '');
+      legende.innerHTML = estRetard
+        ? '<span><i class="b" style="background:' + SAUMON + '"></i>Retard</span>' +
+          '<span><i class="b" style="background:' + VERT + '"></i>Cible tenue</span>'
+        : '<span><i class="b"></i>Temps reel</span>' +
+          (aDesTargets ? '<span><i class="t"></i>Objectif saisi</span>' : '');
       panneau.appendChild(legende);
 
       panneau.appendChild(construireTableau(code));
       grille.appendChild(panneau);
 
-      var reels = lignes.map(function (l) { return convertir(l.valeur); });
+      // Pour la mise en regime, la valeur est deja un ecart, le plus souvent
+      // negatif. On trace son ampleur vers le haut : une barre qui monte se
+      // lit comme un retard qui grandit.
+      var reels = lignes.map(function (l) {
+        return convertir(estRetard ? Math.max(0, -l.valeur) : l.valeur);
+      });
       var objectifs = lignes.map(function (l) {
         return l.objectif != null ? convertir(l.objectif) : null;
       });
 
+      var couleurs = estRetard
+        ? lignes.map(function (l) { return l.valeur >= 0 ? VERT : SAUMON; })
+        : BLEU;
+
       var jeux = [{
         type: "bar", label: estRetard ? "Retard" : "Temps reel", data: reels,
-        backgroundColor: estRetard ? SAUMON : BLEU,
+        backgroundColor: couleurs,
         borderRadius: 2, maxBarThickness: 56, order: 2
       }];
       if (aDesTargets) {
@@ -834,7 +891,7 @@
         },
         options: {
           responsive: true, maintainAspectRatio: false, animation: false,
-          layout: { padding: { top: 30, bottom: estRetard ? 20 : 0 } },
+          layout: { padding: { top: 30 } },
           scales: {
             x: {
               title: { display: true, text: "Lignes de fabrication", color: "#5c6a7a" },
@@ -845,7 +902,7 @@
               beginAtZero: true,
               title: {
                 display: true,
-                text: estRetard ? "Retard (" + (unite === "min" ? "minutes" : "heures") + ")"
+                text: estRetard ? "Retard sur la cible (" + (unite === "min" ? "min" : "h") + ")"
                                 : (unite === "min" ? "Minutes" : "Heures"),
                 color: "#5c6a7a"
               },
@@ -854,19 +911,37 @@
           },
           plugins: {
             legend: { display: false },
-            etiquettes: { lignes: lignes, formater: formater },
+            etiquettes: {
+              lignes: lignes.map(function (l) {
+                return estRetard
+                  ? { ligne: l.ligne, valeur: Math.max(0, -l.valeur),
+                      objectif: null, nb: l.nb }
+                  : l;
+              }),
+              formater: function (v) {
+                return estRetard && v === 0 ? "a l'objectif" : formater(v);
+              }
+            },
             tooltip: {
               callbacks: {
                 title: function (items) { return "Ligne " + lignes[items[0].dataIndex].ligne; },
                 label: function (ctx) {
                   var l = lignes[ctx.dataIndex];
                   if (ctx.dataset.type === "line") return "Objectif : " + formater(l.objectif);
-                  if (estRetard) return "Retard : " + formater(l.valeur);
+                  if (estRetard) {
+                    return l.valeur >= 0
+                      ? "Cible tenue (" + formater(l.valeur) + " de marge)"
+                      : "Retard de " + formater(-l.valeur);
+                  }
                   return (l.nb > 1 ? "Moyenne : " : "Valeur : ") + formater(l.valeur);
                 },
                 afterBody: function (items) {
                   var l = lignes[items[0].dataIndex];
-                  if (estRetard || l.objectif == null) return "";
+                  if (estRetard) {
+                    return "Cible : " + donnees.cible_mise_en_regime + " min · " +
+                           l.nb + " changement" + (l.nb > 1 ? "s" : "");
+                  }
+                  if (l.objectif == null) return "";
                   var e = Math.round(l.valeur - l.objectif);
                   if (e === 0) return "A l'objectif";
                   return e > 0 ? "Plus lent de " + formater(e)
