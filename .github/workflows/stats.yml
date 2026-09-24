@@ -1,0 +1,45 @@
+name: Calcul des stats Bout Chaud
+
+on:
+  schedule:
+    # Heures UTC. En ete Paris = UTC+2, en hiver UTC+1.
+    # GitHub declenche les taches planifiees en differe : le retard va de
+    # quelques minutes a plusieurs heures selon sa charge. Quatre creneaux
+    # etales garantissent qu'au moins un passe tot dans la matinee.
+    - cron: '23 23 * * *'    # 01:23 a Paris en ete (00:23 en hiver)
+    - cron: '17 2 * * *'     # 04:17 a Paris en ete (03:17 en hiver)
+    - cron: '9 5 * * *'      # 07:09 a Paris en ete (06:09 en hiver)
+    - cron: '3 10 * * *'     # 12:03 a Paris en ete (11:03 en hiver)
+  workflow_dispatch:         # permet aussi de lancer le calcul a la main
+
+permissions:
+  contents: write
+
+jobs:
+  calcul:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v5
+
+      - name: Installer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dependances
+        run: pip install firebase-admin
+
+      - name: Calculer les statistiques
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: python scripts/calcul_stats.py
+
+      - name: Publier le resultat
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/stats.json
+          git commit -m "Stats Bout Chaud du $(date -u +%Y-%m-%d)" --allow-empty
+          git push
