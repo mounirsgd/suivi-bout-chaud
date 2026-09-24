@@ -1,0 +1,6056 @@
+{
+ "derniere_maj": "2026-09-24T13:09:59",
+ "metriques": {
+  "NET": "Nettoyage machine",
+  "PT1": "Petit t1",
+  "RON": "Changement rondelle",
+  "MR2": "Mise en regime 2 sections"
+ },
+ "decomposition_libelles": {
+  "nettoyage": "Nettoyage",
+  "petit_t1": "Petit t1",
+  "rondelle": "Rondelle",
+  "anticipation_feeder": "Anticipation Feeder",
+  "passage_so3": "Passage en SO3"
+ },
+ "cible_mise_en_regime": 15,
+ "lignes": [
+  "221",
+  "222",
+  "224",
+  "232",
+  "233",
+  "235",
+  "236"
+ ],
+ "mesures": [
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": -124,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": -145,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 3 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 140,
+   "objectif_min": 135,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.9: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changement cartouches\n- Sec.9-10:  Réparation des flexibles de air de compression"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 161,
+   "objectif_min": 135,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changemente cartouches"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 107,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé à 8h35 - lame flexible - - Marque de la lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 134,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé à 6h35"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé à 8h28 - lame flexible - - Marque de la lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "metrique": "MR2",
+   "duree_min": -29,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche 3 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "metrique": "PT1",
+   "duree_min": 45,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement charnière ebaucheur"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -60,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 5 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine à l’arrêt depuis 4h00 en raison d’un manque de personnel à la BF."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 76,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert de charnière ebaucheur\n- Sec.3: changement Mécanisme du poinçon – cavité A"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -56,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Arrêt pour nettoyage 15 minutes plus tard"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 72,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement charnière ebaucheur\n- Changement déflecteur"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé à 7h10"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 6,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche tout section\n- Réglage de la roue pour le centrage de l'application du SO3 (8h20 à 8h40)\n- Finalisation de l'installation du SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 5,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond finisseur\n- Arrêt de la machine à 7h50 (Nous avons perdu 20 minutes)\n- Arrêt de la machine sans que l’équipe de changement soit prête (erreur de communication)"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -24,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage anticipé en raison d'un manque de personnel au BF"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 40,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 5 : réglage de la hauteur du bras MDB – finisseur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Problème de montage du fond ébaucheur sur le support (Moulerie)\n- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 27,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a verre to"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Plaque sous le convoyeur transversal avec un ressaut, provoquant un désalignement et le renversement des flacons."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 50,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 8 : réglage du niveau du bras MDB – finisseur.\n- Réglage de la hauteur intérieure de la tête de soufflage (9h30)"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 116,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réglage du poids, de la température et chargement de la goutte."
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "metrique": "MR2",
+   "duree_min": 32,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Installation SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "metrique": "PT1",
+   "duree_min": 153,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteur\n- Sec. 2 : Réglage du niveau du MDB – ébaucheur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Réglage déflecteur/moules pendant le chargement des sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "metrique": "RON",
+   "duree_min": 169,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé 8h08"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage de la température, du poids et de la chute de goutte (de 8h08 à 9h34)."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- 2ème lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -7,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises à l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l’arche retardée de 12 minutes en raison de problèmes sur le cross convoyeur"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 37,
+   "objectif_min": 40,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine fractionnée de 8 à 6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Entonnoir d'un diamètre inférieur au diamètre intérieur du support d'entonnoir. Le même problème est constaté entre l'entonnoir et l'ébaucheur (Moulerie). La machine fonctionnera sans entonnoir, conformément à la décision du chef de section.\n- Vous auriez dû prévenir sur Job On.\n- Machine fractionnée de 8 à 6 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 71,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe às 8h25"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage poids"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": -40,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - tout les sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 62,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.7: Réglage du niveau du bras du MDB – Finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec.5: Réglage du niveau du bras du MDB – ébaucheur\n- Sec.3: Vis de fixation du support de fond ébaucheur cassée"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 36,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe às 7h30"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -135,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "2 sections à l'arche"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 35,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 152,
+   "objectif_min": 100,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "8h13 à 9h42 Réglage tête de soufflage à la moulerie"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 247,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Anticipation +63°C - Objectif poids 21g - Avec cuvette 20 poids 17g->Décision changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement cuvette et mise au poids- Attente montée T°FMS"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "metrique": "MR2",
+   "duree_min": -85,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "metrique": "PT1",
+   "duree_min": 102,
+   "objectif_min": 135,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement cartouches, déflecteurs, charnière ébaucheur\n- Sec.6: Changement bras de MDB\n- Changement procédé SS -> PS\n- Sec.3: Réglage niveau bras de MDB - ébaucheur\n- Sec.8: Vérification de la lubrification du cartouche et du mécanisme du poinçon\n- Entonnoir incorrect : deux chanfreins au lieu de trois (Moulerie)"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "metrique": "RON",
+   "duree_min": 140,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupé às 7h21"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réglage de la goutte : goutte longue"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -51,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 68,
+   "objectif_min": 40,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- MDB non préparée pour le changement (Moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Problème électrique pour le réglage de la hauteur du convoyeur (9h20à 9h53)"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 72,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupé 9h30 - Ancienne lame"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupé 9h45  - Nouvelle lame, réglage, Caler la lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 169,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage chaminé SO3"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage sous le tapis du convoyeur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage l'arche SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 211,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3 - chaminé"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage sous le tapis du convoyeur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3 - L'arche"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage 2 machines"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 105,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 3 : réglage du niveau du bras de la MDB"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 5 : remplacement du mécanisme du poinçon"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 56,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Section 10 : réglage du niveau du bras de la MDB"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 85,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe de la lame"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage du poids."
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 140,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe de la lame"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage du poids."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changé lame - 2émé"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -98,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 115,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33 (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Molderie)\n- Changement inserts charnière ébaucheur"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 27,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupé 6h10"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": -38,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 55,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)\n- Changement de procédé SS-> PS\n- Réparation de la tige de la tour de ventilation entre sections 2 et 3.\n- Section 7 : remise en place de la goupille de charnière ébaucheur."
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Vérification du guide de goutte, problème de coupe de la goutte, mise en place de cales sur les lames (3émé lame)  afin d'égaliser la longueur des gouttes"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 60,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'ache - 5 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 207,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 4 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 70,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 3 - Réglage niveau MDB - finisseurs\n- Section 2 - Reprise du réglage de la hauteur de la tête de soufflage"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 3 - Réglage niveau MDB - ébaucheur\n- Changement procédé SS -> PS"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 65,
+   "objectif_min": 65,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement procédé SS -> PS"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 145,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réglage poids"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 145,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe lame"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement 2émé cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réglage température"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 7,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche - tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement finisseurs / fonds"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -118,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine arrêtée depuis 1h00 en raison d'un manque de personnel au BC et au BF"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 135,
+   "objectif_min": 100,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sections 3, 7 et 8 - Réglage de la hauteur intérieure de la pince"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 2 : Changement de bras de MDB. (8h20)"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 142,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé lame 6h10"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Problème électrique sur le système de mesure de la hauteur du tube réfractaire"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 51,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Installation et réglage SO3"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l'arche - après réglage SO3 - Tout sections par le Chef de Section (7h39)"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 50,
+   "objectif_min": 40,
+   "details": []
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 73,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe às 6h20"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement 2émé lame"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage poids"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -63,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "11h24 2 sections à l'arche"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 80,
+   "objectif_min": 70,
+   "details": []
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 22,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Envoi 1 flacon sur 2 pour réglage clearing and safe"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Envoi des 2 machines"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 1,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Pas de nettoyage machine"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 16,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement fonds finisseurs"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Pas de changement ebaucheurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -43,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "2 sections à l'arche à 8h35"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 60,
+   "objectif_min": 85,
+   "details": []
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -53,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l'arche - 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 40,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Changement rodelle"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 70,
+   "objectif_min": 55,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les plaques vertflow n'ont pas été préparées par la moulerie\n- Une tête de soufflage sans pipette – moulerie"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 172,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage température et poids - suite erreur de poids affiché par le chef de groupe 79g au lieu de 99g"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement lame - Réglage pour le déplacement latéral"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupé 7h11"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": -133,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 150,
+   "objectif_min": 75,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sections 1-3:  Réglage niveau MDB\n- Changement insert charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sections 1-3-7:  Réglage niveau MDB\n- Changement insert charnière ébaucheur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 4: Bague d'espacement incorrect"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement lame"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "metrique": "MR2",
+   "duree_min": -43,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - tout les sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "metrique": "NET",
+   "duree_min": 40,
+   "objectif_min": 30,
+   "details": []
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "metrique": "PT1",
+   "duree_min": 60,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "metrique": "RON",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe 7h23"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -49,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 35,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage Machine"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 66,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Changement insert de charnière ébaucher"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe 8h15"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -163,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": 30,
+   "details": []
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 180,
+   "objectif_min": 540,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur \n- Changement plaque vertflow\n- Changement bras de inversion"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Problème électrique du système de montée et de descente du convoyeur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière ébaucher\n- Changement déflecteur\n- Changement cartouches\n- Changement procédé SS => PS"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Réglage déflecteurs - chef section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 165,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe 07:30"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Mise en place de la cale sur la lame."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage température et poids"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -133,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 150,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement plaque vertflow (Non préparé par la moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Remplacement de la plaque morte du convoyeur (graphite → métal)."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- La tête de soufflage est la même, mais avec une hauteur différente en raison du moule de bague. Cette modification n’était pas indiquée sur la fiche de la moulerie ; seule l’information de conserver la tête de soufflage existante."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteur\n- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Références d’entonnoirs mélangées – remplacement nécessaire suite à l’information transmise au dernier moment par la moulerie."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 39,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": -93,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 110,
+   "objectif_min": 75,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Problème mécanique | - Changement charnières\n- Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Problème mécanique | -  Sec.07 - Réparation du support de réglage du déflecteur de la cavité B (9h40 à .......)\n- Changement déflecteurs\n- Changement charnières\n- Sec. 12 – Réglage du niveau bras transfert\n- Sec. 08 D – Remplacement du déflecteur déformé\n-  Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 37,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -68,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 85,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Formation | - Le plan machine a été chargé pendant le changement, entraînant l’arrêt des interventions de l’Atelier IS. À la suite de ce chargement, il a été nécessaire de reprendre le réglage en hauteur de la pince de préhension par rapport au moule."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Modification de la hauteur de la tête de soufflage réalisée afin de l’adapter aux exigences de la bague. Cette modification n’était pas spécifiée sur la fiche des équipements de la moulerie."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | Lors du changement, une référence incorrecte d’insert en graphite de la pince a été montée : GGI au lieu de la référence correcte 18,50 PP. La référence correcte était bien indiquée sur la fiche d’instructions. Vérifier l’origine de cette erreur au niveau de la moulerie."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 35,
+   "objectif_min": 20,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe de la goute"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -58,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": 20,
+   "details": []
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 75,
+   "objectif_min": 100,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement bras de transfert"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Retard au démarrage du changement en raison de la prolongation des travaux sur la machine 36. (15 min)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Retard au démarrage du changement en raison de la prolongation des travaux sur la machine 36. (15 min)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 35,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "metrique": "MR2",
+   "duree_min": -136,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "metrique": "NET",
+   "duree_min": 68,
+   "objectif_min": 68,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine Bottero"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "metrique": "PT1",
+   "duree_min": 153,
+   "objectif_min": 95,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Préparation incomplète | - Cale de réglage de la hauteur du poinçon incorrecte (équipe de changement).\n- Changement déflecteur\n- Passage de 10 à 8 sections."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Formation | Préparation incomplète | - Nettoyage, remplacement du tube de soufflage et montage d’un nouvel adaptateur permettant l’utilisation d’un anneau en deux parties (chef section)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "metrique": "RON",
+   "duree_min": 19,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": -87,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 53,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine très sale"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 104,
+   "objectif_min": 55,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Réglage des mains de pose sur toutes les sections."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Reprise réglages | - Sec.3, 7 et 8 = Réglage bras de transfert avec appareil"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 137,
+   "objectif_min": 45,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Rondelle + tube + poinçon"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Poids non conforme | Paraison non conforme | T°FMS non conforme | - Réglages de la température et du poids."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 2,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 15,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond finisseur, finisseur et moule de bague\n- Réglage en hauteur de moule de bague."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 22,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Contrôle de la protection SGD pour le remplacement de la rondelle en vue de son utilisation lors du changement."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": -34,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A - avec é section"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B  - avec é section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 80,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage machine A (5h50 à 7h10)\n- Nettoyage machine B (5h50 à 6h50)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 65,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A\n- Sec.3: réglage bras transfert"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B\n- Changement corp take out (9h15 à 10h00)\n- Sec.12: réglage bras transfert\n- Sec.12 - changement cale de poinçon (8h50 à 9h04)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 32,
+   "objectif_min": 32,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement seulement machine B"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe machine A"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 7,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement ébaucheur"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 217,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Retard réglage SO3 | - Réglage du nouveau système SO3 (de 8h47 à 9h45)."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A\n- Changement fond"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B\n- Changement fond"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -42,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 59,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | Retard dû au temps nécessaire à la modification de la hauteur interne de la tête de soufflage. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Sec.5 - Réglage bras de transfert ."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -35,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 7 section."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 19,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 52,
+   "objectif_min": 110,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière\n- Changement déflecteurs\n- Sec.5A - Montée du poinçon, remplacement de la cartouche, du mécanisme de poinçon et réglage du centrage."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 23,
+   "objectif_min": 25,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -63,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 22,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 80,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.5 - Réglage bras de transfert\n- Changement bras de transfert (tout)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Réparation convoyeur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.5 - Réglage bras de transfert\n- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 81,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "2émé coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": -81,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A.\n- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B\n- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 45,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine A et B"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 133,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | Machine A\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (2 à 6)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine B\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (7 à 11)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 52,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe Machine A"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe Machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 12,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 5,
+   "objectif_min": 10,
+   "details": []
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": -33,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Problème avec rejection de sections. (réglage)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 50,
+   "objectif_min": 75,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Sec.4 - Réglage niveau de bras transfert"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": -56,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Retard réglage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 73,
+   "objectif_min": 125,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière\n- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 137,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Poids non conforme | Paraison non conforme | - Réglage température et poids"
+    }
+   ]
+  }
+ ],
+ "decomposition": [
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "grand_t1": 280,
+   "parts": {
+    "petit_t1": 135,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "grand_t1": 257,
+   "parts": {
+    "petit_t1": 135,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "grand_t1": 146,
+   "parts": {
+    "petit_t1": 90
+   }
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "grand_t1": 92,
+   "parts": {
+    "petit_t1": 90
+   }
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "grand_t1": 226,
+   "parts": {
+    "petit_t1": 70,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "grand_t1": 15,
+   "parts": {
+    "petit_t1": 5
+   }
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "grand_t1": 90,
+   "parts": {
+    "petit_t1": 90
+   }
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "grand_t1": 100,
+   "parts": {
+    "petit_t1": 85,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "grand_t1": 184,
+   "parts": {
+    "petit_t1": 90,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "grand_t1": 105,
+   "parts": {
+    "petit_t1": 40,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "grand_t1": 165,
+   "parts": {
+    "petit_t1": 90,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "grand_t1": 235,
+   "parts": {
+    "petit_t1": 100,
+    "rondelle": 30
+   }
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "grand_t1": 185,
+   "parts": {
+    "petit_t1": 135,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "grand_t1": 123,
+   "parts": {
+    "petit_t1": 40,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "grand_t1": 347,
+   "parts": {
+    "petit_t1": 105,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "grand_t1": 340,
+   "parts": {
+    "petit_t1": 105,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "grand_t1": 210,
+   "parts": {
+    "petit_t1": 85,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "grand_t1": 208,
+   "parts": {
+    "petit_t1": 120
+   }
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "grand_t1": 1653,
+   "parts": {
+    "petit_t1": 70,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "grand_t1": 360,
+   "parts": {
+    "petit_t1": 65,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "grand_t1": 10,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "grand_t1": 195,
+   "parts": {
+    "petit_t1": 100,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "grand_t1": 138,
+   "parts": {
+    "petit_t1": 40,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "grand_t1": 70,
+   "parts": {
+    "petit_t1": 70
+   }
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "grand_t1": 165,
+   "parts": {
+    "passage_so3": 150
+   }
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "grand_t1": 190,
+   "parts": {
+    "petit_t1": 85,
+    "rondelle": 15,
+    "passage_so3": 90
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "grand_t1": 227,
+   "parts": {
+    "petit_t1": 55,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "grand_t1": 160,
+   "parts": {
+    "petit_t1": 75
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "grand_t1": 205,
+   "parts": {
+    "nettoyage": 30,
+    "petit_t1": 90,
+    "rondelle": 15,
+    "passage_so3": 90
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "grand_t1": 129,
+   "parts": {
+    "nettoyage": 30,
+    "petit_t1": 115
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "grand_t1": 220,
+   "parts": {
+    "nettoyage": 30,
+    "petit_t1": 540,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "grand_t1": 216,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 115,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "grand_t1": 215,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 75,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "grand_t1": 160,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 85,
+    "rondelle": 20
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "grand_t1": 205,
+   "parts": {
+    "nettoyage": 20,
+    "petit_t1": 100,
+    "rondelle": 15,
+    "passage_so3": 90
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "grand_t1": 251,
+   "parts": {
+    "nettoyage": 68,
+    "petit_t1": 95,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "grand_t1": 220,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 55,
+    "rondelle": 45
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "grand_t1": 57,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "grand_t1": 210,
+   "parts": {
+    "petit_t1": 105,
+    "rondelle": 32
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "grand_t1": 23,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "grand_t1": 15,
+   "parts": {
+    "petit_t1": 15
+   }
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "grand_t1": 85,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 85
+   }
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "grand_t1": 125,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 110,
+    "rondelle": 25
+   }
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "grand_t1": 150,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 105,
+    "rondelle": 15,
+    "anticipation_feeder": 30
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "grand_t1": 210,
+   "parts": {
+    "nettoyage": 30,
+    "petit_t1": 165,
+    "rondelle": 30,
+    "anticipation_feeder": 90
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "grand_t1": 25,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "grand_t1": 105,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 75
+   }
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "grand_t1": 170,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 125,
+    "rondelle": 15,
+    "anticipation_feeder": 20
+   }
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "grand_t1": 30,
+   "parts": {
+    "petit_t1": 15
+   }
+  }
+ ],
+ "causes": [
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé à 8h35 - lame flexible - - Marque de la lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.9: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changement cartouches\n- Sec.9-10:  Réparation des flexibles de air de compression",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Norme T1 - Nettoyage + rondelle + Categorie 3 + procédé PS->SS = 15+105+30 = 150 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "Norme t1 - Categorie 3 + procédé PS->SS = 105+30 = 135 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé à 6h35",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé à 8h28 - lame flexible - - Marque de la lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.2: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changemente cartouches",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Mises a l'arche 3 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement charnière ebaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "Debut section avec flacon",
+   "cause": "- Flacon incorrect utilisé pour le réglage de la hauteur de la pince et du convoyeur. L’échantillon a été récupéré au service qualité (erreur de José Henrique). (7h30 à 7h40)\n- Insert DDI incorrect pour l’EE (Moulerie) (7h40 à 8h00)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche 3 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Norme T1 - Nettoyage + Categorie 3 + charnières = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 avec mise à l’arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "221",
+   "tache": "TARGET (Petit t1)",
+   "cause": "Norme t1 - Categorie 3 + charnières = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "Nettoyage de machine",
+   "cause": "- Machine à l’arrêt depuis 4h00 en raison d’un manque de personnel à la BF.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert de charnière finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert de charnière ebaucheur\n- Sec.3: changement Mécanisme du poinçon – cavité A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mises a l'arche 5 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Norme T1 - Nettoyage + Catégorie 3 + insert de charnières = 85+15 =100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 avec mise à l’arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Nettoyage de machine",
+   "cause": "Arrêt pour nettoyage 15 minutes plus tard",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé à 7h10",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement charnière finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement charnière ebaucheur\n- Changement déflecteur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Debut section avec flacon",
+   "cause": "- Soudage de plaques métalliques sur la goulotte de rebut de la machine (7h15 à 7h56)\n- Reglagé de poid (7h46 à 7h50)\n- Sec.3-4-5-6:  Réglage de la hauteur du mécanisme de fond et de la pince (7h50 à 8h20)\n- Première production sur la machine 24 (auparavant sur la machine 25). Ajustement du plan de fabrication et correction d’un temps de lubrification incorrect (8h00 à 9h00)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mises a l'arche 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Norme T1 - Nettoyage + rondelle + Categorie 3 + charnières ebaucheur et finisseur + déflecteur= 15+40+15+15 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 avec mise à l’arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "Norme t1 - Categorie 3 + charnières ebaucheur et finisseur + déflecteur= 40+15+15 = 70 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement fond finisseur\n- Arrêt de la machine à 7h50 (Nous avons perdu 20 minutes)\n- Arrêt de la machine sans que l’équipe de changement soit prête (erreur de communication)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "tache": "Machine complete avec flacon",
+   "cause": "Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "tache": "Machine complete avec flacon",
+   "cause": "Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Mises a l'arche tout section\n- Réglage de la roue pour le centrage de l'application du SO3 (8h20 à 8h40)\n- Finalisation de l'installation du SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-26",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Norme T1 -Categorie 1 = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage anticipé en raison d'un manque de personnel au BF",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Section 5 : réglage de la hauteur du bras MDB – finisseur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Problème de montage du fond ébaucheur sur le support (Moulerie)\n- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme: Nettoyage + Categorie 3 + deflecteur = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme: Categorie 3 + deflecteur = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réglage du poids, de la température et chargement de la goutte.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Section 8 : réglage du niveau du bras MDB – finisseur.\n- Réglage de la hauteur intérieure de la tête de soufflage (9h30)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Mises a verre to",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Plaque sous le convoyeur transversal avec un ressaut, provoquant un désalignement et le renversement des flacons.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme:  Nettoyage + Rondelle + Catégorie 3 = 85+15 = 100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme: Catégorie 3 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé 8h08",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage de la température, du poids et de la chute de goutte (de 8h08 à 9h34).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- 2ème lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteur\n- Sec. 2 : Réglage du niveau du MDB – ébaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Réglage déflecteur/moules pendant le chargement des sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Mise a l arche",
+   "cause": "- Mises a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "Mise a l arche",
+   "cause": "- Installation SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- T1 norme: Rondelle + Catégorie 3 + Déflecteur = 15+75+15 = 105 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Mises à l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "TARGET (Petit t1)",
+   "cause": "- t1 norme: Catégorie 3 + Déflecteur = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "tache": "TARGET (Rondelle)",
+   "cause": "- Norme 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe às 8h25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Machine fractionnée de 8 à 6 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Entonnoir d'un diamètre inférieur au diamètre intérieur du support d'entonnoir. Le même problème est constaté entre l'entonnoir et l'ébaucheur (Moulerie). La machine fonctionnera sans entonnoir, conformément à la décision du chef de section.\n- Vous auriez dû prévenir sur Job On.\n- Machine fractionnée de 8 à 6 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mises à l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise à l’arche retardée de 12 minutes en raison de problèmes sur le cross convoyeur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1norme - Nettoyage + Rondelle + Catégorie 3 = 15+40 = 55 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mises à l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "T1norme - Catégorie 3 = 40 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme: 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe às 7h30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Sec.7: Réglage du niveau du bras du MDB – Finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs\n- Sec.5: Réglage du niveau du bras du MDB – ébaucheur\n- Sec.3: Vis de fixation du support de fond ébaucheur cassée",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche - tout les sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3 + déflecteurs = 15+75+15 = 105 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Catégorie 3 + déflecteurs = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Anticipation +63°C - Objectif poids 21g - Avec cuvette 20 poids 17g->Décision changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement cuvette et mise au poids- Attente montée T°FMS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "8h13 à 9h42 Réglage tête de soufflage à la moulerie",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "2 sections à l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme : 235 min (Nettoyage + Rondelle + Catégorie 3 +Charnières EB et F I+ ANTICIPATION Feeder +63°C) = 15+85+15+120 = 235 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 = 100 min (Catégorie 3+changement charnières EB et FI (inserts))=85+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupé às 7h21",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réglage de la goutte : goutte longue",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement cartouches, déflecteurs, charnière ébaucheur\n- Sec.6: Changement bras de MDB\n- Changement procédé SS -> PS\n- Sec.3: Réglage niveau bras de MDB - ébaucheur\n- Sec.8: Vérification de la lubrification du cartouche et du mécanisme du poinçon\n- Entonnoir incorrect : deux chanfreins au lieu de trois (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche - 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3 + procédé SS -> PS + déflecteur + charnière = 15+75+30+15+15 = 150 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mises a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Catégorie 3 + procédé SS -> PS + déflecteur + charnière = 75+30+15+15 = 135 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "221",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme - 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupé 9h30 - Ancienne lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupé 9h45  - Nouvelle lame, réglage, Caler la lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- MDB non préparée pour le changement (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Problème électrique pour le réglage de la hauteur du convoyeur (9h20à 9h53)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3  = 15+40 = 55 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mises a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Catégorie 3  = 40 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme - 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage 2 machines",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe de la lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage du poids.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Section 3 : réglage du niveau du bras de la MDB",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Section 5 : remplacement du mécanisme du poinçon",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage chaminé SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage sous le tapis du convoyeur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage l'arche SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme =  Nettoyage + Rondelle + Catégorie 3 + Nettoyage SO3 = 15+105+150 = 270 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme =  Catégorie 3 = 105 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changé lame - 2émé",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "Section 10 : réglage du niveau du bras de la MDB",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Entonnoir sous verre",
+   "cause": "- Coupe lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Entonnoir sous verre",
+   "cause": "- 2émé lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage SO3 - chaminé",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage SO3 - L'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupé 6h10",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33 (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Molderie)\n- Changement inserts charnière ébaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche - tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3 + ANTICIPATION = 15+85+100= 200 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme = Catégorie 3 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Vérification du guide de goutte, problème de coupe de la goutte, mise en place de cales sur les lames (3émé lame)  afin d'égaliser la longueur des gouttes",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)\n- Changement de procédé SS-> PS\n- Réparation de la tige de la tour de ventilation entre sections 2 et 3.\n- Section 7 : remise en place de la goupille de charnière ébaucheur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 - Nettoyage + Catégorie 3 + Charnière ébaucheur + changement procédé SS + ANTICIPATION -> PS = 75+15+30+40 = 120 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 - Catégorie 3 + Charnière ébaucheur + changement procédé SS -> PS = 75+15+30 = 120 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réglage poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "- Section 3 - Réglage niveau MDB - finisseurs\n- Section 2 - Reprise du réglage de la hauteur de la tête de soufflage",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Section 3 - Réglage niveau MDB - ébaucheur\n- Changement procédé SS -> PS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Remplacement du bras anti déflecteur en raison d'un problème avec l'indicateur de niveau.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'ache - 5 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Nettoyage SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3 + changement procédé SS -> PS + Nettoyage SO3 + ANTICIPATION = 15+105+40+150+50 = 360 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Catégorie 3 + changement procédé SS -> PS  = 105+40 = 145 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme - 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement 2émé cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réglage température",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement procédé SS -> PS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Section 7: Remplacement du bras anti déflecteur en raison d'un problème avec l'indicateur de niveau.\n- Section 9: Problème mécanique - Interférence de la ventilation avec le bras d'inversion (vis cassées).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 4 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Nettoyage + Catégorie 3 + changement procédé SS -> PS  = 105+40 = 145 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement finisseurs / fonds",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche - tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Catégorie 2 - 10 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Nettoyage de machine",
+   "cause": "- Machine arrêtée depuis 1h00 en raison d'un manque de personnel au BC et au BF",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé lame 6h10",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Problème électrique sur le système de mesure de la hauteur du tube réfractaire",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Sections 3, 7 et 8 - Réglage de la hauteur intérieure de la pince",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Section 2 : Changement de bras de MDB. (8h20)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche - 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme - Nettoyage + Rondelle + Catégorie 3 + insert charnière ébaucheur = 15+85+15 = 115 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme - Catégorie 3 + insert charnière ébaucheur = 85+15 = 100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme - 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe às 6h20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement 2émé lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Installation et réglage SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise à l'arche - après réglage SO3 - Tout sections par le Chef de Section (7h39)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Nettoyage + Rondelle + Catégorie 3 = 15+40 = 55 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 - Catégorie 3 = 40 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Pas de changement de cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "tache": "Demarrage section sans flacon",
+   "cause": "S2 à S8 : 10h09 à 10h14 - S1 : remontage à la fin échantillonnage de 10h14 à 10h34 - Reprise alignement déflecteur sur 1 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "11h24 2 sections à l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Catégorie 3 + Changement de Procédé = 40 + 30= 70 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "pas de changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Nettoyage de machine",
+   "cause": "Pas de nettoyage machine",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Changement fonds finisseurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "Pas de changement ebaucheurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Debut section avec flacon",
+   "cause": "Arrêt machine car problème de ventilation machines. Réarmement en cave",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Envoi 1 flacon sur 2 pour réglage clearing and safe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Envoi des 2 machines",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = catégorie 1 + Changement SO3 = 15+150 = 165 minutes à confirmer",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Pas de nettoyage",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "Catégorie 1 = 15 minutes",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Pas de changement de cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Pas de modification T°FMS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Passage en SO3 Machine 12 sections QP = 150 minutes à confirmer",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "Section 4 : fond eb mal bridé",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "2 sections à l'arche à 8h35",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1= changement cuvette+catégorie 3+changement procédé +changement deflecteurs+nettoyage arche=15+40+30+15+90=190",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1= catégorie 3 + changement procédé +changement déflecteurs = 40+30+15=85min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Changement cuvette =15min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Nettoyage arche =90 min selon standard",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Nettoyage de machine",
+   "cause": "Changement rodelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage température et poids - suite erreur de poids affiché par le chef de groupe 79g au lieu de 99g",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement lame - Réglage pour le déplacement latéral",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupé 7h11",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Les plaques vertflow n'ont pas été préparées par la moulerie\n- Une tête de soufflage sans pipette – moulerie",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Debut section avec flacon",
+   "cause": "- Première production sur la machine 24",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Insert pince petit diamètre - Moulerie",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise à l'arche - 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme:  Rondelle + Catégorie 3 + charnière ébaucheur et finisseur = 15+40+15 = 70 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme:  Catégorie 3 + charnière ébaucheur et finisseur = 40+15 = 55 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "224",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Norme/ 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Sections 1-3:  Réglage niveau MDB\n- Changement insert charnière finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sections 1-3-7:  Réglage niveau MDB\n- Changement insert charnière ébaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Section 4: Bague d'espacement incorrect",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche - 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme: Catégorie 3 + Insert charnière ébaucheur et finisseur = = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme: Catégorie 3 + Insert charnière ébaucheur et finisseur = 75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe 7h23",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "Distributeur sous verre",
+   "cause": "- Remplacement du Intercepteur de gouttes (Base cassée) et réparation du système de lubrification (flexible avec fuite)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche - tout les sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme: Nettoyage Machine + Rondelle + Nettoyage SO3 + Catégorie 3 + Déflecteur =  90+15+75+15= 195 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche - tout les sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Nettoyage Machine",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme: Catégorie 3 + Déflecteur =  75+15 = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme: 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "221",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Norme: 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage Machine",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe 8h15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert de charnière finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs\n- Changement insert de charnière ébaucher",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 norme: Nettoyage Machine + Catégorie 3 + Déflecteurs + insert charnière = 85+15+15 = 115 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 norme: Catégorie 3 + Déflecteurs + insert charnière = 85+15+15 = 115 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe 07:30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Mise en place de la cale sur la lame.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage température et poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert de charnière finisseur \n- Changement plaque vertflow\n- Changement bras de inversion",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "Problème électrique du système de montée et de descente du convoyeur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière ébaucher\n- Changement déflecteur\n- Changement cartouches\n- Changement procédé SS => PS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Réglage déflecteurs - chef section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.7: Changement cartouche cavite C (Absence de réglage en hauteur pour le chargement de la goutte – deuxième étage)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 - Nettoyage + Rondelle + Catégorie 3 + Procédé SS => PS + Déflecteur + bras transfer + plaque vertflow = 30+15+75+15+30+20+10+10 = 175 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Mises a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "STD - Emhart Machine",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 - Catégorie 3 + Procédé SS => PS + Déflecteur + bras transfer + plaque vertflow = 75+15+30+20+10+10 = 160 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "XXXXXX",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert charnière\n- Changement plaque vertflow (Non préparé par la moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Remplacement de la plaque morte du convoyeur (graphite → métal).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- La tête de soufflage est la même, mais avec une hauteur différente en raison du moule de bague. Cette modification n’était pas indiquée sur la fiche de la moulerie ; seule l’information de conserver la tête de soufflage existante.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteur\n- Changement insert charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Références d’entonnoirs mélangées – remplacement nécessaire suite à l’information transmise au dernier moment par la moulerie.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Entonnoir sous verre",
+   "cause": "Premier",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Problèmes opérationnels\n- Présence de bulles dans le flacon\n- Réglages du rejet à chaud",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1: Rondelle + Catégorie 3 + Déflecteur + insert charnière + plaque vertflow = 15+85+25+15+10 = 140 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mises a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1: Catégorie 3 + Déflecteur + insert charnière + plaque vertflow = 85+25+15+10 = 125 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme: 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Problème mécanique",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement charnières\n- Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "-  Sec.07 - Réparation du support de réglage du déflecteur de la cavité B (9h40 à .......)\n- Changement déflecteurs\n- Changement charnières\n- Sec. 12 – Réglage du niveau bras transfert\n- Sec. 08 D – Remplacement du déflecteur déformé\n-  Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Debut section avec flacon",
+   "cause": "Problème Ventilation Machine",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Debut section avec flacon",
+   "cause": "- Absence de ventilation sur la machine, empêchant le démarrage de la production.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "-  Sec.07 - Réparation du support de réglage du déflecteur de la cavité B (9h40 à 11h15)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Mises a l'arche 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "TI: Rondelle + catégorie 3 + charnière finisseur/ébaucher + déflecteur = 15+45+15+25 = 100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Norme",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1: Catégorie 3 + charnière finisseur/ébaucher + déflecteur = 45+15+25 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe de la goute",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Formation",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Le plan machine a été chargé pendant le changement, entraînant l’arrêt des interventions de l’Atelier IS. À la suite de ce chargement, il a été nécessaire de reprendre le réglage en hauteur de la pince de préhension par rapport au moule.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Modification de la hauteur de la tête de soufflage réalisée afin de l’adapter aux exigences de la bague. Cette modification n’était pas spécifiée sur la fiche des équipements de la moulerie.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Lors du changement, une référence incorrecte d’insert en graphite de la pince a été montée : GGI au lieu de la référence correcte 18,50 PP. La référence correcte était bien indiquée sur la fiche d’instructions. Vérifier l’origine de cette erreur au niveau de la moulerie.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Equipement non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Rondelle + Catégorie 3 = 15+85 = 100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 = Catégorie 3 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert charnière\n- Changement bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Retard au démarrage du changement en raison de la prolongation des travaux sur la machine 36. (15 min)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.8 - Réglage du robot. (10h48 à 10h52)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Rondelle + Categorie 3 + inserts chaniere finisseur et ebaucher + Bras de transfert + nettoyage SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 = Categorie 3 + inserts chaniere finisseur et ebaucher + Bras de transfert = 100 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme: 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Nettoyage de machine",
+   "cause": "Machine Bottero",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "Préparation incomplète",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Cale de réglage de la hauteur du poinçon incorrecte (équipe de changement).\n- Changement déflecteur\n- Passage de 10 à 8 sections.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "Formation",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Nettoyage, remplacement du tube de soufflage et montage d’un nouvel adaptateur permettant l’utilisation d’un anneau en deux parties (chef section)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "Problème mécanique",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.5D, 6D et 7D - Réparation du système de réglage du déflecteur et changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "Mise a l arche",
+   "cause": "Avec 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1= Rondelle + Catégorie 3 + déflecteur = 15+75+20 = 110 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1= Catégorie 3 + déflecteur = 75+20 = 95 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Nettoyage de machine",
+   "cause": "Machine très sale",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Rondelle + tube + poinçon",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Poids non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Paraison non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "T°FMS non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglages de la température et du poids.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "Réglage des mains de pose sur toutes les sections.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "Reprise réglages",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.3, 7 et 8 = Réglage bras de transfert avec appareil",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Réglages opérationnels (opérationnel)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Rondelle + tube + poinçon + Catégorie 3 + déflecteurs = 15+30+40+15 = 130 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 = Catégorie 3 + déflecteurs = 40+15 = 55 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme: Rondelle + tube + poinçon = 30+15 = 45 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Contrôle de la protection SGD pour le remplacement de la rondelle en vue de son utilisation lors du changement.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement fond finisseur, finisseur et moule de bague\n- Réglage en hauteur de moule de bague.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "t1 = catégorie 2 = 10 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage machine A (5h50 à 7h10)\n- Nettoyage machine B (5h50 à 6h50)",
+   "type": "releve"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement seulement machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "Machine A\n- Sec.3: réglage bras transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "Machine B\n- Changement corp take out (9h15 à 10h00)\n- Sec.12: réglage bras transfert\n- Sec.12 - changement cale de poinçon (8h50 à 9h04)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Distributeur sous verre",
+   "cause": "Machine A et B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Debut section avec flacon",
+   "cause": "Machine A\n- Variation de poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Debut section avec flacon",
+   "cause": "Machine B\n- Variation de poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "Machine A - avec é section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "Machine B  - avec é section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 - Rondelle + categoria 3 = 120 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 - Categoria 3 = 105 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement ébaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "tache": "Changement Traitement Surface",
+   "cause": "Réglage du tunnel de traitement à chaud.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 - Catégorie 2 = 10 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-16",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Machine A\n- Changement fond",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Machine B\n- Changement fond",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Demarrage section sans flacon",
+   "cause": "Machina A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Demarrage section sans flacon",
+   "cause": "Maquina B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Retard réglage SO3",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Réglage du nouveau système SO3 (de 8h47 à 9h45).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Catégorie 2 = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Retard dû au temps nécessaire à la modification de la hauteur interne de la tête de soufflage. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "Sec.5 - Réglage bras de transfert .",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Premier démarrage",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Equipement non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Deuxième démarrage en raison d’un indice incorrect. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Machine à l’arrêt dans l’attente du fond approprié.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Catégorie 3 = 85 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Target 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière\n- Changement déflecteurs\n- Sec.5A - Montée du poinçon, remplacement de la cartouche, du mécanisme de poinçon et réglage du centrage.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "Problème mécanique",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.5A - Montée du poinçon, remplacement de la cartouche, du mécanisme de poinçon et réglage du centrage et remplacement du silencieux d’échappement d’air.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 7 section.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = Rondelle + catégorie 3 + insert charnière + déflecteurs = 15 + 75 + 15 + 25 = 125 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "Mise a l'arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Norme: 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "t1 = Catégorie 3 + insert charnière + déflecteurs = 75 + 15 + 25 = 110 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Norme 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "2émé coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Sec.5 - Réglage bras de transfert\n- Changement bras de transfert (tout)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Réparation convoyeur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.5 - Réglage bras de transfert\n- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.5 avec Problème électrique",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 135 min = 15 +15+105+15 = nettoyage+changement cuvette+changement outillage+mise en régime",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "105 min = catégorie 3+changement BDT+ changement déflecteurs = 75+20+10",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Anticipation -26°C = 30 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Nettoyage de machine",
+   "cause": "Machine A et B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "Machine A\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (2 à 6)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "Machine B\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (7 à 11)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "Machine A.\n- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "Machine B\n- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 3h15 = 30 + 30 + 165+15",
+   "type": "releve"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Nettoyage Machine A = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Nettoyage Machine B = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "165 min = catégorie 3 + changement procédé + changement déflecteurs = 105+30+30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Machine A = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Machine B = 15 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "232",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Anticipation -50°C = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "tache": "Nettoyage SO3",
+   "cause": "Réglage SO3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min = cnahgement indice + mise en régime 2 sections = 10 + 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "Sec.4 - Réglage niveau de bras transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Problème avec rejection de sections. (réglage)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "105 min = 15+75+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "224",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Pas de changement",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Poids non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Paraison non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage température et poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière\n- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Réglages section non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Debut section avec flacon",
+   "cause": "Problème derramagem les sections avec verre.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "Retard réglage SO3",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "Nettoyage SO3",
+   "cause": "- Réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "170 min = 15+15+125+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "125 min = catégorie 3 + changement Charnières EB & FI+ changement déflecteurs = 85+15+25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Anticipation -24°C = 20 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "30 min = 15+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "15 min = catégorie 2",
+   "type": "libre"
+  }
+ ]
+}
