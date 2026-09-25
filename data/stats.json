@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-25T08:11:16",
+ "derniere_maj": "2026-09-25T10:08:19",
  "metriques": {
   "NET": "Nettoyage machine",
   "PT1": "Petit t1",
@@ -2456,7 +2456,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Retard réglage SO3"
+     "texte": "Retard réglage SO3 | - Défaut sur le tableau électrique principal du SO3."
     }
    ]
   },
@@ -2511,7 +2511,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Machine A et B (tout les sections)"
+     "texte": "Machine A et B (plus de 2 sections)"
     }
    ]
   },
@@ -6039,8 +6039,15 @@
   {
    "date": "2026-09-24",
    "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Défaut sur le tableau électrique principal du SO3.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
    "tache": "Nettoyage SO3",
-   "cause": "- Réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections",
+   "cause": "- Défaut sur le programmation du SO3.\n- Réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections",
    "type": "libre"
   },
   {
@@ -6089,14 +6096,14 @@
    "date": "2026-09-25",
    "ligne": "232",
    "tache": "Machine complete avec flacon",
-   "cause": "Machine B\n- Sec.10 - Absence de contre soufflage pour la formation de la paraison en raison d’un dysfonctionnement de la vanne proportionnelle.",
+   "cause": "Machine B -  Sec.10 A - Absence de contre soufflage pour la formation de la paraison.",
    "type": "libre"
   },
   {
    "date": "2026-09-25",
    "ligne": "232",
    "tache": "Mise a l arche",
-   "cause": "Machine A et B (tout les sections)",
+   "cause": "Machine A et B (plus de 2 sections)",
    "type": "libre"
   },
   {
