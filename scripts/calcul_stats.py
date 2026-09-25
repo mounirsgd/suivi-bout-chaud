@@ -101,6 +101,40 @@ MOTIFS_NORMALISES = {m.lower() for m in MOTIFS_CONNUS}
 FORMULES_RAS = {"ras", "r.a.s", "rien a signaler", "rien à signaler",
                 "neant", "néant", "aucun", "aucune"}
 
+# Libelles de fonctionnement normal : ils decrivent le deroulement prevu,
+# pas un probleme. Ils sortent du tableau des causes de pertes.
+LIBELLES_NORMAUX = {
+    "mise a l'arche", "mise a l arche", "mise à l'arche",
+    "coupe",
+    "mise a l'arche avec 2 sections machine a et b",
+    "mise a l arche avec 2 sections machine a et b",
+    "mise à l'arche avec 2 sections machine a et b",
+    "norme avec 2 sections machine a et b",
+    "mise a l'arche avec tout sections",
+    "mise a l arche avec tout sections",
+    "mise à l'arche avec tout sections",
+    "mise a l'arche avec toutes sections",
+    "mise à l'arche avec toutes sections",
+    "norme 15 mi", "norme 15 min", "norme 15mn", "norme 15",
+    "norme", "norme:", "norme 15 min", "norme: 15 min", "norme/ 15 min",
+    "15 min", "20", "machine a et b", "machine a", "machine b",
+    "avec 2 sections", "avec 2 section", "avec é section",
+    "mise a l'arche", "mise a l arche", "mise à l'arche",
+    "mises a l'arche", "mises à l'arche",
+}
+
+# Un libelle qui se reduit a une duree ("15 min", "90 min", "1h30") ou a un
+# simple numero decrit une norme, pas un probleme.
+_DUREE_SEULE = re.compile(
+    r"^(norme\s*[:/]?\s*)?\d{1,4}\s*(min|mn|minutes?|h(\s*\d{2})?)?$"
+)
+
+
+def _normaliser_texte(t):
+    """Minuscules, espaces resserres, ponctuation de fin retiree."""
+    t = re.sub(r"\s+", " ", (t or "").strip().lower())
+    return t.strip(" .:;-")
+
 # Reperage des simples releves d'horaires et de numeros
 _HEURE = re.compile(r"\d{1,2}\s*[h:]\s*\d{2}")
 _LOT = re.compile(r"\blots?\b\s*\d|\bM\d{2,}\b")
@@ -218,6 +252,7 @@ def classer_cause(texte):
     Nature d'un morceau de commentaire :
       "motif"  : coche dans la liste de l'application
       "ras"    : rien a signaler
+      "normal" : libelle de deroulement normal, pas un probleme
       "releve" : simple releve d'horaire, pas une cause
       "libre"  : cause reelle, ecrite a la main
     """
@@ -229,6 +264,14 @@ def classer_cause(texte):
         return "motif"
     if s.lower().strip(".") in FORMULES_RAS:
         return "ras"
+    normalise = _normaliser_texte(s)
+    if normalise in LIBELLES_NORMAUX:
+        return "normal"
+    if _DUREE_SEULE.match(normalise):
+        return "normal"
+    # "Norme ... = 15 min", "Norme t1 - ..." : une consigne, pas une cause
+    if normalise.startswith("norme") or normalise.startswith("std "):
+        return "normal"
 
     if _HEURE.search(s) or _LOT.search(s):
         reste = _HEURE.sub(" ", s)
@@ -438,12 +481,14 @@ def main():
 
     causes = extraire_causes(sessions)
     repartition = Counter(c["type"] for c in causes)
-    retenues = [c for c in causes if c["type"] != "releve"]
+    retenues = [c for c in causes
+                if c["type"] not in ("releve", "normal")]
     print("Causes citees : %d" % len(causes))
     print("  motifs coches   : %d" % repartition["motif"])
     print("  causes libres   : %d" % repartition["libre"])
     print("  RAS             : %d" % repartition["ras"])
     print("  releves ecartes : %d" % repartition["releve"])
+    print("  libelles normaux: %d" % repartition["normal"])
     print("  -> tableau sur %d causes, %d distinctes"
           % (len(retenues), len({c["cause"] for c in retenues})))
 
