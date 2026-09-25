@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-25T07:51:19",
+ "derniere_maj": "2026-09-25T08:11:16",
  "metriques": {
   "NET": "Nettoyage machine",
   "PT1": "Petit t1",
@@ -2996,21 +2996,21 @@
    "ligne": "232",
    "tache": "TARGET (Grand T1)",
    "cause": "Norme T1 - Nettoyage + rondelle + Categorie 3 + procédé PS->SS = 15+105+30 = 150 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-24",
    "ligne": "232",
    "tache": "TARGET (Petit t1)",
    "cause": "Norme t1 - Categorie 3 + procédé PS->SS = 105+30 = 135 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-24",
    "ligne": "232",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-24",
@@ -3066,7 +3066,7 @@
    "ligne": "221",
    "tache": "TARGET (Grand T1)",
    "cause": "Norme T1 - Nettoyage + Categorie 3 + charnières = 75+15 = 90 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-25",
@@ -3080,7 +3080,7 @@
    "ligne": "221",
    "tache": "TARGET (Petit t1)",
    "cause": "Norme t1 - Categorie 3 + charnières = 75+15 = 90 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-25",
@@ -3115,7 +3115,7 @@
    "ligne": "233",
    "tache": "TARGET (Grand T1)",
    "cause": "Norme T1 - Nettoyage + Catégorie 3 + insert de charnières = 85+15 =100 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-25",
@@ -3171,7 +3171,7 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "- Norme T1 - Nettoyage + rondelle + Categorie 3 + charnières ebaucheur et finisseur + déflecteur= 15+40+15+15 = 85 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-26",
@@ -3185,14 +3185,14 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "Norme t1 - Categorie 3 + charnières ebaucheur et finisseur + déflecteur= 40+15+15 = 70 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-26",
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-26",
@@ -3206,14 +3206,14 @@
    "ligne": "232",
    "tache": "Machine complete avec flacon",
    "cause": "Machine A",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-26",
    "ligne": "232",
    "tache": "Machine complete avec flacon",
    "cause": "Machine B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-26",
@@ -3227,7 +3227,7 @@
    "ligne": "232",
    "tache": "TARGET (Grand T1)",
    "cause": "- Norme T1 -Categorie 1 = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-29",
@@ -3325,7 +3325,7 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-30",
@@ -3388,7 +3388,7 @@
    "ligne": "221",
    "tache": "TARGET (Grand T1)",
    "cause": "- Mises à l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-06-30",
@@ -3402,7 +3402,7 @@
    "ligne": "221",
    "tache": "TARGET (Rondelle)",
    "cause": "- Norme 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-01",
@@ -3458,7 +3458,7 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "Mises à l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-01",
@@ -3472,7 +3472,7 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme: 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-01",
@@ -3521,7 +3521,7 @@
    "ligne": "235",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-01",
@@ -3535,7 +3535,7 @@
    "ligne": "235",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-02",
@@ -3584,7 +3584,7 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-03",
@@ -3626,7 +3626,7 @@
    "ligne": "221",
    "tache": "TARGET (Grand T1)",
    "cause": "Mises a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-03",
@@ -3640,7 +3640,7 @@
    "ligne": "221",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme - 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-03",
@@ -3689,7 +3689,7 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "Mises a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-03",
@@ -3703,7 +3703,7 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme - 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-06",
@@ -3752,7 +3752,7 @@
    "ligne": "222",
    "tache": "Mise a l arche",
    "cause": "- Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-06",
@@ -3787,7 +3787,7 @@
    "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-06",
@@ -3801,7 +3801,7 @@
    "ligne": "222",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-06",
@@ -3857,7 +3857,7 @@
    "ligne": "222",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-07",
@@ -3906,7 +3906,7 @@
    "ligne": "233",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-07",
@@ -3920,7 +3920,7 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-07",
@@ -4025,7 +4025,7 @@
    "ligne": "232",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-08",
@@ -4039,7 +4039,7 @@
    "ligne": "232",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme - 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-08",
@@ -4088,7 +4088,7 @@
    "ligne": "232",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-08",
@@ -4179,7 +4179,7 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme - 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-10",
@@ -4228,7 +4228,7 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "- Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-10",
@@ -4242,7 +4242,7 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-15",
@@ -4487,7 +4487,7 @@
    "ligne": "224",
    "tache": "TARGET (Passage en SO3)",
    "cause": "Norme/ 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-20",
@@ -4606,14 +4606,14 @@
    "ligne": "221",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme: 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-21",
    "ligne": "221",
    "tache": "TARGET (Passage en SO3)",
    "cause": "Norme: 90 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-21",
@@ -4648,7 +4648,7 @@
    "ligne": "233",
    "tache": "Mise a l arche",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-07-21",
@@ -4746,14 +4746,14 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "- Mises a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-07",
    "ligne": "224",
    "tache": "TARGET (Nettoyage)",
    "cause": "STD - Emhart Machine",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-07",
@@ -4774,14 +4774,14 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-08",
    "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-08",
@@ -4837,7 +4837,7 @@
    "ligne": "233",
    "tache": "Mise a l arche",
    "cause": "Avec 2 sections",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-08",
@@ -4851,14 +4851,14 @@
    "ligne": "233",
    "tache": "TARGET (Grand T1)",
    "cause": "Mises a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-08",
    "ligne": "233",
    "tache": "TARGET (Nettoyage)",
    "cause": "15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-08",
@@ -4872,14 +4872,14 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme: 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-09",
    "ligne": "222",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-09",
@@ -4942,14 +4942,14 @@
    "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-09",
    "ligne": "222",
    "tache": "TARGET (Nettoyage)",
    "cause": "Norme",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-09",
@@ -5033,7 +5033,7 @@
    "ligne": "233",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-10",
@@ -5047,14 +5047,14 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5089,7 +5089,7 @@
    "ligne": "224",
    "tache": "Mise a l arche",
    "cause": "Avec 2 sections",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5103,14 +5103,14 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
    "ligne": "224",
    "tache": "TARGET (Nettoyage)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5124,7 +5124,7 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme: 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5138,7 +5138,7 @@
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5187,7 +5187,7 @@
    "ligne": "236",
    "tache": "Mise a l arche",
    "cause": "Avec 2 section",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5201,7 +5201,7 @@
    "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -5215,7 +5215,7 @@
    "ligne": "236",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme = 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-15",
@@ -5236,7 +5236,7 @@
    "ligne": "235",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-15",
@@ -5313,7 +5313,7 @@
    "ligne": "235",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-15",
@@ -5327,7 +5327,7 @@
    "ligne": "235",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme: Rondelle + tube + poinçon = 30+15 = 45 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5348,7 +5348,7 @@
    "ligne": "224",
    "tache": "Mise a l arche",
    "cause": "Mise a l'arche avec tout sections",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5362,7 +5362,7 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5411,21 +5411,21 @@
    "ligne": "232",
    "tache": "Cote Ebaucheur",
    "cause": "Machine A",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
    "ligne": "232",
    "tache": "Cote Ebaucheur",
    "cause": "Machine B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
    "ligne": "232",
    "tache": "Distributeur sous verre",
    "cause": "Machine A et B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5467,7 +5467,7 @@
    "ligne": "232",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5481,7 +5481,7 @@
    "ligne": "232",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-16",
@@ -5516,7 +5516,7 @@
    "ligne": "233",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-17",
@@ -5537,14 +5537,14 @@
    "ligne": "222",
    "tache": "Distributeur sous verre",
    "cause": "Machine A",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-17",
    "ligne": "222",
    "tache": "Distributeur sous verre",
    "cause": "Machine B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-17",
@@ -5649,7 +5649,7 @@
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-18",
@@ -5691,14 +5691,14 @@
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "Mise a l'arche",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-18",
    "ligne": "224",
    "tache": "TARGET (Nettoyage)",
    "cause": "Norme: 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-18",
@@ -5712,14 +5712,14 @@
    "ligne": "224",
    "tache": "TARGET (Rondelle)",
    "cause": "Norme 15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-21",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-21",
@@ -5775,7 +5775,7 @@
    "ligne": "224",
    "tache": "TARGET (Nettoyage)",
    "cause": "15 min",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-21",
@@ -5796,21 +5796,21 @@
    "ligne": "232",
    "tache": "Nettoyage de machine",
    "cause": "Machine A et B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-23",
    "ligne": "232",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Machine A",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-23",
    "ligne": "232",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Machine B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-23",
@@ -5915,7 +5915,7 @@
    "ligne": "233",
    "tache": "Mise a l arche",
    "cause": "Mise a l'arche avec tout sections",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-23",
@@ -5978,7 +5978,7 @@
    "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
    "cause": "Coupe",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-24",
@@ -6069,21 +6069,21 @@
    "ligne": "232",
    "tache": "Cote Finisseur",
    "cause": "Machine A et B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-25",
    "ligne": "232",
    "tache": "Entonnoir sous verre",
    "cause": "Machine B",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-25",
    "ligne": "232",
    "tache": "Entonnoir sous verre",
    "cause": "Machine A",
-   "type": "libre"
+   "type": "normal"
   },
   {
    "date": "2026-09-25",
