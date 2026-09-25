@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-25T10:08:19",
+ "derniere_maj": "2026-09-25T15:00:12",
  "metriques": {
   "NET": "Nettoyage machine",
   "PT1": "Petit t1",
@@ -2524,7 +2524,7 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "Machine A et B"
+     "texte": "Moulerie non conforme | Machine A et B\n- Nous demandons que la numérotation des fonds corresponde à celle des moules montés sur la machine lors des changements d’indice, afin de faciliter le remplacement des équipements et le redémarrage de la machine.  Ce principe pourra être étendu à l’ensemble des équipements et à toutes les machines concernées par ce type de changement."
     }
    ]
   }
@@ -2974,6 +2974,80 @@
    "parts": {
     "petit_t1": 15
    }
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "grand_t1": 90,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 45,
+    "rondelle": 15,
+    "anticipation_feeder": 30,
+    "passage_so3": 90
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "grand_t1": 25,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "grand_t1": 25,
+   "parts": {
+    "petit_t1": 10
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "grand_t1": 140,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 90,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "ligne": "224",
+   "grand_t1": 105,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 75
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "grand_t1": 150,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 105,
+    "rondelle": 15,
+    "anticipation_feeder": 50
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "grand_t1": 115,
+   "parts": {
+    "nettoyage": 15,
+    "petit_t1": 70,
+    "rondelle": 15
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "236",
+   "grand_t1": 15,
+   "parts": {}
   }
  ],
  "causes": [
@@ -6047,7 +6121,7 @@
    "date": "2026-09-24",
    "ligne": "233",
    "tache": "Nettoyage SO3",
-   "cause": "- Défaut sur le programmation du SO3.\n- Réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections",
+   "cause": "- Défaut de programmation sur le tableau de commande du SO3 et réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections",
    "type": "libre"
   },
   {
@@ -6075,8 +6149,15 @@
    "date": "2026-09-25",
    "ligne": "232",
    "tache": "Cote Finisseur",
-   "cause": "Machine A et B",
-   "type": "normal"
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "Machine A et B\n- Nous demandons que la numérotation des fonds corresponde à celle des moules montés sur la machine lors des changements d’indice, afin de faciliter le remplacement des équipements et le redémarrage de la machine.  Ce principe pourra être étendu à l’ensemble des équipements et à toutes les machines concernées par ce type de changement.",
+   "type": "libre"
   },
   {
    "date": "2026-09-25",
@@ -6090,6 +6171,13 @@
    "ligne": "232",
    "tache": "Entonnoir sous verre",
    "cause": "Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Demarrage section sans flacon",
+   "cause": "Machine A et B",
    "type": "normal"
   },
   {
@@ -6118,6 +6206,174 @@
    "ligne": "232",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 90 min = 15 + 15 + 45 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "45 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "15 mi",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Anticipation +28°C = 30 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Nettoyage arche = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min = 10 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 25 min = 10 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 140 min = 15 + 15 + 95 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min = catégorie 3 + changement déflecteurs = 75 + 20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-30",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 105 min = 15 + 75 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-30",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-30",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 155 min = 15 + 15 + 110 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "110 min = catégorie 3 + changement procédé + changement charnières EB-FI + changement Bras Transfert + changement déflecteurs = 40+15+30+10+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "Anticipation +22°C = 50 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 115 min = 15 + 15 + 70 + 15 (mise en régime)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "70 min = catégorie 3 + changement déflecteurs = 45 +25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "T1 = 15 min = Mise en régime",
    "type": "libre"
   }
  ]
