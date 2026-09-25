@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-25T01:38:23",
+ "derniere_maj": "2026-09-25T07:51:19",
  "metriques": {
   "NET": "Nettoyage machine",
   "PT1": "Petit t1",
@@ -2499,6 +2499,32 @@
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "Poids non conforme | Paraison non conforme | - Réglage température et poids"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 2,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A et B (tout les sections)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A et B"
     }
    ]
   }
@@ -6036,6 +6062,41 @@
    "ligne": "233",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "Anticipation -24°C = 20 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "Machine A et B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Entonnoir sous verre",
+   "cause": "Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Entonnoir sous verre",
+   "cause": "Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Machine complete avec flacon",
+   "cause": "Machine B\n- Sec.10 - Absence de contre soufflage pour la formation de la paraison en raison d’un dysfonctionnement de la vanne proportionnelle.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-25",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "Machine A et B (tout les sections)",
    "type": "libre"
   },
   {
