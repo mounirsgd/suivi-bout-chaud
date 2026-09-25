@@ -12,11 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bleu:     #0f9b8e;   /* barres — teal, distinct du bleu Bout Froid */
-    --bleu-s:   #0a7d72;
+    --bleu:     #1c7ed6;   /* barres — bleu franc */
+    --bleu-s:   #1565b0;
     --vert:     #158f4a;   /* objectif */
     --saumon:   #d9614a;   /* ecart defavorable */
-    --navy:     #062a4d;   /* bandeau — bleu profond */
+    --navy:     #14538f;   /* bandeau — bleu soutenu */
     --titre:    #0d1520;
     --texte:    #1c2733;
     --muted:    #5c6a7a;
@@ -39,8 +39,8 @@
     display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
   }
   header h1 { margin: 0; font-size: 19px; font-weight: 600; letter-spacing: .2px; }
-  header .site { color: #8fb4d6; font-size: 14px; }
-  header .maj  { color: #8fb4d6; font-size: 13px; margin-left: auto; }
+  header .site { color: #b3d0ea; font-size: 14px; }
+  header .maj  { color: #b3d0ea; font-size: 13px; margin-left: auto; }
 
   main { padding: 20px 24px 48px; max-width: 1360px; margin: 0 auto; }
 
@@ -63,7 +63,7 @@
   button.chip[aria-pressed="true"] {
     background: var(--bleu); border-color: var(--bleu); color: #fff;
   }
-  button.chip:focus-visible { outline: 3px solid #7fd4ca; outline-offset: 2px; }
+  button.chip:focus-visible { outline: 3px solid #9dc8ee; outline-offset: 2px; }
   .periodes { max-height: 104px; overflow-y: auto; padding-right: 4px; }
 
   /* ── Panneaux ─────────────────────────────────────────────────────────── */
@@ -209,7 +209,7 @@
   var MOIS = ["janvier","fevrier","mars","avril","mai","juin",
               "juillet","aout","septembre","octobre","novembre","decembre"];
 
-  var BLEU = "#0f9b8e", VERT = "#158f4a", SAUMON = "#d9614a";
+  var BLEU = "#1c7ed6", VERT = "#158f4a", SAUMON = "#d9614a";
 
   var donnees = null;
   var mode = "mois";
@@ -452,7 +452,7 @@
     var aide = document.createElement("p");
     aide.className = "aide";
     aide.textContent = lignes.length + " changement" + (lignes.length > 1 ? "s" : "") +
-                       " sur la periode, " + (estRetard ? "du plus gros retard au plus faible."
+                       ", " + (estRetard ? "du plus gros retard au plus faible."
                                                         : "du plus lent au plus rapide.");
     bloc.appendChild(aide);
 
@@ -568,9 +568,8 @@
 
     var sous = document.createElement("p");
     sous.className = "sous";
-    sous.textContent = "Objectifs saisis sur " + libelleDe(periode) +
-                       " — ce qui pese le plus dans le Grand T1. Une etape rare " +
-                       "pese peu, meme si elle est longue quand elle a lieu.";
+    sous.textContent = "Ce qui prend le plus de temps dans le Grand T1, sur " +
+                       libelleDe(periode) + ".";
     panneau.appendChild(sous);
 
     var tot = document.createElement("div");
@@ -579,7 +578,7 @@
     v.className = "val"; v.textContent = formater(moyenneTotal);
     var lib = document.createElement("span");
     lib.className = "lib";
-    lib.textContent = "Grand T1 — moyenne sur " + lignes.length +
+    lib.textContent = "Grand T1, moyenne sur " + lignes.length +
                       " changement" + (lignes.length > 1 ? "s" : "");
     tot.appendChild(v); tot.appendChild(lib);
     panneau.appendChild(tot);
@@ -630,8 +629,8 @@
     var note = document.createElement("p");
     note.className = "reste";
     note.textContent = reste > 0.5
-      ? formater(reste) + " du Grand T1 ne sont couverts par aucun objectif detaille."
-      : "Les objectifs detailles couvrent la totalite du Grand T1.";
+      ? "Reste " + formater(reste) + " sans etape detaillee."
+      : "Toutes les etapes du Grand T1 sont detaillees.";
     panneau.appendChild(note);
 
     hote.appendChild(panneau);
@@ -698,14 +697,13 @@
     var sous = document.createElement("p");
     sous.className = "sous";
     sous.textContent = res.total + " cause" + (res.total > 1 ? "s" : "") +
-      " citee" + (res.total > 1 ? "s" : "") + " sur " + libelleDe(periode) +
-      " — motifs coches et causes ecrites a la main comptent pareil.";
+      " sur " + libelleDe(periode) + ", de la plus frequente a la plus rare.";
     panneau.appendChild(sous);
 
     if (!res.liste.length) {
       var vide = document.createElement("div");
       vide.className = "vide";
-      vide.textContent = "Aucune cause ne revient au moins deux fois sur cette periode.";
+      vide.textContent = "Aucune cause ne revient deux fois sur cette periode.";
       panneau.appendChild(vide);
       hote.appendChild(panneau);
       return;
@@ -769,19 +767,16 @@
     cadre.appendChild(table);
     panneau.appendChild(cadre);
 
-    var bouts = ["les causes listees couvrent " + res.partListee.toFixed(0) + " % du total"];
+    var bouts = ["Ce tableau couvre " + res.partListee.toFixed(0) + " % des causes"];
     if (res.causesUniques) {
       bouts.push(res.causesUniques + " cause" + (res.causesUniques > 1 ? "s" : "") +
-                 " citee" + (res.causesUniques > 1 ? "s" : "") + " une seule fois, non listee" +
+                 " vue" + (res.causesUniques > 1 ? "s" : "") + " une seule fois, non affichee" +
                  (res.causesUniques > 1 ? "s" : ""));
     }
-    if (res.releves) {
-      bouts.push(res.releves + " releve" + (res.releves > 1 ? "s" : "") +
-                 " d'horaire, hors calcul");
-    }
-    if (res.normaux) {
-      bouts.push(res.normaux + " libelle" + (res.normaux > 1 ? "s" : "") +
-                 " de deroulement normal, hors calcul");
+    var ecartes = (res.releves || 0) + (res.normaux || 0);
+    if (ecartes) {
+      bouts.push(ecartes + " note" + (ecartes > 1 ? "s" : "") +
+                 " d'horaire ou de norme, ecartee" + (ecartes > 1 ? "s" : ""));
     }
     var note = document.createElement("p");
     note.className = "hors-liste";
@@ -819,7 +814,7 @@
       if (estRetard) {
         sous.textContent = "Retard sur la cible de " +
           donnees.cible_mise_en_regime + " min — " + libelleDe(periode) +
-          ". Plus la barre est haute, plus le retard est important.";
+          ". Plus la barre est haute, plus c'est long.";
       } else {
         sous.textContent = (multiples ? "Moyenne par ligne — " : "Valeur par ligne — ")
                          + libelleDe(periode);
