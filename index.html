@@ -87,27 +87,21 @@
   .legende .b { background: var(--bleu); width: 11px; height: 11px; border-radius: 2px; }
   .legende .t { background: var(--vert); width: 22px; height: 3px; border-radius: 2px; }
 
-  /* ── Decomposition du Grand T1 ────────────────────────────────────────── */
-  .decompo { grid-column: 1 / -1; }
-  .total-gt1 {
-    display: flex; align-items: baseline; gap: 10px; margin-bottom: 16px;
-    padding-bottom: 14px; border-bottom: 1px solid var(--rule);
-  }
-  .total-gt1 .val { font-size: 26px; font-weight: 700; color: var(--titre); }
-  .total-gt1 .lib { font-size: 13px; color: var(--muted); }
 
-  .part { display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 12px; margin-bottom: 9px; }
-  .part-nom { font-size: 13px; color: var(--texte); font-weight: 600; }
-  .part-freq {
-    display: inline-block; margin-left: 6px; padding: 0 5px;
-    border-radius: 4px; background: #eef3f7; color: var(--muted);
-    font-size: 11px; font-weight: 500;
+  /* ── Nombre de changements ────────────────────────────────────────────── */
+  .demarrages { grid-column: 1 / -1; }
+  .dem-total {
+    font-size: 46px; font-weight: 800; color: var(--titre);
+    line-height: 1; margin: 2px 0 16px;
   }
-  .part-piste { position: relative; height: 22px; background: #eef3f7; border-radius: 5px; }
-  .part-barre { position: absolute; left: 0; top: 0; bottom: 0; background: var(--bleu); border-radius: 5px; opacity: .9; }
-  .part-val { font-size: 13px; font-weight: 600; color: var(--titre); white-space: nowrap; min-width: 128px; text-align: right; }
-  .part-val em { font-style: normal; font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 8px; }
-  .reste { margin: 12px 0 0; font-size: 12px; color: var(--muted); }
+  .dem-lignes { display: flex; flex-wrap: wrap; gap: 8px; }
+  .dem-case {
+    flex: 1 1 128px; min-width: 128px;
+    border: 1px solid var(--rule); border-left: 4px solid var(--bleu);
+    border-radius: 7px; padding: 8px 12px; background: #fbfdff;
+  }
+  .dem-ligne { display: block; font-size: 15px; font-weight: 700; color: var(--titre); }
+  .dem-nb { display: block; font-size: 12px; color: var(--muted); margin-top: 1px; }
 
   /* ── Tableaux ─────────────────────────────────────────────────────────── */
   .detail { margin-top: 16px; border-top: 1px solid var(--rule); padding-top: 14px; }
@@ -424,7 +418,7 @@
   // ── Tableau de detail ─────────────────────────────────────────────────────
 
   function construireTableau(metrique) {
-    var estRetard = (metrique === "MR2");
+    var estRetard = false;
     var lignes = mesuresPeriode(metrique).slice();
 
     if (estRetard) {
@@ -524,114 +518,49 @@
     return bloc;
   }
 
-  // ── Decomposition du Grand T1 ─────────────────────────────────────────────
+  // ── Nombre de demarrages ──────────────────────────────────────────────────
 
-  function dessinerDecomposition(hote) {
-    var lignes = (donnees.decomposition || []).filter(function (d) {
+  function dessinerDemarrages(hote) {
+    var liste = (donnees.demarrages || []).filter(function (d) {
       return cleDe(d.date) === periode;
     });
-    if (!lignes.length) return;
+    if (!liste.length) return;
 
-    // Chaque etape est ramenee au meme denominateur que le Grand T1 :
-    // le nombre total de changements de la periode. Une etape absente
-    // compte pour zero. Une etape rare pese donc peu, meme si elle est
-    // longue quand elle a lieu — c'est bien son poids reel qu'on cherche.
-    var total = 0;
-    var cumulParts = {};
-    lignes.forEach(function (d) {
-      total += d.grand_t1;
-      Object.keys(d.parts || {}).forEach(function (k) {
-        if (!cumulParts[k]) cumulParts[k] = { somme: 0, nb: 0 };
-        cumulParts[k].somme += d.parts[k];
-        cumulParts[k].nb += 1;
-      });
-    });
-    var nbChangements = lignes.length;
-    var moyenneTotal = total / nbChangements;
-
-    var parts = Object.keys(cumulParts).map(function (k) {
-      return {
-        cle: k,
-        nom: (donnees.decomposition_libelles || {})[k] || k,
-        valeur: cumulParts[k].somme / nbChangements,   // poids sur la periode
-        moyenneSaisie: cumulParts[k].somme / cumulParts[k].nb,
-        nb: cumulParts[k].nb
-      };
-    }).sort(function (a, b) { return b.valeur - a.valeur; });
+    var parLigne = {};
+    liste.forEach(function (d) { parLigne[d.ligne] = (parLigne[d.ligne] || 0) + 1; });
+    var lignes = Object.keys(parLigne).sort(function (a, b) { return (+a) - (+b); });
 
     var panneau = document.createElement("section");
-    panneau.className = "panneau decompo";
+    panneau.className = "panneau demarrages";
 
     var titre = document.createElement("h2");
-    titre.textContent = "Decomposition du Grand T1";
+    titre.textContent = "Nombre de changements";
     panneau.appendChild(titre);
 
     var sous = document.createElement("p");
     sous.className = "sous";
-    sous.textContent = "Ce qui prend le plus de temps dans le Grand T1, sur " +
-                       libelleDe(periode) + ".";
+    sous.textContent = libelleDe(periode) + ".";
     panneau.appendChild(sous);
 
     var tot = document.createElement("div");
-    tot.className = "total-gt1";
-    var v = document.createElement("span");
-    v.className = "val"; v.textContent = formater(moyenneTotal);
-    var lib = document.createElement("span");
-    lib.className = "lib";
-    lib.textContent = "Grand T1, moyenne sur " + lignes.length +
-                      " changement" + (lignes.length > 1 ? "s" : "");
-    tot.appendChild(v); tot.appendChild(lib);
+    tot.className = "dem-total";
+    tot.textContent = liste.length;
     panneau.appendChild(tot);
 
-    var couvert = 0;
-    parts.forEach(function (p) {
-      couvert += p.valeur;
-      var rang = document.createElement("div");
-      rang.className = "part";
-
-      var nom = document.createElement("span");
-      nom.className = "part-nom"; nom.textContent = p.nom;
-      rang.appendChild(nom);
-
-      var piste = document.createElement("div");
-      piste.className = "part-piste";
-      var barre = document.createElement("div");
-      barre.className = "part-barre";
-      barre.style.width = Math.min(100, p.valeur / moyenneTotal * 100) + "%";
-      piste.appendChild(barre);
-      rang.appendChild(piste);
-
-      var val = document.createElement("span");
-      val.className = "part-val";
-      val.appendChild(document.createTextNode(formater(p.valeur)));
-      var pct = document.createElement("em");
-      pct.textContent = Math.round(p.valeur / moyenneTotal * 100) + " % du T1";
-      val.appendChild(pct);
-      val.title = p.nb + " saisie" + (p.nb > 1 ? "s" : "") + " sur " +
-                  nbChangements + " changement" + (nbChangements > 1 ? "s" : "") +
-                  " — " + formater(p.moyenneSaisie) + " quand l'etape a lieu";
-      rang.appendChild(val);
-
-      if (p.nb < nbChangements) {
-        var freq = document.createElement("span");
-        freq.className = "part-freq";
-        freq.textContent = p.nb + "/" + nbChangements;
-        freq.title = "Renseigne " + p.nb + " fois sur " + nbChangements +
-                     " changements — " + formater(p.moyenneSaisie) +
-                     " quand l'etape a lieu";
-        nom.appendChild(freq);
-      }
-
-      panneau.appendChild(rang);
+    var grille = document.createElement("div");
+    grille.className = "dem-lignes";
+    lignes.forEach(function (l) {
+      var c = document.createElement("div");
+      c.className = "dem-case";
+      var n = document.createElement("span");
+      n.className = "dem-ligne"; n.textContent = l;
+      var v = document.createElement("span");
+      v.className = "dem-nb";
+      v.textContent = parLigne[l] + (parLigne[l] > 1 ? " changements" : " changement");
+      c.appendChild(n); c.appendChild(v);
+      grille.appendChild(c);
     });
-
-    var reste = moyenneTotal - couvert;
-    var note = document.createElement("p");
-    note.className = "reste";
-    note.textContent = reste > 0.5
-      ? "Reste " + formater(reste) + " sans etape detaillee."
-      : "Toutes les etapes du Grand T1 sont detaillees.";
-    panneau.appendChild(note);
+    panneau.appendChild(grille);
 
     hote.appendChild(panneau);
   }
@@ -797,9 +726,11 @@
     Object.keys(graphes).forEach(function (k) { graphes[k].destroy(); });
     graphes = {};
 
+    dessinerDemarrages(grille);
+
     Object.keys(donnees.metriques).forEach(function (code) {
       var lignes = parLigne(code);
-      var estRetard = (code === "MR2");
+      var estRetard = false;
 
       var panneau = document.createElement("section");
       panneau.className = "panneau";
@@ -811,13 +742,10 @@
       var sous = document.createElement("p");
       sous.className = "sous";
       var multiples = lignes.some(function (l) { return l.nb > 1; });
-      if (estRetard) {
-        sous.textContent = "Retard sur la cible de " +
-          donnees.cible_mise_en_regime + " min — " + libelleDe(periode) +
-          ". Plus la barre est haute, plus c'est long.";
-      } else {
-        sous.textContent = (multiples ? "Moyenne par ligne — " : "Valeur par ligne — ")
-                         + libelleDe(periode);
+      sous.textContent = (multiples ? "Moyenne par ligne — " : "Valeur par ligne — ")
+                       + libelleDe(periode);
+      if (code === "MR2") {
+        sous.textContent += " · cible " + donnees.cible_mise_en_regime + " min";
       }
       panneau.appendChild(sous);
 
@@ -949,7 +877,6 @@
       });
     });
 
-    dessinerDecomposition(grille);
     dessinerCauses();
   }
 
