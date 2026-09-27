@@ -63,6 +63,7 @@ TARGETS = [
 
 # Indicateurs affiches sur le tableau de bord
 METRIQUES = {
+    "TCH": "Temps de changement",
     "NET": "Nettoyage machine",
     "PT1": "Petit t1",
     "RON": "Changement rondelle",
@@ -228,6 +229,22 @@ def enveloppe(*objets):
     return duree if duree > 0 else None
 
 
+def premier_debut(*objets):
+    """Heure de debut la plus precoce, tous creneaux confondus."""
+    creneaux = []
+    for o in objets:
+        creneaux.extend(lire_creneaux(o))
+    return min((d for d, _ in creneaux), default=None)
+
+
+def derniere_fin(*objets):
+    """Heure de fin la plus tardive, tous creneaux confondus."""
+    creneaux = []
+    for o in objets:
+        creneaux.extend(lire_creneaux(o))
+    return max((f for _, f in creneaux), default=None)
+
+
 def commentaires(obj):
     """Commentaires non vides de tous les creneaux d'une tache ou target."""
     if not isinstance(obj, dict):
@@ -332,6 +349,23 @@ def extraire_mesures(sessions):
             textes = commentaires(taches.get(cle_tache))
             return [{"tache": libelle, "texte": t} for t in textes]
 
+        # ── Temps de changement ─────────────────────────────────────────────
+        # De la premiere minute du nettoyage a la derniere de la mise a l'arche.
+        debut_net = premier_debut(taches.get("ron_1"))
+        fin_arche = derniere_fin(taches.get("ron_10"))
+        cible = enveloppe(cibles.get("grand_t1"))
+        if debut_net is not None and fin_arche is not None:
+            duree = fin_arche - debut_net
+            if duree < 0:
+                duree += 1440
+            if duree > 0:
+                mesures.append({
+                    "date": jour, "ligne": ligne, "metrique": "TCH",
+                    "duree_min": duree, "objectif_min": cible,
+                    "details": detail("ron_1", "Nettoyage de machine")
+                             + detail("ron_10", "Mise a l arche"),
+                })
+
         # ── Nettoyage de machine ────────────────────────────────────────────
         reel = enveloppe(taches.get("ron_1"))
         cible = enveloppe(cibles.get("nettoyage"))
@@ -364,20 +398,43 @@ def extraire_mesures(sessions):
             })
 
         # ── Mise en regime 2 sections ───────────────────────────────────────
-        # 15 min moins (enveloppe des deux cotes diminuee de la mise a l'arche)
-        # Le resultat est le plus souvent negatif : c'est un retard.
-        cotes = enveloppe(taches.get("ron_3"), taches.get("ron_4"))
-        arche = enveloppe(taches.get("ron_10"))
-        if cotes is not None:
-            ecart = CIBLE_MISE_EN_REGIME - (cotes - (arche or 0))
+        # De la fin des cotes a la fin de la mise a l'arche. Entre le Cote
+        # Finisseur et le Cote Ebaucheur, on retient celui qui finit le plus
+        # tard. La duree obtenue est comparee a la cible de 15 minutes.
+        fin_cotes = derniere_fin(taches.get("ron_3"), taches.get("ron_4"))
+        fin_arche_mr = derniere_fin(taches.get("ron_10"))
+        if fin_cotes is not None and fin_arche_mr is not None:
+            duree = fin_arche_mr - fin_cotes
+            if duree < 0:
+                duree += 1440
             mesures.append({
                 "date": jour, "ligne": ligne, "metrique": "MR2",
-                "duree_min": ecart, "objectif_min": CIBLE_MISE_EN_REGIME,
-                "details": detail("ron_10", "Mise a l arche"),
+                "duree_min": duree, "objectif_min": CIBLE_MISE_EN_REGIME,
+                "details": detail("ron_3", "Cote Finisseur")
+                         + detail("ron_4", "Cote Ebaucheur")
+                         + detail("ron_10", "Mise a l arche"),
             })
 
     mesures.sort(key=lambda m: (m["date"], m["ligne"], m["metrique"]))
     return mesures
+
+
+def extraire_demarrages(sessions):
+    """
+    Une entree par demarrage : chaque session du Gantt est un changement.
+    Deux changements le meme jour sur la meme ligne comptent pour deux.
+    """
+    demarrages = []
+    for _, session in sessions.items():
+        if not isinstance(session, dict):
+            continue
+        jour = session.get("date")
+        ligne = normaliser_ligne(session.get("machine"))
+        if not jour or not ligne:
+            continue
+        demarrages.append({"date": jour, "ligne": ligne})
+    demarrages.sort(key=lambda d: (d["date"], d["ligne"]))
+    return demarrages
 
 
 def extraire_decomposition(sessions):
@@ -476,8 +533,8 @@ def main():
                    if m["metrique"] == code and m["objectif_min"] is not None)
         print("  %s : %d mesure(s), %d avec objectif" % (code, n, avec))
 
-    decomposition = extraire_decomposition(sessions)
-    print("Decomposition Grand T1 : %d jour(s)/ligne(s)" % len(decomposition))
+    demarrages = extraire_demarrages(sessions)
+    print("Demarrages : %d" % len(demarrages))
 
     causes = extraire_causes(sessions)
     repartition = Counter(c["type"] for c in causes)
@@ -495,11 +552,10 @@ def main():
     sortie = {
         "derniere_maj": datetime.now().isoformat(timespec="seconds"),
         "metriques": METRIQUES,
-        "decomposition_libelles": dict(DECOMPOSITION),
         "cible_mise_en_regime": CIBLE_MISE_EN_REGIME,
         "lignes": sorted({m["ligne"] for m in mesures}),
         "mesures": mesures,
-        "decomposition": decomposition,
+        "demarrages": demarrages,
         "causes": causes,
     }
 
