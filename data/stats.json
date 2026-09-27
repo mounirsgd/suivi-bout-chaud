@@ -1,17 +1,11 @@
 {
- "derniere_maj": "2026-09-27T14:59:33",
+ "derniere_maj": "2026-09-27T17:56:54",
  "metriques": {
+  "TCH": "Temps de changement",
   "NET": "Nettoyage machine",
   "PT1": "Petit t1",
   "RON": "Changement rondelle",
   "MR2": "Mise en regime 2 sections"
- },
- "decomposition_libelles": {
-  "nettoyage": "Nettoyage",
-  "petit_t1": "Petit t1",
-  "rondelle": "Rondelle",
-  "anticipation_feeder": "Anticipation Feeder",
-  "passage_so3": "Passage en SO3"
  },
  "cible_mise_en_regime": 15,
  "lignes": [
@@ -28,17 +22,26 @@
    "date": "2026-06-24",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": -124,
+   "duree_min": 61,
    "objectif_min": 15,
-   "details": []
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.9: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changement cartouches\n- Sec.9-10:  Réparation des flexibles de air de compression"
+    }
+   ]
   },
   {
    "date": "2026-06-24",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": -145,
+   "duree_min": 17,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2: Interférence entre le système de ventilation et le mécanisme du poinçon - Mouvement de montée et de descente\n- Changement procédé PS->SS\n- Changemente cartouches"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises a l'arche 3 section"
@@ -118,12 +121,37 @@
    ]
   },
   {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 281,
+   "objectif_min": 280,
+   "details": []
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 258,
+   "objectif_min": 257,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 3 section"
+    }
+   ]
+  },
+  {
    "date": "2026-06-25",
    "ligne": "221",
    "metrique": "MR2",
-   "duree_min": -29,
+   "duree_min": 71,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement charnière ebaucheur"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche 3 section"
@@ -153,11 +181,32 @@
   },
   {
    "date": "2026-06-25",
+   "ligne": "221",
+   "metrique": "TCH",
+   "duree_min": 146,
+   "objectif_min": 146,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche 3 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -60,
+   "duree_min": 30,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert de charnière ebaucheur\n- Sec.3: changement Mécanisme du poinçon – cavité A"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises a l'arche 5 section"
@@ -195,12 +244,37 @@
    ]
   },
   {
+   "date": "2026-06-25",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 281,
+   "objectif_min": 92,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine à l’arrêt depuis 4h00 en raison d’un manque de personnel à la BF."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 5 section"
+    }
+   ]
+  },
+  {
    "date": "2026-06-26",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -56,
+   "duree_min": 124,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement charnière ebaucheur\n- Changement déflecteur"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises a l'arche 2 section"
@@ -252,11 +326,32 @@
   },
   {
    "date": "2026-06-26",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 226,
+   "objectif_min": 226,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Arrêt pour nettoyage 15 minutes plus tard"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": 6,
+   "duree_min": 21,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond finisseur\n- Arrêt de la machine à 7h50 (Nous avons perdu 20 minutes)\n- Arrêt de la machine sans que l’équipe de changement soit prête (erreur de communication)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises a l'arche tout section\n- Réglage de la roue pour le centrage de l'application du SO3 (8h20 à 8h40)\n- Finalisation de l'installation du SO3"
@@ -280,9 +375,17 @@
    "date": "2026-06-29",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -24,
+   "duree_min": 21,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 5 : réglage de la hauteur du bras MDB – finisseur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Problème de montage du fond ébaucheur sur le support (Moulerie)\n- Changement déflecteurs"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche avec 2 sections"
@@ -334,11 +437,32 @@
   },
   {
    "date": "2026-06-29",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 181,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage anticipé en raison d'un manque de personnel au BF"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": 27,
+   "duree_min": 140,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 8 : réglage du niveau du bras MDB – finisseur.\n- Réglage de la hauteur intérieure de la tête de soufflage (9h30)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a verre to"
@@ -384,12 +508,37 @@
    ]
   },
   {
+   "date": "2026-06-29",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 220,
+   "objectif_min": 100,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a verre to"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Plaque sous le convoyeur transversal avec un ressaut, provoquant un désalignement et le renversement des flacons."
+    }
+   ]
+  },
+  {
    "date": "2026-06-30",
    "ligne": "221",
    "metrique": "MR2",
-   "duree_min": 32,
+   "duree_min": 7,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteur\n- Sec. 2 : Réglage du niveau du MDB – ébaucheur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Réglage déflecteur/moules pendant le chargement des sections"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises a l'arche avec 2 sections"
@@ -447,12 +596,37 @@
    ]
   },
   {
+   "date": "2026-06-30",
+   "ligne": "221",
+   "metrique": "TCH",
+   "duree_min": 300,
+   "objectif_min": 184,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Installation SO3"
+    }
+   ]
+  },
+  {
    "date": "2026-07-01",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -7,
+   "duree_min": 34,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine fractionnée de 8 à 6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Entonnoir d'un diamètre inférieur au diamètre intérieur du support d'entonnoir. Le même problème est constaté entre l'entonnoir et l'ébaucheur (Moulerie). La machine fonctionnera sans entonnoir, conformément à la décision du chef de section.\n- Vous auriez dû prévenir sur Job On.\n- Machine fractionnée de 8 à 6 sections"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mises à l'arche - 2 sections"
@@ -507,11 +681,36 @@
   },
   {
    "date": "2026-07-01",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 105,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mises à l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l’arche retardée de 12 minutes en raison de problèmes sur le cross convoyeur"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": -40,
+   "duree_min": 67,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.7: Réglage du niveau du bras du MDB – Finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec.5: Réglage du niveau du bras du MDB – ébaucheur\n- Sec.3: Vis de fixation du support de fond ébaucheur cassée"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche - 2 sections"
@@ -561,12 +760,33 @@
    ]
   },
   {
+   "date": "2026-07-01",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 167,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - tout les sections"
+    }
+   ]
+  },
+  {
    "date": "2026-07-02",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -135,
+   "duree_min": 96,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "8h13 à 9h42 Réglage tête de soufflage à la moulerie"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "2 sections à l'arche"
@@ -612,12 +832,29 @@
    ]
   },
   {
+   "date": "2026-07-02",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 318,
+   "objectif_min": 235,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "2 sections à l'arche"
+    }
+   ]
+  },
+  {
    "date": "2026-07-03",
    "ligne": "221",
    "metrique": "MR2",
-   "duree_min": -85,
+   "duree_min": 47,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement cartouches, déflecteurs, charnière ébaucheur\n- Sec.6: Changement bras de MDB\n- Changement procédé SS -> PS\n- Sec.3: Réglage niveau bras de MDB - ébaucheur\n- Sec.8: Vérification de la lubrification du cartouche et du mécanisme du poinçon\n- Entonnoir incorrect : deux chanfreins au lieu de trois (Moulerie)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche - 2 section"
@@ -664,11 +901,32 @@
   },
   {
    "date": "2026-07-03",
+   "ligne": "221",
+   "metrique": "TCH",
+   "duree_min": 187,
+   "objectif_min": 185,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -51,
+   "duree_min": 32,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- MDB non préparée pour le changement (Moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Problème électrique pour le réglage de la hauteur du convoyeur (9h20à 9h53)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche - 2 sections"
@@ -718,12 +976,33 @@
    ]
   },
   {
+   "date": "2026-07-03",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 125,
+   "objectif_min": 123,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-07-06",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": 169,
+   "duree_min": 149,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 3 : réglage du niveau du bras de la MDB"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 5 : remplacement du mécanisme du poinçon"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche"
@@ -749,6 +1028,10 @@
    "duree_min": 211,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Section 10 : réglage du niveau du bras de la MDB"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche - 2 sections"
@@ -861,12 +1144,78 @@
    ]
   },
   {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 349,
+   "objectif_min": 347,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage 2 machines"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage chaminé SO3"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage sous le tapis du convoyeur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage l'arche SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 342,
+   "objectif_min": 340,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3 - chaminé"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage sous le tapis du convoyeur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3 - L'arche"
+    }
+   ]
+  },
+  {
    "date": "2026-07-07",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -98,
+   "duree_min": 52,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33 (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Molderie)\n- Changement inserts charnière ébaucheur"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche - tout sections"
@@ -917,11 +1266,32 @@
   },
   {
    "date": "2026-07-07",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 212,
+   "objectif_min": 210,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": -38,
+   "duree_min": 125,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Les chariots n'étaient pas prêts pour le transport, les palettes étaient au sol (Moulerie)\n- Changement de procédé SS-> PS\n- Réparation de la tige de la tour de ventilation entre sections 2 et 3.\n- Section 7 : remise en place de la goupille de charnière ébaucheur."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche - 2 sections"
@@ -967,12 +1337,33 @@
    ]
   },
   {
+   "date": "2026-07-07",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 210,
+   "objectif_min": 208,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-07-08",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": 60,
+   "duree_min": 65,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 3 - Réglage niveau MDB - finisseurs\n- Section 2 - Reprise du réglage de la hauteur de la tête de soufflage"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 3 - Réglage niveau MDB - ébaucheur\n- Changement procédé SS -> PS"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'ache - 5 sections"
@@ -987,9 +1378,13 @@
    "date": "2026-07-08",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": 207,
+   "duree_min": 182,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement procédé SS -> PS"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec 4 sections"
@@ -1086,11 +1481,49 @@
   },
   {
    "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 215,
+   "objectif_min": 1653,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'ache - 5 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 357,
+   "objectif_min": 360,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 4 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Nettoyage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": 7,
+   "duree_min": 9,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement finisseurs / fonds"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche - tout sections"
@@ -1114,9 +1547,21 @@
    "date": "2026-07-09",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -118,
+   "duree_min": 22,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sections 3, 7 et 8 - Réglage de la hauteur intérieure de la pince"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Modification de la hauteur intérieure de la tête de soufflage pour permettre sa remise en place sur la machine. Cette intervention est nécessaire à chaque changement sur la machine 33"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Section 2 : Changement de bras de MDB. (8h20)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche - 2 sections"
@@ -1175,10 +1620,27 @@
    ]
   },
   {
+   "date": "2026-07-09",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 227,
+   "objectif_min": 195,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine arrêtée depuis 1h00 en raison d'un manque de personnel au BC et au BF"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-07-10",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": 51,
+   "duree_min": 56,
    "objectif_min": 15,
    "details": [
     {
@@ -1229,10 +1691,27 @@
    ]
   },
   {
+   "date": "2026-07-10",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 141,
+   "objectif_min": 138,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Installation et réglage SO3"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l'arche - après réglage SO3 - Tout sections par le Chef de Section (7h39)"
+    }
+   ]
+  },
+  {
    "date": "2026-07-15",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -63,
+   "duree_min": 236,
    "objectif_min": 15,
    "details": [
     {
@@ -1258,12 +1737,33 @@
    "details": []
   },
   {
+   "date": "2026-07-15",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 341,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "11h24 2 sections à l'arche"
+    }
+   ]
+  },
+  {
    "date": "2026-07-16",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": 22,
+   "duree_min": 186,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement fonds finisseurs"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Pas de changement ebaucheurs"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Envoi 1 flacon sur 2 pour réglage clearing and safe"
@@ -1305,10 +1805,31 @@
    ]
   },
   {
+   "date": "2026-07-16",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 202,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Pas de nettoyage machine"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Envoi 1 flacon sur 2 pour réglage clearing and safe"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Envoi des 2 machines"
+    }
+   ]
+  },
+  {
    "date": "2026-07-17",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -43,
+   "duree_min": 87,
    "objectif_min": 15,
    "details": [
     {
@@ -1342,12 +1863,29 @@
    "details": []
   },
   {
+   "date": "2026-07-17",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 187,
+   "objectif_min": 190,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "2 sections à l'arche à 8h35"
+    }
+   ]
+  },
+  {
    "date": "2026-07-20",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -53,
+   "duree_min": 119,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Les plaques vertflow n'ont pas été préparées par la moulerie\n- Une tête de soufflage sans pipette – moulerie"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise à l'arche - 2 section"
@@ -1407,11 +1945,40 @@
   },
   {
    "date": "2026-07-20",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 229,
+   "objectif_min": 227,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Changement rodelle"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise à l'arche - 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": -133,
+   "duree_min": 1427,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sections 1-3:  Réglage niveau MDB\n- Changement insert charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sections 1-3-7:  Réglage niveau MDB\n- Changement insert charnière ébaucheur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Section 4: Bague d'espacement incorrect"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche - 2 section"
@@ -1461,12 +2028,29 @@
    ]
   },
   {
+   "date": "2026-07-20",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 162,
+   "objectif_min": 160,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - 2 section"
+    }
+   ]
+  },
+  {
    "date": "2026-07-21",
    "ligne": "221",
    "metrique": "MR2",
-   "duree_min": -43,
+   "duree_min": 107,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche - tout les sections"
@@ -1513,11 +2097,32 @@
   },
   {
    "date": "2026-07-21",
+   "ligne": "221",
+   "metrique": "TCH",
+   "duree_min": 207,
+   "objectif_min": 205,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche - tout les sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -49,
+   "duree_min": 30,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Changement insert de charnière ébaucher"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche"
@@ -1568,12 +2173,45 @@
    ]
   },
   {
+   "date": "2026-07-21",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 131,
+   "objectif_min": 129,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage Machine"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche"
+    }
+   ]
+  },
+  {
    "date": "2026-09-07",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -163,
+   "duree_min": 2,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière finisseur \n- Changement plaque vertflow\n- Changement bras de inversion"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Problème électrique du système de montée et de descente du convoyeur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière ébaucher\n- Changement déflecteur\n- Changement cartouches\n- Changement procédé SS => PS"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Réglage déflecteurs - chef section"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 section"
@@ -1639,12 +2277,45 @@
    ]
   },
   {
+   "date": "2026-09-07",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 222,
+   "objectif_min": 220,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
    "date": "2026-09-08",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -133,
+   "duree_min": 28,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement plaque vertflow (Non préparé par la moulerie)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Remplacement de la plaque morte du convoyeur (graphite → métal)."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- La tête de soufflage est la même, mais avec une hauteur différente en raison du moule de bague. Cette modification n’était pas indiquée sur la fiche de la moulerie ; seule l’information de conserver la tête de soufflage existante."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteur\n- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Références d’entonnoirs mélangées – remplacement nécessaire suite à l’information transmise au dernier moment par la moulerie."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Avec 2 sections"
@@ -1706,12 +2377,33 @@
    ]
   },
   {
+   "date": "2026-09-08",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 218,
+   "objectif_min": 216,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-09-09",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": -93,
+   "duree_min": 97,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Problème mécanique | - Changement charnières\n- Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Problème mécanique | -  Sec.07 - Réparation du support de réglage du déflecteur de la cavité B (9h40 à .......)\n- Changement déflecteurs\n- Changement charnières\n- Sec. 12 – Réglage du niveau bras transfert\n- Sec. 08 D – Remplacement du déflecteur déformé\n-  Retard dans la finalisation du changement dû aux sections 09 et 10 – difficultés rencontrées lors du réglage de l’inversion, nécessitant un temps d’intervention supplémentaire pour résoudre le problème."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mises a l'arche 2 sections"
@@ -1757,12 +2449,37 @@
    ]
   },
   {
+   "date": "2026-09-09",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 277,
+   "objectif_min": 215,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mises a l'arche 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-09-10",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -68,
+   "duree_min": 37,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Formation | - Le plan machine a été chargé pendant le changement, entraînant l’arrêt des interventions de l’Atelier IS. À la suite de ce chargement, il a été nécessaire de reprendre le réglage en hauteur de la pince de préhension par rapport au moule."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Modification de la hauteur de la tête de soufflage réalisée afin de l’adapter aux exigences de la bague. Cette modification n’était pas spécifiée sur la fiche des équipements de la moulerie."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | Lors du changement, une référence incorrecte d’insert en graphite de la pince a été montée : GGI au lieu de la référence correcte 18,50 PP. La référence correcte était bien indiquée sur la fiche d’instructions. Vérifier l’origine de cette erreur au niveau de la moulerie."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 sections"
@@ -1816,12 +2533,41 @@
    ]
   },
   {
+   "date": "2026-09-10",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 162,
+   "objectif_min": 160,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-09-14",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -58,
+   "duree_min": 56,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement bras de transfert"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Retard au démarrage du changement en raison de la prolongation des travaux sur la machine 36. (15 min)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Retard au démarrage du changement en raison de la prolongation des travaux sur la machine 36. (15 min)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Avec 2 sections"
@@ -1876,11 +2622,32 @@
   },
   {
    "date": "2026-09-14",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 186,
+   "objectif_min": 205,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
    "ligne": "236",
    "metrique": "MR2",
-   "duree_min": -136,
+   "duree_min": 23,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Préparation incomplète | - Cale de réglage de la hauteur du poinçon incorrecte (équipe de changement).\n- Changement déflecteur\n- Passage de 10 à 8 sections."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Formation | Préparation incomplète | - Nettoyage, remplacement du tube de soufflage et montage d’un nouvel adaptateur permettant l’utilisation d’un anneau en deux parties (chef section)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Avec 2 section"
@@ -1931,12 +2698,37 @@
    ]
   },
   {
+   "date": "2026-09-14",
+   "ligne": "236",
+   "metrique": "TCH",
+   "duree_min": 253,
+   "objectif_min": 251,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine Bottero"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Avec 2 section"
+    }
+   ]
+  },
+  {
    "date": "2026-09-15",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": -87,
+   "duree_min": 52,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Réglage des mains de pose sur toutes les sections."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Reprise réglages | - Sec.3, 7 et 8 = Réglage bras de transfert avec appareil"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 sections"
@@ -1995,12 +2787,33 @@
    ]
   },
   {
+   "date": "2026-09-15",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 222,
+   "objectif_min": 220,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine très sale"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-09-16",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": 2,
+   "duree_min": 19,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond finisseur, finisseur et moule de bague\n- Réglage en hauteur de moule de bague."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec tout sections"
@@ -2037,9 +2850,25 @@
    "date": "2026-09-16",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": -34,
+   "duree_min": 82,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A\n- Sec.3: réglage bras transfert"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B\n- Changement corp take out (9h15 à 10h00)\n- Sec.12: réglage bras transfert\n- Sec.12 - changement cale de poinçon (8h50 à 9h04)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine B"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Machine A - avec é section"
@@ -2111,11 +2940,36 @@
   },
   {
    "date": "2026-09-16",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 227,
+   "objectif_min": 210,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage machine A (5h50 à 7h10)\n- Nettoyage machine B (5h50 à 6h50)"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A - avec é section"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B  - avec é section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": 7,
+   "duree_min": 15,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement ébaucheur"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 sections"
@@ -2139,9 +2993,17 @@
    "date": "2026-09-17",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": 217,
+   "duree_min": 212,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A\n- Changement fond"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B\n- Changement fond"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Machine B"
@@ -2177,9 +3039,18 @@
    "date": "2026-09-17",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -42,
+   "duree_min": 57,
    "objectif_min": 15,
-   "details": []
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | Retard dû au temps nécessaire à la modification de la hauteur interne de la tête de soufflage. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Sec.5 - Réglage bras de transfert ."
+    }
+   ]
   },
   {
    "date": "2026-09-17",
@@ -2207,12 +3078,24 @@
    ]
   },
   {
+   "date": "2026-09-17",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 141,
+   "objectif_min": 85,
+   "details": []
+  },
+  {
    "date": "2026-09-18",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -35,
+   "duree_min": 22,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière\n- Changement déflecteurs\n- Sec.5A - Montée du poinçon, remplacement de la cartouche, du mécanisme de poinçon et réglage du centrage."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 7 section."
@@ -2254,12 +3137,37 @@
    ]
   },
   {
+   "date": "2026-09-18",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 112,
+   "objectif_min": 125,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 7 section."
+    }
+   ]
+  },
+  {
    "date": "2026-09-21",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -63,
+   "duree_min": 33,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.5 - Réglage bras de transfert\n- Changement bras de transfert (tout)"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Réparation convoyeur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.5 - Réglage bras de transfert\n- Changement déflecteurs"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 sections"
@@ -2313,12 +3221,41 @@
    ]
   },
   {
+   "date": "2026-09-21",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 155,
+   "objectif_min": 150,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
    "date": "2026-09-23",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": -81,
+   "duree_min": 39,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | Machine A\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (2 à 6)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Machine B\n- Changement déflecteurs\n- Changement procédé PS => SS\n- Machine avec 5 sections (7 à 11)\n- Entonnoir avec une hauteur incorrecte. (Moulerie)\n- Fourreau non montée lors du changement. (Moulerie)"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Machine A.\n- Mise a l'arche avec 2 sections"
@@ -2394,9 +3331,30 @@
   },
   {
    "date": "2026-09-23",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 252,
+   "objectif_min": 210,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine A et B"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine A.\n- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B\n- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": 12,
+   "duree_min": 17,
    "objectif_min": 15,
    "details": [
     {
@@ -2417,9 +3375,13 @@
    "date": "2026-09-24",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": -33,
+   "duree_min": 37,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Sec.4 - Réglage niveau de bras transfert"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Problème avec rejection de sections. (réglage)"
@@ -2449,11 +3411,32 @@
   },
   {
    "date": "2026-09-24",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 102,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Problème avec rejection de sections. (réglage)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
    "ligne": "233",
    "metrique": "MR2",
-   "duree_min": -56,
+   "duree_min": 154,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière\n- Changement déflecteurs"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Retard réglage SO3 | - Défaut sur le tableau électrique principal du SO3."
@@ -2503,12 +3486,29 @@
    ]
   },
   {
+   "date": "2026-09-24",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 255,
+   "objectif_min": 170,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Retard réglage SO3 | - Défaut sur le tableau électrique principal du SO3."
+    }
+   ]
+  },
+  {
    "date": "2026-09-25",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": 2,
+   "duree_min": 25,
    "objectif_min": 15,
    "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | Machine A et B\n- Nous demandons que la numérotation des fonds corresponde à celle des moules montés sur la machine lors des changements d’indice, afin de faciliter le remplacement des équipements et le redémarrage de la machine.  Ce principe pourra être étendu à l’ensemble des équipements et à toutes les machines concernées par ce type de changement."
+    },
     {
      "tache": "Mise a l arche",
      "texte": "Machine A et B (plus de 2 sections)"
@@ -2529,525 +3529,258 @@
    ]
   }
  ],
- "decomposition": [
+ "demarrages": [
   {
-   "date": "2026-06-24",
-   "ligne": "232",
-   "grand_t1": 280,
-   "parts": {
-    "petit_t1": 135,
-    "rondelle": 15
-   }
+   "date": "2026-06-18",
+   "ligne": "221"
+  },
+  {
+   "date": "2026-06-19",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-06-22",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-06-22",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-06-23",
+   "ligne": "221"
+  },
+  {
+   "date": "2026-06-23",
+   "ligne": "224"
   },
   {
    "date": "2026-06-24",
-   "ligne": "232",
-   "grand_t1": 257,
-   "parts": {
-    "petit_t1": 135,
-    "rondelle": 15
-   }
+   "ligne": "232"
+  },
+  {
+   "date": "2026-06-24",
+   "ligne": "232"
   },
   {
    "date": "2026-06-25",
-   "ligne": "221",
-   "grand_t1": 146,
-   "parts": {
-    "petit_t1": 90
-   }
+   "ligne": "221"
   },
   {
    "date": "2026-06-25",
-   "ligne": "233",
-   "grand_t1": 92,
-   "parts": {
-    "petit_t1": 90
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-06-26",
-   "ligne": "224",
-   "grand_t1": 226,
-   "parts": {
-    "petit_t1": 70,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-06-26",
-   "ligne": "232",
-   "grand_t1": 15,
-   "parts": {
-    "petit_t1": 5
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-06-29",
-   "ligne": "224",
-   "grand_t1": 90,
-   "parts": {
-    "petit_t1": 90
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-06-29",
-   "ligne": "233",
-   "grand_t1": 100,
-   "parts": {
-    "petit_t1": 85,
-    "rondelle": 15
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-06-30",
-   "ligne": "221",
-   "grand_t1": 184,
-   "parts": {
-    "petit_t1": 90,
-    "rondelle": 15
-   }
+   "ligne": "221"
   },
   {
    "date": "2026-07-01",
-   "ligne": "224",
-   "grand_t1": 105,
-   "parts": {
-    "petit_t1": 40,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-01",
-   "ligne": "235",
-   "grand_t1": 165,
-   "parts": {
-    "petit_t1": 90,
-    "rondelle": 15
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-07-02",
-   "ligne": "233",
-   "grand_t1": 235,
-   "parts": {
-    "petit_t1": 100,
-    "rondelle": 30
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-07-03",
-   "ligne": "221",
-   "grand_t1": 185,
-   "parts": {
-    "petit_t1": 135,
-    "rondelle": 15
-   }
+   "ligne": "221"
   },
   {
    "date": "2026-07-03",
-   "ligne": "224",
-   "grand_t1": 123,
-   "parts": {
-    "petit_t1": 40,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-06",
-   "ligne": "222",
-   "grand_t1": 347,
-   "parts": {
-    "petit_t1": 105,
-    "rondelle": 15
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-07-06",
-   "ligne": "222",
-   "grand_t1": 340,
-   "parts": {
-    "petit_t1": 105,
-    "rondelle": 15
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-07-07",
-   "ligne": "233",
-   "grand_t1": 210,
-   "parts": {
-    "petit_t1": 85,
-    "rondelle": 15
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-07-07",
-   "ligne": "235",
-   "grand_t1": 208,
-   "parts": {
-    "petit_t1": 120
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-07-08",
-   "ligne": "232",
-   "grand_t1": 1653,
-   "parts": {
-    "petit_t1": 70,
-    "rondelle": 15
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-07-08",
-   "ligne": "232",
-   "grand_t1": 360,
-   "parts": {
-    "petit_t1": 65,
-    "rondelle": 15
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-07-08",
-   "ligne": "235",
-   "grand_t1": 10,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-07-09",
-   "ligne": "233",
-   "grand_t1": 195,
-   "parts": {
-    "petit_t1": 100,
-    "rondelle": 15
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-07-10",
-   "ligne": "224",
-   "grand_t1": 138,
-   "parts": {
-    "petit_t1": 40,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-15",
-   "ligne": "224",
-   "grand_t1": 70,
-   "parts": {
-    "petit_t1": 70
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-16",
-   "ligne": "222",
-   "grand_t1": 165,
-   "parts": {
-    "passage_so3": 150
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-07-17",
-   "ligne": "224",
-   "grand_t1": 190,
-   "parts": {
-    "petit_t1": 85,
-    "rondelle": 15,
-    "passage_so3": 90
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-20",
-   "ligne": "224",
-   "grand_t1": 227,
-   "parts": {
-    "petit_t1": 55,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-07-20",
-   "ligne": "235",
-   "grand_t1": 160,
-   "parts": {
-    "petit_t1": 75
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-07-21",
-   "ligne": "221",
-   "grand_t1": 205,
-   "parts": {
-    "nettoyage": 30,
-    "petit_t1": 90,
-    "rondelle": 15,
-    "passage_so3": 90
-   }
+   "ligne": "221"
   },
   {
    "date": "2026-07-21",
-   "ligne": "233",
-   "grand_t1": 129,
-   "parts": {
-    "nettoyage": 30,
-    "petit_t1": 115
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-07",
-   "ligne": "224",
-   "grand_t1": 220,
-   "parts": {
-    "nettoyage": 30,
-    "petit_t1": 540,
-    "rondelle": 15
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-08",
-   "ligne": "233",
-   "grand_t1": 216,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 115,
-    "rondelle": 15
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-09",
-   "ligne": "222",
-   "grand_t1": 215,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 75,
-    "rondelle": 15
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-09-10",
-   "ligne": "233",
-   "grand_t1": 160,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 85,
-    "rondelle": 20
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-14",
-   "ligne": "224",
-   "grand_t1": 205,
-   "parts": {
-    "nettoyage": 20,
-    "petit_t1": 100,
-    "rondelle": 15,
-    "passage_so3": 90
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-14",
-   "ligne": "236",
-   "grand_t1": 251,
-   "parts": {
-    "nettoyage": 68,
-    "petit_t1": 95,
-    "rondelle": 15
-   }
+   "ligne": "236"
   },
   {
    "date": "2026-09-15",
-   "ligne": "235",
-   "grand_t1": 220,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 55,
-    "rondelle": 45
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-09-16",
-   "ligne": "224",
-   "grand_t1": 57,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-16",
-   "ligne": "232",
-   "grand_t1": 210,
-   "parts": {
-    "petit_t1": 105,
-    "rondelle": 32
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-09-16",
-   "ligne": "233",
-   "grand_t1": 23,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-17",
-   "ligne": "222",
-   "grand_t1": 15,
-   "parts": {
-    "petit_t1": 15
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-09-17",
-   "ligne": "233",
-   "grand_t1": 85,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 85
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-18",
-   "ligne": "224",
-   "grand_t1": 125,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 110,
-    "rondelle": 25
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-21",
-   "ligne": "224",
-   "grand_t1": 150,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 105,
-    "rondelle": 15,
-    "anticipation_feeder": 30
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-23",
-   "ligne": "232",
-   "grand_t1": 210,
-   "parts": {
-    "nettoyage": 30,
-    "petit_t1": 165,
-    "rondelle": 30,
-    "anticipation_feeder": 90
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-09-23",
-   "ligne": "233",
-   "grand_t1": 25,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-24",
-   "ligne": "224",
-   "grand_t1": 105,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 75
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-24",
-   "ligne": "233",
-   "grand_t1": 170,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 125,
-    "rondelle": 15,
-    "anticipation_feeder": 20
-   }
+   "ligne": "233"
   },
   {
    "date": "2026-09-25",
-   "ligne": "232",
-   "grand_t1": 30,
-   "parts": {
-    "petit_t1": 15
-   }
+   "ligne": "232"
   },
   {
    "date": "2026-09-28",
-   "ligne": "222",
-   "grand_t1": 90,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 45,
-    "rondelle": 15,
-    "anticipation_feeder": 30,
-    "passage_so3": 90
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-09-28",
-   "ligne": "224",
-   "grand_t1": 25,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-29",
-   "ligne": "224",
-   "grand_t1": 25,
-   "parts": {
-    "petit_t1": 10
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-09-29",
-   "ligne": "236",
-   "grand_t1": 140,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 90,
-    "rondelle": 15
-   }
+   "ligne": "236"
   },
   {
    "date": "2026-09-30",
-   "ligne": "224",
-   "grand_t1": 105,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 75
-   }
+   "ligne": "224"
   },
   {
    "date": "2026-10-01",
-   "ligne": "235",
-   "grand_t1": 150,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 105,
-    "rondelle": 15,
-    "anticipation_feeder": 50
-   }
+   "ligne": "235"
   },
   {
    "date": "2026-10-02",
-   "ligne": "222",
-   "grand_t1": 115,
-   "parts": {
-    "nettoyage": 15,
-    "petit_t1": 70,
-    "rondelle": 15
-   }
+   "ligne": "222"
   },
   {
    "date": "2026-10-02",
-   "ligne": "236",
-   "grand_t1": 15,
-   "parts": {}
+   "ligne": "236"
   }
  ],
  "causes": [
