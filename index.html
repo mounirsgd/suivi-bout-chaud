@@ -12,8 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bleu:     #1c7ed6;   /* barres — bleu franc */
-    --bleu-s:   #1565b0;
+    --bleu:     #2b3a9c;   /* barres — bleu marine soutenu */
+    --bleu-s:   #1f2b76;
     --vert:     #158f4a;   /* objectif */
     --saumon:   #d9614a;   /* ecart defavorable */
     --navy:     #14538f;   /* bandeau — bleu soutenu */
@@ -96,12 +96,16 @@
   }
   .dem-lignes { display: flex; flex-wrap: wrap; gap: 8px; }
   .dem-case {
-    flex: 1 1 128px; min-width: 128px;
+    flex: 1 1 150px; min-width: 150px;
     border: 1px solid var(--rule); border-left: 4px solid var(--bleu);
     border-radius: 7px; padding: 8px 12px; background: #fbfdff;
   }
   .dem-ligne { display: block; font-size: 15px; font-weight: 700; color: var(--titre); }
   .dem-nb { display: block; font-size: 12px; color: var(--muted); margin-top: 1px; }
+  .dem-jours {
+    display: block; font-size: 11.5px; color: var(--texte);
+    margin-top: 4px; line-height: 1.35;
+  }
 
   /* ── Tableaux ─────────────────────────────────────────────────────────── */
   .detail { margin-top: 16px; border-top: 1px solid var(--rule); padding-top: 14px; }
@@ -203,7 +207,7 @@
   var MOIS = ["janvier","fevrier","mars","avril","mai","juin",
               "juillet","aout","septembre","octobre","novembre","decembre"];
 
-  var BLEU = "#1c7ed6", VERT = "#158f4a", SAUMON = "#d9614a";
+  var BLEU = "#2b3a9c", VERT = "#158f4a", SAUMON = "#d9614a";
 
   var donnees = null;
   var mode = "mois";
@@ -527,7 +531,10 @@
     if (!liste.length) return;
 
     var parLigne = {};
-    liste.forEach(function (d) { parLigne[d.ligne] = (parLigne[d.ligne] || 0) + 1; });
+    liste.forEach(function (d) {
+      if (!parLigne[d.ligne]) parLigne[d.ligne] = [];
+      parLigne[d.ligne].push(d.date);
+    });
     var lignes = Object.keys(parLigne).sort(function (a, b) { return (+a) - (+b); });
 
     var panneau = document.createElement("section");
@@ -554,10 +561,16 @@
       c.className = "dem-case";
       var n = document.createElement("span");
       n.className = "dem-ligne"; n.textContent = l;
+      var dates = parLigne[l].slice().sort();
       var v = document.createElement("span");
       v.className = "dem-nb";
-      v.textContent = parLigne[l] + (parLigne[l] > 1 ? " changements" : " changement");
-      c.appendChild(n); c.appendChild(v);
+      v.textContent = dates.length + (dates.length > 1 ? " changements" : " changement");
+
+      var j = document.createElement("span");
+      j.className = "dem-jours";
+      j.textContent = dates.map(jourCourt).join(", ");
+
+      c.appendChild(n); c.appendChild(v); c.appendChild(j);
       grille.appendChild(c);
     });
     panneau.appendChild(grille);
