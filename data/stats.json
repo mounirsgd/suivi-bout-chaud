@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-28T06:55:30",
+ "derniere_maj": "2026-09-28T07:10:46",
  "metriques": {
   "TCH": "Temps de changement",
   "NET": "Nettoyage machine",
@@ -3530,6 +3530,40 @@
   },
   {
    "date": "2026-09-28",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 65,
+   "objectif_min": 45,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 40,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement scoop  T1 => T0"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
    "ligne": "224",
    "metrique": "PT1",
    "duree_min": 6,
@@ -6952,6 +6986,20 @@
    "ligne": "232",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement scoop  T1 => T0",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.",
    "type": "libre"
   },
   {
