@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-28T01:46:45",
+ "derniere_maj": "2026-09-28T06:55:30",
  "metriques": {
   "TCH": "Temps de changement",
   "NET": "Nettoyage machine",
@@ -3527,6 +3527,19 @@
      "texte": "Moulerie non conforme | Machine A et B\n- Nous demandons que la numérotation des fonds corresponde à celle des moules montés sur la machine lors des changements d’indice, afin de faciliter le remplacement des équipements et le redémarrage de la machine.  Ce principe pourra être étendu à l’ensemble des équipements et à toutes les machines concernées par ce type de changement."
     }
    ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 6,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement finisseur et fond"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -6981,6 +6994,13 @@
    "ligne": "222",
    "tache": "TARGET (Passage en SO3)",
    "cause": "Nettoyage arche = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "Changement finisseur et fond",
    "type": "libre"
   },
   {
