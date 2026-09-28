@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-28T07:18:11",
+ "derniere_maj": "2026-09-28T08:43:19",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3544,6 +3544,10 @@
    "objectif_min": 45,
    "details": [
     {
+     "tache": "Cote Finisseur",
+     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique."
+    },
+    {
      "tache": "Cote Ebaucheur",
      "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes."
     }
@@ -3559,6 +3563,23 @@
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Changement scoop  T1 => T0"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 12,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement finisseur et fond"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec tout section"
     }
    ]
   },
@@ -6998,6 +7019,13 @@
   {
    "date": "2026-09-28",
    "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
    "tache": "Cote Ebaucheur",
    "cause": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.",
    "type": "libre"
@@ -7049,6 +7077,13 @@
    "ligne": "224",
    "tache": "Cote Finisseur",
    "cause": "Changement finisseur et fond",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec tout section",
    "type": "libre"
   },
   {
