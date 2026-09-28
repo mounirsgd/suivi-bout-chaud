@@ -63,9 +63,9 @@ TARGETS = [
 
 # Indicateurs affiches sur le tableau de bord
 METRIQUES = {
-    "TCH": "Temps de changement",
+    "TCH": "T1 = Temps de changement",
     "NET": "Nettoyage machine",
-    "PT1": "Petit t1",
+    "PT1": "Petit t1 = Temps d'outillage",
     "RON": "Changement rondelle",
     "MR2": "Mise en regime 2 sections",
 }
