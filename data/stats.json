@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-28T08:43:19",
+ "derniere_maj": "2026-09-28T11:37:53",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3531,6 +3531,31 @@
   {
    "date": "2026-09-28",
    "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 99,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- L’absence de protection de sécurité contre la chute de gouttes."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
    "metrique": "NET",
    "duree_min": 20,
    "objectif_min": 15,
@@ -3540,16 +3565,20 @@
    "date": "2026-09-28",
    "ligne": "222",
    "metrique": "PT1",
-   "duree_min": 65,
+   "duree_min": 178,
    "objectif_min": 45,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique."
+     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes."
+     "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- L’absence de protection de sécurité contre la chute de gouttes."
     }
    ]
   },
@@ -3557,12 +3586,29 @@
    "date": "2026-09-28",
    "ligne": "222",
    "metrique": "RON",
-   "duree_min": 40,
+   "duree_min": 42,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Changement scoop  T1 => T0"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 322,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
     }
    ]
   },
@@ -7019,15 +7065,36 @@
   {
    "date": "2026-09-28",
    "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
    "tache": "Cote Finisseur",
-   "cause": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique.",
+   "cause": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur.",
    "type": "libre"
   },
   {
    "date": "2026-09-28",
    "ligne": "222",
    "tache": "Cote Ebaucheur",
-   "cause": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.",
+   "cause": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- L’absence de protection de sécurité contre la chute de gouttes.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 section",
    "type": "libre"
   },
   {
