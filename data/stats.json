@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-29T02:36:43",
+ "derniere_maj": "2026-09-29T08:33:39",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3641,6 +3641,87 @@
      "texte": "Changement finisseur et fond"
     }
    ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 16,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 7,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 10,
+   "details": []
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 41,
+   "objectif_min": 25,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "metrique": "NET",
+   "duree_min": 60,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "metrique": "PT1",
+   "duree_min": 115,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec.5C -  Réparation du système de réglage inférieur du déflecteur."
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "metrique": "RON",
+   "duree_min": 27,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7093,6 +7174,20 @@
   {
    "date": "2026-09-28",
    "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "Retard réglage section",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Plusieurs sections nécessitant des réglages des mains de poussée ainsi que des réglages opérationnels.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
    "tache": "Mise a l arche",
    "cause": "Mise a l'arche avec 2 section",
    "type": "libre"
@@ -7170,6 +7265,13 @@
   {
    "date": "2026-09-29",
    "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec tout sections",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "T1 = 25 min = 10 + 15 (mise en régime)",
    "type": "libre"
@@ -7179,6 +7281,34 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "10 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs\n- Sec.5C -  Réparation du système de réglage inférieur du déflecteur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Debut section avec flacon",
+   "cause": "- Réglage du poids",
    "type": "libre"
   },
   {
