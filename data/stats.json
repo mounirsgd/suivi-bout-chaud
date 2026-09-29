@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-29T11:17:36",
+ "derniere_maj": "2026-09-29T16:20:28",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3701,6 +3701,27 @@
   {
    "date": "2026-09-29",
    "ligne": "236",
+   "metrique": "MR2",
+   "duree_min": 317,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\n- Sec.1 - Changement corp take out\n- Reprise réglages"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec.5C -  Réparation du système de réglage inférieur du déflecteur."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
    "metrique": "NET",
    "duree_min": 60,
    "objectif_min": 15,
@@ -3720,7 +3741,7 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\nSec.1 - Changement corp take out\nReprise réglages"
+     "texte": "- Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\n- Sec.1 - Changement corp take out\n- Reprise réglages"
     },
     {
      "tache": "Cote Ebaucheur",
@@ -3732,12 +3753,33 @@
    "date": "2026-09-29",
    "ligne": "236",
    "metrique": "RON",
-   "duree_min": 27,
+   "duree_min": 452,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe, morceau réfractaire dans feeder"
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Repêchage morceau réfractaires dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à 14h17)"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "metrique": "TCH",
+   "duree_min": 522,
+   "objectif_min": 140,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
     }
    ]
   }
@@ -7312,14 +7354,21 @@
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe, morceau réfractaire dans feeder",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Repêchage morceau réfractaires dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à 14h17)",
    "type": "libre"
   },
   {
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Cote Finisseur",
-   "cause": "Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\nSec.1 - Changement corp take out\nReprise réglages",
+   "cause": "- Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\n- Sec.1 - Changement corp take out\n- Reprise réglages",
    "type": "libre"
   },
   {
@@ -7333,7 +7382,35 @@
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Debut section avec flacon",
-   "cause": "- Réglage du poids, repêchage morceau réfractaire dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à .........)",
+   "cause": "Poids non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Debut section avec flacon",
+   "cause": "Réglage du poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "Problème mécanique",
+   "type": "motif"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\n- Sec.1 - Changement corp take out",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
