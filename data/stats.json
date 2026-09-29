@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-29T08:33:39",
+ "derniere_maj": "2026-09-29T11:17:36",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -2702,7 +2702,7 @@
    "ligne": "236",
    "metrique": "TCH",
    "duree_min": 253,
-   "objectif_min": 251,
+   "objectif_min": 140,
    "details": [
     {
      "tache": "Nettoyage de machine",
@@ -3549,7 +3549,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 section"
+     "texte": "Retard dévoilage arche"
     }
    ]
   },
@@ -3591,10 +3591,6 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Changement scoop  T1 => T0"
-    },
-    {
-     "tache": "Changement rondelle (cuvette)",
      "texte": "- Coupe"
     }
    ]
@@ -3608,7 +3604,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 section"
+     "texte": "Retard dévoilage arche"
     }
    ]
   },
@@ -3650,6 +3646,10 @@
    "objectif_min": 15,
    "details": [
     {
+     "tache": "Cote Finisseur",
+     "texte": "- (10 min) Défaut de communication pour le démarrage du changement (équipe de changement)."
+    },
+    {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec tout sections"
     }
@@ -3660,8 +3660,13 @@
    "ligne": "224",
    "metrique": "NET",
    "duree_min": 7,
-   "objectif_min": null,
-   "details": []
+   "objectif_min": 1,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Problème communication entre équipes changement, prod"
+    }
+   ]
   },
   {
    "date": "2026-09-29",
@@ -3669,7 +3674,12 @@
    "metrique": "PT1",
    "duree_min": 10,
    "objectif_min": 10,
-   "details": []
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- (10 min) Défaut de communication pour le démarrage du changement (équipe de changement)."
+    }
+   ]
   },
   {
    "date": "2026-09-29",
@@ -3678,6 +3688,10 @@
    "duree_min": 41,
    "objectif_min": 25,
    "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Problème communication entre équipes changement, prod"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec tout sections"
@@ -3705,6 +3719,10 @@
    "objectif_min": 90,
    "details": [
     {
+     "tache": "Cote Finisseur",
+     "texte": "Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\nSec.1 - Changement corp take out\nReprise réglages"
+    },
+    {
      "tache": "Cote Ebaucheur",
      "texte": "- Changement déflecteurs\n- Sec.5C -  Réparation du système de réglage inférieur du déflecteur."
     }
@@ -3719,7 +3737,7 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
+     "texte": "- Coupe, morceau réfractaire dans feeder"
     }
    ]
   }
@@ -6195,15 +6213,8 @@
    "date": "2026-09-14",
    "ligne": "236",
    "tache": "TARGET (Grand T1)",
-   "cause": "T1= Rondelle + Catégorie 3 + déflecteur = 15+75+20 = 110 min",
+   "cause": "T1= Nettoyage + Rondelle + Catégorie 3 + déflecteur + mise en régime = 15+ 15+75+20 + 15 = 140 min",
    "type": "libre"
-  },
-  {
-   "date": "2026-09-14",
-   "ligne": "236",
-   "tache": "TARGET (Grand T1)",
-   "cause": "Mise a l'arche",
-   "type": "normal"
   },
   {
    "date": "2026-09-14",
@@ -7140,13 +7151,6 @@
    "date": "2026-09-28",
    "ligne": "222",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Changement scoop  T1 => T0",
-   "type": "libre"
-  },
-  {
-   "date": "2026-09-28",
-   "ligne": "222",
-   "tache": "Changement rondelle (cuvette)",
    "cause": "- Coupe",
    "type": "normal"
   },
@@ -7189,8 +7193,15 @@
    "date": "2026-09-28",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "Mise a l'arche avec 2 section",
+   "cause": "Retard dévoilage arche",
    "type": "libre"
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "tache": "Nettoyage SO3",
+   "cause": "Nettoyage long",
+   "type": "motif"
   },
   {
    "date": "2026-09-28",
@@ -7211,13 +7222,6 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "45 min = catégorie 3",
-   "type": "libre"
-  },
-  {
-   "date": "2026-09-28",
-   "ligne": "222",
-   "tache": "TARGET (Rondelle)",
-   "cause": "15 mi",
    "type": "libre"
   },
   {
@@ -7265,6 +7269,20 @@
   {
    "date": "2026-09-29",
    "ligne": "224",
+   "tache": "Nettoyage de machine",
+   "cause": "Problème communication entre équipes changement, prod",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- (10 min) Défaut de communication pour le démarrage du changement (équipe de changement).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "224",
    "tache": "Mise a l arche",
    "cause": "- Mise a l'arche avec tout sections",
    "type": "normal"
@@ -7294,8 +7312,15 @@
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
+   "cause": "- Coupe, morceau réfractaire dans feeder",
+   "type": "libre"
+  },
+  {
+   "date": "2026-09-29",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "Sec.4, 5, 6 et 7 - Jeu au niveau de la pince. Changement 1 corp take out\nSec.1 - Changement corp take out\nReprise réglages",
+   "type": "libre"
   },
   {
    "date": "2026-09-29",
@@ -7308,7 +7333,7 @@
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Debut section avec flacon",
-   "cause": "- Réglage du poids",
+   "cause": "- Réglage du poids, repêchage morceau réfractaire dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à .........)",
    "type": "libre"
   },
   {
