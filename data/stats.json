@@ -1,11 +1,12 @@
 {
- "derniere_maj": "2026-09-30T08:36:29",
+ "derniere_maj": "2026-09-30T09:22:22",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
   "PT1": "Petit t1 = Temps d'outillage",
   "RON": "Changement rondelle",
-  "MR2": "Mise en regime 2 sections"
+  "MR2": "Mise en regime 2 sections",
+  "SO3": "SO3"
  },
  "cible_mise_en_regime": 15,
  "lignes": [
@@ -2623,6 +2624,14 @@
   {
    "date": "2026-09-14",
    "ligne": "224",
+   "metrique": "SO3",
+   "duree_min": 142,
+   "objectif_min": 90,
+   "details": []
+  },
+  {
+   "date": "2026-09-14",
+   "ligne": "224",
    "metrique": "TCH",
    "duree_min": 186,
    "objectif_min": 205,
@@ -3372,6 +3381,19 @@
    "details": []
   },
   {
+   "date": "2026-09-23",
+   "ligne": "233",
+   "metrique": "SO3",
+   "duree_min": 12,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "Réglage SO3"
+    }
+   ]
+  },
+  {
    "date": "2026-09-24",
    "ligne": "224",
    "metrique": "MR2",
@@ -3488,6 +3510,19 @@
   {
    "date": "2026-09-24",
    "ligne": "233",
+   "metrique": "SO3",
+   "duree_min": 60,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "- Défaut de programmation sur le tableau de commande du SO3 et réglage SO3\n- Possibilité de mise à l’arche à 10h00 avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "ligne": "233",
    "metrique": "TCH",
    "duree_min": 255,
    "objectif_min": 170,
@@ -3592,6 +3627,19 @@
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "ligne": "222",
+   "metrique": "SO3",
+   "duree_min": 197,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "Nettoyage long"
     }
    ]
   },
@@ -3826,6 +3874,23 @@
     {
      "tache": "Cote Ebaucheur",
      "texte": "- Sec.6 - Réglage niveau du bras transfert"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "ligne": "224",
+   "metrique": "SO3",
+   "duree_min": 155,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "- Installation SO3"
+    },
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "Nettoyage long | - Réglage SO3"
     }
    ]
   },
