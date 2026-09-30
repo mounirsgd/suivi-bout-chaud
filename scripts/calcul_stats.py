@@ -68,6 +68,7 @@ METRIQUES = {
     "PT1": "Petit t1 = Temps d'outillage",
     "RON": "Changement rondelle",
     "MR2": "Mise en regime 2 sections",
+    "SO3": "SO3",
 }
 
 # Sous-objectifs de la decomposition du Grand T1
@@ -395,6 +396,16 @@ def extraire_mesures(sessions):
                 "date": jour, "ligne": ligne, "metrique": "RON",
                 "duree_min": reel, "objectif_min": cible,
                 "details": detail("ron_2", "Changement rondelle (cuvette)"),
+            })
+
+        # ── SO3 ─────────────────────────────────────────────────────────────
+        reel = enveloppe(taches.get("ron_12"))
+        cible = enveloppe(cibles.get("passage_so3"))
+        if reel is not None:
+            mesures.append({
+                "date": jour, "ligne": ligne, "metrique": "SO3",
+                "duree_min": reel, "objectif_min": cible,
+                "details": detail("ron_12", "Nettoyage SO3"),
             })
 
         # ── Mise en regime 2 sections ───────────────────────────────────────
