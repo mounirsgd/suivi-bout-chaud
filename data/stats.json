@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-30T09:22:22",
+ "derniere_maj": "2026-09-30T11:05:45",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3584,7 +3584,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Retard dévoilage arche"
+     "texte": "Cause retard : dévoilage arche (3h17)"
     }
    ]
   },
@@ -3652,7 +3652,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Retard dévoilage arche"
+     "texte": "Cause retard : dévoilage arche (3h17)"
     }
    ]
   },
@@ -3763,7 +3763,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 sections"
+     "texte": "cause retard  : Repêchage morceau réfractaires dans feeder"
     }
    ]
   },
@@ -3773,12 +3773,7 @@
    "metrique": "NET",
    "duree_min": 60,
    "objectif_min": 15,
-   "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)"
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-09-29",
@@ -3801,16 +3796,12 @@
    "date": "2026-09-29",
    "ligne": "236",
    "metrique": "RON",
-   "duree_min": 452,
+   "duree_min": 27,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Coupe"
-    },
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Repêchage morceau réfractaires dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à 14h17)"
     }
    ]
   },
@@ -3822,12 +3813,8 @@
    "objectif_min": 140,
    "details": [
     {
-     "tache": "Nettoyage de machine",
-     "texte": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)"
-    },
-    {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 sections"
+     "texte": "cause retard  : Repêchage morceau réfractaires dans feeder"
     }
    ]
   },
@@ -3848,7 +3835,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Tout les sections"
+     "texte": "cause retard : installation et réglage SO3"
     }
    ]
   },
@@ -3880,30 +3867,13 @@
   {
    "date": "2026-09-30",
    "ligne": "224",
-   "metrique": "SO3",
-   "duree_min": 155,
-   "objectif_min": null,
-   "details": [
-    {
-     "tache": "Nettoyage SO3",
-     "texte": "- Installation SO3"
-    },
-    {
-     "tache": "Nettoyage SO3",
-     "texte": "Nettoyage long | - Réglage SO3"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "ligne": "224",
    "metrique": "TCH",
    "duree_min": 161,
    "objectif_min": 105,
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Tout les sections"
+     "texte": "cause retard : installation et réglage SO3"
     }
    ]
   }
@@ -7359,7 +7329,7 @@
    "date": "2026-09-28",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "Retard dévoilage arche",
+   "cause": "Cause retard : dévoilage arche (3h17)",
    "type": "libre"
   },
   {
@@ -7470,23 +7440,9 @@
   {
    "date": "2026-09-29",
    "ligne": "236",
-   "tache": "Nettoyage de machine",
-   "cause": "- Nettoyage machine Bottero\n- Équipement déposé par l’équipe de changement. (6h00 à 6h15)",
-   "type": "libre"
-  },
-  {
-   "date": "2026-09-29",
-   "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Coupe",
    "type": "normal"
-  },
-  {
-   "date": "2026-09-29",
-   "ligne": "236",
-   "tache": "Changement rondelle (cuvette)",
-   "cause": "- Repêchage morceau réfractaires dans feeder\n- Obstruction de la goulotte et réfractaire dans la cuvette (10h26 à 14h17)",
-   "type": "libre"
   },
   {
    "date": "2026-09-29",
@@ -7534,7 +7490,7 @@
    "date": "2026-09-29",
    "ligne": "236",
    "tache": "Mise a l arche",
-   "cause": "Mise a l'arche avec 2 sections",
+   "cause": "cause retard  : Repêchage morceau réfractaires dans feeder",
    "type": "libre"
   },
   {
@@ -7597,28 +7553,14 @@
    "date": "2026-09-30",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "Tout les sections",
+   "cause": "cause retard : installation et réglage SO3",
    "type": "libre"
   },
   {
    "date": "2026-09-30",
    "ligne": "224",
-   "tache": "Nettoyage SO3",
-   "cause": "- Installation SO3",
-   "type": "libre"
-  },
-  {
-   "date": "2026-09-30",
-   "ligne": "224",
-   "tache": "Nettoyage SO3",
-   "cause": "Nettoyage long",
-   "type": "motif"
-  },
-  {
-   "date": "2026-09-30",
-   "ligne": "224",
-   "tache": "Nettoyage SO3",
-   "cause": "- Réglage SO3",
+   "tache": "Changement Traitement Surface",
+   "cause": "Installation et réglage SO3",
    "type": "libre"
   },
   {
@@ -7661,6 +7603,13 @@
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
    "cause": "110 min = catégorie 3 + changement procédé + changement charnières EB-FI + changement Bras Transfert + changement déflecteurs = 40+15+30+10+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "TARGET (Rondelle)",
+   "cause": "45 min = 30 min +15 min = changement poinçon et tube+ cuvette",
    "type": "libre"
   },
   {
