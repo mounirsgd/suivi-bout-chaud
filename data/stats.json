@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-09-30T11:05:45",
+ "derniere_maj": "2026-09-30T16:15:42",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4130,6 +4130,26 @@
   {
    "date": "2026-10-02",
    "ligne": "236"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-08",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222"
   }
  ],
  "causes": [
@@ -7645,6 +7665,125 @@
    "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "T1 = 15 min = Mise en régime",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "100 min = 15 +70 + 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "70 min = catégorie 3 + changement déflecteurs = 45 + 25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Pa de changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "120 min = 15 + 15 + 75 + 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "90 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "100 min = 15 + 70 + 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "70 min = catégorie 3 + changement déflecteurs = 45 +25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "TARGET (Rondelle)",
+   "cause": "Pas de changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-08",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "105 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-08",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-08",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "75 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "45 min = catégorie 3",
    "type": "libre"
   }
  ]
