@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-01T02:13:44",
+ "derniere_maj": "2026-10-01T08:59:00",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3876,6 +3876,82 @@
      "texte": "cause retard : installation et réglage SO3"
     }
    ]
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 38,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Changement charnière\n- La plaque Vertflow n’a pas été préparée pour le changement. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Equipement variable non conforme | - Changement déflecteur \n- Changement charnière (Une charnière de 5\" a été préparée par erreur ; la correcte est de 4 1/4\")"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 50,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 92,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Changement charnière\n- La plaque Vertflow n’a pas été préparée pour le changement. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Equipement variable non conforme | - Changement déflecteur \n- Changement charnière (Une charnière de 5\" a été préparée par erreur ; la correcte est de 4 1/4\")"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 102,
+   "objectif_min": 45,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage de l’entonnoir pour assurer l’alignement de la goutte."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 180,
+   "objectif_min": 150,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7602,6 +7678,62 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage de l’entonnoir pour assurer l’alignement de la goutte.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement charnière\n- La plaque Vertflow n’a pas été préparée pour le changement. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "Equipement variable non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteur \n- Changement charnière (Une charnière de 5\" a été préparée par erreur ; la correcte est de 4 1/4\")",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Distributeur sous verre",
+   "cause": "- Changement entonnoir gob",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-01",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 section",
    "type": "libre"
   },
   {
