@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-01T08:59:00",
+ "derniere_maj": "2026-10-01T11:32:24",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3571,10 +3571,6 @@
    "objectif_min": 15,
    "details": [
     {
-     "tache": "Cote Finisseur",
-     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur."
-    },
-    {
      "tache": "Cote Ebaucheur",
      "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage."
     },
@@ -3584,7 +3580,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Cause retard : dévoilage arche (3h17)"
+     "texte": "Cause retard : dévoilage arche (3h17) vs temps norme 90 min"
     }
    ]
   },
@@ -3603,10 +3599,6 @@
    "duree_min": 178,
    "objectif_min": 45,
    "details": [
-    {
-     "tache": "Cote Finisseur",
-     "texte": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur."
-    },
     {
      "tache": "Cote Ebaucheur",
      "texte": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage."
@@ -3652,7 +3644,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Cause retard : dévoilage arche (3h17)"
+     "texte": "Cause retard : dévoilage arche (3h17) vs temps norme 90 min"
     }
    ]
   },
@@ -7389,13 +7381,6 @@
   {
    "date": "2026-09-28",
    "ligne": "222",
-   "tache": "Cote Finisseur",
-   "cause": "- Défaut de fonctionnement des sections dû à une absence d’alimentation électrique et attendre la fin du réglage côté ébaucheur.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-09-28",
-   "ligne": "222",
    "tache": "Cote Ebaucheur",
    "cause": "- Retard au démarrage côté ébaucheur en raison de l’absence de protection de sécurité contre la chute de gouttes.\n- Sec. 7, 8 et 11 Interférence entre l’empilage et la charnière. Remplacement de l’axe de charnière en raison d’une interférence avec l’empilage.",
    "type": "libre"
@@ -7425,7 +7410,7 @@
    "date": "2026-09-28",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "Cause retard : dévoilage arche (3h17)",
+   "cause": "Cause retard : dévoilage arche (3h17) vs temps norme 90 min",
    "type": "libre"
   },
   {
