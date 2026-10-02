@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-02T02:19:51",
+ "derniere_maj": "2026-10-02T08:34:14",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3944,6 +3944,73 @@
      "texte": "Mise a l'arche avec 2 section"
     }
    ]
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 63,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 22,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 114,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 29,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement scoop T0 => T1"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 209,
+   "objectif_min": 115,
+   "details": []
   }
  ],
  "demarrages": [
@@ -7754,6 +7821,41 @@
    "ligne": "235",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "Anticipation +22°C = 50 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement scoop T0 => T1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Fourreaux non préparée (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Dans l’attente de l’arrivée des fourreaux. (Moulerie)",
    "type": "libre"
   },
   {
