@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-02T08:34:14",
+ "derniere_maj": "2026-10-02T11:01:35",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3954,11 +3954,7 @@
    "details": [
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)"
-    },
-    {
-     "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
+     "texte": "Moulerie non conforme | - Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert"
     }
    ]
   },
@@ -3975,15 +3971,11 @@
    "ligne": "222",
    "metrique": "PT1",
    "duree_min": 114,
-   "objectif_min": 70,
+   "objectif_min": 45,
    "details": [
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)"
-    },
-    {
-     "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
+     "texte": "Moulerie non conforme | - Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert"
     }
    ]
   },
@@ -3993,23 +3985,14 @@
    "metrique": "RON",
    "duree_min": 29,
    "objectif_min": 15,
-   "details": [
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Changement scoop T0 => T1"
-    },
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-10-02",
    "ligne": "222",
    "metrique": "TCH",
    "duree_min": 209,
-   "objectif_min": 115,
+   "objectif_min": 90,
    "details": []
   }
  ],
@@ -7826,20 +7809,6 @@
   {
    "date": "2026-10-02",
    "ligne": "222",
-   "tache": "Changement rondelle (cuvette)",
-   "cause": "- Changement scoop T0 => T1",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-02",
-   "ligne": "222",
-   "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
-  },
-  {
-   "date": "2026-10-02",
-   "ligne": "222",
    "tache": "Cote Ebaucheur",
    "cause": "Moulerie non conforme",
    "type": "motif"
@@ -7848,21 +7817,21 @@
    "date": "2026-10-02",
    "ligne": "222",
    "tache": "Cote Ebaucheur",
-   "cause": "- Fourreaux non préparée (Moulerie)",
+   "cause": "- Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert",
    "type": "libre"
   },
   {
    "date": "2026-10-02",
    "ligne": "222",
-   "tache": "Cote Ebaucheur",
-   "cause": "- Dans l’attente de l’arrivée des fourreaux. (Moulerie)",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.8 - Changement corp du take out",
    "type": "libre"
   },
   {
    "date": "2026-10-02",
    "ligne": "222",
    "tache": "TARGET (Grand T1)",
-   "cause": "T1 = 115 min = 15 + 15 + 70 + 15 (mise en régime)",
+   "cause": "T1 = 115 min = 15 + 15 + 45 + 15 (mise en régime)",
    "type": "libre"
   },
   {
@@ -7876,7 +7845,7 @@
    "date": "2026-10-02",
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
-   "cause": "70 min = catégorie 3 + changement déflecteurs = 45 +25",
+   "cause": "45 min = catégorie",
    "type": "libre"
   },
   {
