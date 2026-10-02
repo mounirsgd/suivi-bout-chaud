@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-02T11:01:35",
+ "derniere_maj": "2026-10-02T16:06:43",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -3954,7 +3954,11 @@
    "details": [
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert"
+     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)\n- Sec. 9 et 10 - réglage niveau du bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
     }
    ]
   },
@@ -3975,7 +3979,11 @@
    "details": [
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert"
+     "texte": "Moulerie non conforme | - Fourreaux non préparée (Moulerie)\n- Sec. 9 et 10 - réglage niveau du bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Dans l’attente de l’arrivée des fourreaux. (Moulerie)"
     }
    ]
   },
@@ -7817,14 +7825,35 @@
    "date": "2026-10-02",
    "ligne": "222",
    "tache": "Cote Ebaucheur",
-   "cause": "- Manque Fourreaux \n- Sec. 9 et 10 - réglage niveau du bras de transfert",
+   "cause": "- Fourreaux non préparée (Moulerie)\n- Sec. 9 et 10 - réglage niveau du bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Dans l’attente de l’arrivée des fourreaux. (Moulerie)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Demarrage section sans flacon",
+   "cause": "Réglages section non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-02",
+   "ligne": "222",
+   "tache": "Demarrage section sans flacon",
+   "cause": "En attente du démarrage des sections par la Production",
    "type": "libre"
   },
   {
    "date": "2026-10-02",
    "ligne": "222",
    "tache": "Machine complete avec flacon",
-   "cause": "- Sec.8 - Changement corp du take out",
+   "cause": "- Sec.8 - Changement corp du take out\n- Réglages opérationnel\n- Réglage du glissement de la goutte sur deux sections.",
    "type": "libre"
   },
   {
