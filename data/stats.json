@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-05T02:07:35",
+ "derniere_maj": "2026-10-05T09:07:05",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4002,6 +4002,70 @@
    "duree_min": 209,
    "objectif_min": 90,
    "details": []
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 37,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement déflecteurs\n- Sec. 6 et 8 - Réglage niveau bras de transfert"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 70,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement déflecteurs\n- Sec. 6 et 8 - Réglage niveau bras de transfert"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 132,
+   "objectif_min": 100,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7882,6 +7946,27 @@
    "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "T1 = 15 min = Mise en régime",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement déflecteurs\n- Sec. 6 et 8 - Réglage niveau bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-05",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
