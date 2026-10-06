@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-06T03:08:24",
+ "derniere_maj": "2026-10-06T09:00:47",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4066,6 +4066,98 @@
      "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 137,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Moules de bague équipés d’anciens élastiques difficiles à retirer (16 pièces).\n- Sec.2 - Réglage niveau bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2 et 8 - Réglage niveau bras de transfert"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 33,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 66,
+   "objectif_min": 75,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Moules de bague équipés d’anciens élastiques difficiles à retirer (16 pièces).\n- Sec.2 - Réglage niveau bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2 et 8 - Réglage niveau bras de transfert"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 29,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Chauffage de l’orifice de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "SO3",
+   "duree_min": 164,
+   "objectif_min": 90,
+   "details": []
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 237,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7995,6 +8087,55 @@
    "ligne": "222",
    "tache": "TARGET (Rondelle)",
    "cause": "Pa de changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Chauffage de l’orifice de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Moules de bague équipés d’anciens élastiques difficiles à retirer (16 pièces).\n- Sec.2 - Réglage niveau bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.2 et 8 - Réglage niveau bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités.",
    "type": "libre"
   },
   {
