@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-06T09:00:47",
+ "derniere_maj": "2026-10-06T11:57:30",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4098,7 +4098,12 @@
    "metrique": "NET",
    "duree_min": 33,
    "objectif_min": 15,
-   "details": []
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine très sale"
+    }
+   ]
   },
   {
    "date": "2026-10-06",
@@ -4149,6 +4154,10 @@
    "duree_min": 237,
    "objectif_min": 120,
    "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine très sale"
+    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10."
@@ -8092,6 +8101,13 @@
   {
    "date": "2026-10-06",
    "ligne": "233",
+   "tache": "Nettoyage de machine",
+   "cause": "Machine très sale",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-06",
+   "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Chauffage de l’orifice de la rondelle réfractaire.",
    "type": "libre"
@@ -8170,7 +8186,7 @@
    "date": "2026-10-07",
    "ligne": "222",
    "tache": "TARGET (Grand T1)",
-   "cause": "100 min = 15 + 70 + 15",
+   "cause": "115 min = 15 + 70 + 15",
    "type": "libre"
   },
   {
@@ -8184,8 +8200,8 @@
    "date": "2026-10-07",
    "ligne": "222",
    "tache": "TARGET (Rondelle)",
-   "cause": "Pas de changement cuvette",
-   "type": "libre"
+   "cause": "15 min",
+   "type": "normal"
   },
   {
    "date": "2026-10-08",
