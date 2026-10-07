@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-07T02:29:24",
+ "derniere_maj": "2026-10-07T08:42:02",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4167,6 +4167,48 @@
      "texte": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
     }
    ]
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 22,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 91,
+   "objectif_min": 70,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec. 9 - Changement charnière ébaucher, en raison d’une interférence avec le moule\n- Sec.11 - Remplacement de deux cartouches (cav. A et B)"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 122,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Premier coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Paraison non conforme | - 2émé coupe - Avec remplacement des lames en raison du réglage de la goutte de la cavité B."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Chauffage de la rondelle réfractaire."
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -8181,6 +8223,62 @@
    "tache": "TARGET (Passage en SO3)",
    "cause": "90 min",
    "type": "normal"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Premier coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Paraison non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- 2émé coupe - Avec remplacement des lames en raison du réglage de la goutte de la cavité B.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Chauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs\n- Sec. 9 - Changement charnière ébaucher, en raison d’une interférence avec le moule\n- Sec.11 - Remplacement de deux cartouches (cav. A et B)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "- Remplacement du scoop T1 par un T0, non prévu dans la BDD ni dans le Job On.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "- 2émé entrée",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Debut section avec flacon",
+   "cause": "- Réglages opérationnels",
+   "type": "libre"
   },
   {
    "date": "2026-10-07",
