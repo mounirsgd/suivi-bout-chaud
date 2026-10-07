@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-07T11:42:14",
+ "derniere_maj": "2026-10-07T17:16:40",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4172,7 +4172,7 @@
    "date": "2026-10-07",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": 109,
+   "duree_min": 328,
    "objectif_min": 15,
    "details": [
     {
@@ -4186,6 +4186,10 @@
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
     }
    ]
   },
@@ -4235,7 +4239,7 @@
    "date": "2026-10-07",
    "ligne": "222",
    "metrique": "TCH",
-   "duree_min": 242,
+   "duree_min": 461,
    "objectif_min": 115,
    "details": [
     {
@@ -4245,6 +4249,10 @@
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
     }
    ]
   }
@@ -8356,6 +8364,13 @@
    "ligne": "222",
    "tache": "Mise a l arche",
    "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-07",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte.",
    "type": "libre"
   },
   {
