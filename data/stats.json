@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-08T09:00:40",
+ "derniere_maj": "2026-10-08T11:57:10",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4617,6 +4617,22 @@
   {
    "date": "2026-10-13",
    "ligne": "232"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "235"
   }
  ],
  "causes": [
@@ -8636,6 +8652,97 @@
    "ligne": "232",
    "tache": "TARGET (Petit t1)",
    "cause": "165 min= catégorie 3 + changement procédé + déflecteurs = 105+30+30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "100 min = anticipation +50°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "90 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "45 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "140 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "185 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "140 min = 75+30+15+20 = catégorie 3 + changement procédé + changement charnières + changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "130 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min = 40+30+15 = catégorie 3 + changement procédé + changement déflecterus",
    "type": "libre"
   }
  ]
