@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-09T02:59:13",
+ "derniere_maj": "2026-10-09T09:07:46",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4331,6 +4331,82 @@
      "texte": "- Modification du nombre de doigts de la roue de transfert, de 48 à 64. (6 sections)"
     }
    ]
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 69,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Tête de soufflage non préparée pour le changement, en raison d’une erreur dans la préparation du matériel par la moulerie.\n-  6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 6 sections\n- Sec.8 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 56,
+   "objectif_min": 45,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Tête de soufflage non préparée pour le changement, en raison d’une erreur dans la préparation du matériel par la moulerie.\n-  6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 6 sections\n- Sec.8 - Réglage du niveau du bras de transfert."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 8,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Une nouvelle lame a été montée afin d’améliorer le réglage de la goutte."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 137,
+   "objectif_min": 75,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -8554,6 +8630,55 @@
    "ligne": "233",
    "tache": "TARGET (Petit t1)",
    "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Une nouvelle lame a été montée afin d’améliorer le réglage de la goutte.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Tête de soufflage non préparée pour le changement, en raison d’une erreur dans la préparation du matériel par la moulerie.\n-  6 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 6 sections\n- Sec.8 - Réglage du niveau du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Debut section avec flacon",
+   "cause": "- Réglages opérationnels",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-09",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
