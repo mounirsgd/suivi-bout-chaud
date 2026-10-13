@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-13T03:39:28",
+ "derniere_maj": "2026-10-13T09:27:14",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4417,7 +4417,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Retard réglage SO3 | Pour la Production, mise à l’arche à 8h40."
+     "texte": "Retard Dévoilage arche"
     }
    ]
   },
@@ -4430,7 +4430,7 @@
    "details": [
     {
      "tache": "Nettoyage de machine",
-     "texte": "Manque de personnel | - Manque de personnel BF"
+     "texte": "Manque de personnel"
     }
    ]
   },
@@ -4464,7 +4464,7 @@
    "details": [
     {
      "tache": "Nettoyage SO3",
-     "texte": "Nettoyage long"
+     "texte": "Nettoyage long | Dévoilage 3h23"
     }
    ]
   },
@@ -4477,11 +4477,11 @@
    "details": [
     {
      "tache": "Nettoyage de machine",
-     "texte": "Manque de personnel | - Manque de personnel BF"
+     "texte": "Manque de personnel"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Retard réglage SO3 | Pour la Production, mise à l’arche à 8h40."
+     "texte": "Retard Dévoilage arche"
     }
    ]
   },
@@ -4498,11 +4498,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section\n- Réglage de la roue."
+     "texte": "Rechargement Plan Fab pour modif entre axe sortie Mdp et mise en place roue transfert"
     }
    ]
   },
@@ -4553,11 +4549,140 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section"
+     "texte": "Rechargement Plan Fab pour modif entre axe sortie Mdp et mise en place roue transfert"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 2,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine A"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine B"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Machine A\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.1A - Déflecteur mal positionné.\n- Sec.3C - Absence de déflecteur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Machine B\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.10 - Changement support fond ébaucheur"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section\n- Réglage de la roue."
+     "texte": "- Machine B\n- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine A\n- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "NET",
+   "duree_min": 85,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine A"
+    },
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 150,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine A"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine B"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Machine A\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.1A - Déflecteur mal positionné.\n- Sec.3C - Absence de déflecteur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Machine B\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.10 - Changement support fond ébaucheur"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "RON",
+   "duree_min": 62,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Machine B - Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Machine B - Réchauffage de la rondelle réfractaire. Coupe às 7h31."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Machine A - Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Machine A - Réchauffage de la rondelle réfractaire. Coupe às 7h56."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "SO3",
+   "duree_min": 152,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "metrique": "TCH",
+   "duree_min": 237,
+   "objectif_min": 210,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine A"
+    },
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Machine B"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine B\n- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine A\n- Mise a l'arche avec 2 sections"
     }
    ]
   }
@@ -8865,13 +8990,6 @@
   {
    "date": "2026-10-12",
    "ligne": "224",
-   "tache": "Nettoyage de machine",
-   "cause": "- Manque de personnel BF",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-12",
-   "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Coupe",
    "type": "normal"
@@ -8880,14 +8998,7 @@
    "date": "2026-10-12",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "Retard réglage SO3",
-   "type": "motif"
-  },
-  {
-   "date": "2026-10-12",
-   "ligne": "224",
-   "tache": "Mise a l arche",
-   "cause": "Pour la Production, mise à l’arche à 8h40.",
+   "cause": "Retard Dévoilage arche",
    "type": "libre"
   },
   {
@@ -8896,6 +9007,13 @@
    "tache": "Nettoyage SO3",
    "cause": "Nettoyage long",
    "type": "motif"
+  },
+  {
+   "date": "2026-10-12",
+   "ligne": "224",
+   "tache": "Nettoyage SO3",
+   "cause": "Dévoilage 3h23",
+   "type": "libre"
   },
   {
    "date": "2026-10-12",
@@ -8978,14 +9096,7 @@
    "date": "2026-10-12",
    "ligne": "233",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 section",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-12",
-   "ligne": "233",
-   "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 section\n- Réglage de la roue.",
+   "cause": "Rechargement Plan Fab pour modif entre axe sortie Mdp et mise en place roue transfert",
    "type": "libre"
   },
   {
@@ -9014,6 +9125,76 @@
    "ligne": "233",
    "tache": "TARGET (Rondelle)",
    "cause": "pas de changement",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Nettoyage de machine",
+   "cause": "- Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Nettoyage de machine",
+   "cause": "- Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Machine B - Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Machine B - Réchauffage de la rondelle réfractaire. Coupe às 7h31.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Machine A - Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Machine A - Réchauffage de la rondelle réfractaire. Coupe às 7h56.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Machine A\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.1A - Déflecteur mal positionné.\n- Sec.3C - Absence de déflecteur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Machine B\n- Changement déflecteurs\n- Changement Procédé SS => PS\n- Sec.10 - Changement support fond ébaucheur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Machine B\n- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-13",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Machine A\n- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
