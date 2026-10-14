@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-14T07:40:27",
+ "derniere_maj": "2026-10-14T10:03:59",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4685,6 +4685,86 @@
      "texte": "- Machine A\n- Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 45,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "-  6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "-  6 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 55,
+   "objectif_min": 45,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "-  6 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "-  6 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 93,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la cuvette.\n- Coupe às 7h27"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage du poids, de la goutte et de la température."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Remplacement des lames."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 125,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -9216,6 +9296,48 @@
    "ligne": "232",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "100 min = anticipation +50°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la cuvette.\n- Coupe às 7h27",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage du poids, de la goutte et de la température.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Remplacement des lames.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "-  6 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.10 - Réglage de la hauteur de la pince (9h00 à 9h20).",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-14",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
