@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-15T09:47:41",
+ "derniere_maj": "2026-10-15T14:40:54",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4769,6 +4769,35 @@
   {
    "date": "2026-10-15",
    "ligne": "236",
+   "metrique": "MR2",
+   "duree_min": 67,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 10 Sections\n-  Sec.4 - Problème système Vertflow."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Moules de bague incorrects : remplacement des moules de bague, suivi d’un nouveau réglage de la hauteur du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 10 Sections\n- Changement déflecteurs"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.5 - Déflecteur présentant une course latérale limitée. Analyser l’origine du problème afin de planifier une intervention corrective. Une amélioration du mouvement latéral des déflecteurs est nécessaire sur l’ensemble des cavités."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
    "metrique": "NET",
    "duree_min": 40,
    "objectif_min": 15,
@@ -4820,7 +4849,20 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Deuxième lame"
+     "texte": "- Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "metrique": "TCH",
+   "duree_min": 342,
+   "objectif_min": 140,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 section"
     }
    ]
   }
@@ -5123,16 +5165,24 @@
    "ligne": "224"
   },
   {
-   "date": "2026-10-16",
-   "ligne": "235"
-  },
-  {
    "date": "2026-10-19",
    "ligne": "224"
   },
   {
    "date": "2026-10-19",
    "ligne": "233"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "224"
   }
  ],
  "causes": [
@@ -9452,7 +9502,7 @@
    "date": "2026-10-15",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Deuxième lame",
+   "cause": "- Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte.",
    "type": "libre"
   },
   {
@@ -9500,6 +9550,20 @@
   {
    "date": "2026-10-15",
    "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.10 - Problème de fonctionnement de la vanne proportionnelle.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 section",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "140 min",
    "type": "normal"
@@ -9540,27 +9604,6 @@
    "type": "libre"
   },
   {
-   "date": "2026-10-16",
-   "ligne": "235",
-   "tache": "TARGET (Grand T1)",
-   "cause": "130 min",
-   "type": "normal"
-  },
-  {
-   "date": "2026-10-16",
-   "ligne": "235",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "15 min",
-   "type": "normal"
-  },
-  {
-   "date": "2026-10-16",
-   "ligne": "235",
-   "tache": "TARGET (Petit t1)",
-   "cause": "85 min = 40+30+15 = catégorie 3 + changement procédé + changement déflecterus",
-   "type": "libre"
-  },
-  {
    "date": "2026-10-19",
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
@@ -9593,6 +9636,76 @@
    "ligne": "233",
    "tache": "TARGET (Petit t1)",
    "cause": "45 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "90 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "45 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "130 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min = 40+30+15 = catégorie 3 + changement procédé + changement déflecterus",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "235",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Dévoilage arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "140 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min = catégorie 3 + changement déflecteur",
    "type": "libre"
   }
  ]
