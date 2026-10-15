@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-15T07:28:27",
+ "derniere_maj": "2026-10-15T09:47:41",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4765,6 +4765,64 @@
      "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "metrique": "NET",
+   "duree_min": 40,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "metrique": "PT1",
+   "duree_min": 194,
+   "objectif_min": 95,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 10 Sections\n-  Sec.4 - Problème système Vertflow."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Moules de bague incorrects : remplacement des moules de bague, suivi d’un nouveau réglage de la hauteur du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 10 Sections\n- Changement déflecteurs"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.5 - Déflecteur présentant une course latérale limitée. Analyser l’origine du problème afin de planifier une intervention corrective. Une amélioration du mouvement latéral des déflecteurs est nécessaire sur l’ensemble des cavités."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "metrique": "RON",
+   "duree_min": 217,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Deuxième lame"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -5067,6 +5125,14 @@
   {
    "date": "2026-10-16",
    "ligne": "235"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "233"
   }
  ],
  "causes": [
@@ -9364,6 +9430,76 @@
   {
    "date": "2026-10-15",
    "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Deuxième lame",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "- 10 Sections\n-  Sec.4 - Problème système Vertflow.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "- Moules de bague incorrects : remplacement des moules de bague, suivi d’un nouveau réglage de la hauteur du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 10 Sections\n- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.5 - Déflecteur présentant une course latérale limitée. Analyser l’origine du problème afin de planifier une intervention corrective. Une amélioration du mouvement latéral des déflecteurs est nécessaire sur l’ensemble des cavités.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
+   "tache": "Debut section avec flacon",
+   "cause": "- Réglages opérationnels.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-15",
+   "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "140 min",
    "type": "normal"
@@ -9422,6 +9558,41 @@
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
    "cause": "85 min = 40+30+15 = catégorie 3 + changement procédé + changement déflecterus",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "170 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "125 min = Catégorie 3 + Changement Procédé + changement Déflecteur = 75 +30 +20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "75 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "45 min = catégorie 3",
    "type": "libre"
   }
  ]
