@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-16T07:12:28",
+ "derniere_maj": "2026-10-16T09:40:48",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4306,13 +4306,9 @@
    "date": "2026-10-08",
    "ligne": "233",
    "metrique": "RON",
-   "duree_min": 40,
+   "duree_min": 2,
    "objectif_min": null,
    "details": [
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Mise à niveau du feeder."
-    },
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Coupe"
@@ -4863,6 +4859,98 @@
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 40,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière\n- Remplacement de tout des bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Erreur de préparation du matériel pour le changement : entonnoir à 3 chanfreins (machine 25) préparé au lieu de l’entonnoir à 2 chanfreins requis pour la machine 24.\n- Un poinçon présentant un filetage intérieur endommagé.\n- Changement déflecteurs\n- Changement insert de charnière"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Réglages opérationnels."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 86,
+   "objectif_min": 140,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert de charnière\n- Remplacement de tout des bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Erreur de préparation du matériel pour le changement : entonnoir à 3 chanfreins (machine 25) préparé au lieu de l’entonnoir à 2 chanfreins requis pour la machine 24.\n- Un poinçon présentant un filetage intérieur endommagé.\n- Changement déflecteurs\n- Changement insert de charnière"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 98,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Remplacement des lames."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 171,
+   "objectif_min": 185,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Réglages opérationnels."
     }
    ]
   }
@@ -9040,13 +9128,6 @@
    "date": "2026-10-08",
    "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Mise à niveau du feeder.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-08",
-   "ligne": "233",
-   "tache": "Changement rondelle (cuvette)",
    "cause": "- Coupe",
    "type": "normal"
   },
@@ -9580,6 +9661,76 @@
    "ligne": "236",
    "tache": "TARGET (Petit t1)",
    "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Remplacement des lames.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert de charnière\n- Remplacement de tout des bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Erreur de préparation du matériel pour le changement : entonnoir à 3 chanfreins (machine 25) préparé au lieu de l’entonnoir à 2 chanfreins requis pour la machine 24.\n- Un poinçon présentant un filetage intérieur endommagé.\n- Changement déflecteurs\n- Changement insert de charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.5 - Réglage du niveau du bras de transfert.\n- Sec.6 -",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Réglages opérationnels.",
    "type": "libre"
   },
   {
