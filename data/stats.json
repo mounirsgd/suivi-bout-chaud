@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-16T09:40:48",
+ "derniere_maj": "2026-10-16T14:33:00",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4866,7 +4866,7 @@
    "date": "2026-10-16",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": 40,
+   "duree_min": 171,
    "objectif_min": 15,
    "details": [
     {
@@ -4884,6 +4884,10 @@
     {
      "tache": "Mise a l arche",
      "texte": "- Réglages opérationnels."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'ache tout les sections"
     }
    ]
   },
@@ -4916,16 +4920,16 @@
    "date": "2026-10-16",
    "ligne": "224",
    "metrique": "RON",
-   "duree_min": 98,
+   "duree_min": 243,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "Changement cuvette"
+     "texte": "- Changement cuvette"
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
+     "texte": "- Réchauffage de la rondelle réfractaire.\n- Coupe"
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -4933,7 +4937,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la rondelle réfractaire."
+     "texte": "- Remplacement du réfractaire.\n- Réchauffage de la rondelle réfractaire.\n- Remplacement des lames."
     }
    ]
   },
@@ -4941,7 +4945,7 @@
    "date": "2026-10-16",
    "ligne": "224",
    "metrique": "TCH",
-   "duree_min": 171,
+   "duree_min": 302,
    "objectif_min": 185,
    "details": [
     {
@@ -4951,6 +4955,10 @@
     {
      "tache": "Mise a l arche",
      "texte": "- Réglages opérationnels."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'ache tout les sections"
     }
    ]
   }
@@ -9667,15 +9675,15 @@
    "date": "2026-10-16",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "Changement cuvette",
+   "cause": "- Changement cuvette",
    "type": "libre"
   },
   {
    "date": "2026-10-16",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
+   "cause": "- Réchauffage de la rondelle réfractaire.\n- Coupe",
+   "type": "libre"
   },
   {
    "date": "2026-10-16",
@@ -9688,7 +9696,7 @@
    "date": "2026-10-16",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "cause": "- Remplacement du réfractaire.\n- Réchauffage de la rondelle réfractaire.\n- Remplacement des lames.",
    "type": "libre"
   },
   {
@@ -9731,6 +9739,13 @@
    "ligne": "224",
    "tache": "Mise a l arche",
    "cause": "- Réglages opérationnels.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-16",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'ache tout les sections",
    "type": "libre"
   },
   {
