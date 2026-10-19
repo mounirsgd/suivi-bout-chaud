@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-19T10:40:40",
+ "derniere_maj": "2026-10-19T16:48:19",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4965,6 +4965,23 @@
   {
    "date": "2026-10-19",
    "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 164,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Fourreaux non préparée pour le changement. (Moulerie)\n- Remplacement de l’entonnoir par un modèle de plus grand diamètre. (Moulerie)\n- Changement déflecteur\n- Changement procédé PS => SS"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
    "metrique": "NET",
    "duree_min": 27,
    "objectif_min": 15,
@@ -4979,7 +4996,7 @@
    "details": [
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Fourreaux non préparée pour le changement. (Moulerie)\n- Remplacement de l’entonnoir par un modèle de plus grand diamètre. (Moulerie)"
+     "texte": "Moulerie non conforme | - Fourreaux non préparée pour le changement. (Moulerie)\n- Remplacement de l’entonnoir par un modèle de plus grand diamètre. (Moulerie)\n- Changement déflecteur\n- Changement procédé PS => SS"
     }
    ]
   },
@@ -5010,6 +5027,40 @@
   },
   {
    "date": "2026-10-19",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 302,
+   "objectif_min": 185,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 54,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "-  Installation de tapis du convoyeur. (8h25 à 9h15)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.1 et 2 - Mise à niveau du bras d’inversion."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Réglage de la roue.\n- Mise a l'arche avec 3 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
    "ligne": "233",
    "metrique": "NET",
    "duree_min": 30,
@@ -5030,6 +5081,19 @@
     {
      "tache": "Cote Ebaucheur",
      "texte": "- Sec.1 et 2 - Mise à niveau du bras d’inversion."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 179,
+   "objectif_min": 105,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Réglage de la roue.\n- Mise a l'arche avec 3 section"
     }
    ]
   }
@@ -9879,7 +9943,14 @@
    "date": "2026-10-19",
    "ligne": "224",
    "tache": "Cote Ebaucheur",
-   "cause": "- Fourreaux non préparée pour le changement. (Moulerie)\n- Remplacement de l’entonnoir par un modèle de plus grand diamètre. (Moulerie)",
+   "cause": "- Fourreaux non préparée pour le changement. (Moulerie)\n- Remplacement de l’entonnoir par un modèle de plus grand diamètre. (Moulerie)\n- Changement déflecteur\n- Changement procédé PS => SS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
@@ -9935,7 +10006,7 @@
    "date": "2026-10-19",
    "ligne": "233",
    "tache": "Mise a l arche",
-   "cause": "- Réglage de la roue.",
+   "cause": "- Réglage de la roue.\n- Mise a l'arche avec 3 section",
    "type": "libre"
   },
   {
