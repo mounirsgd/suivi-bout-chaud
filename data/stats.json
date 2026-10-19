@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-19T01:24:29",
+ "derniere_maj": "2026-10-19T07:48:59",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4961,6 +4961,48 @@
      "texte": "- Mise a l'ache tout les sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 27,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 50,
+   "objectif_min": 125,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Fourreaux non préparée pour le changement.\n- Changement déflecteurs\n- Changement insert de ébaucheur"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 23,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la cuvette."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -9767,6 +9809,41 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "140 min = 75+30+15+20 = catégorie 3 + changement procédé + changement charnières + changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la cuvette.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-19",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Fourreaux non préparée pour le changement.\n- Changement déflecteurs\n- Changement insert de ébaucheur",
    "type": "libre"
   },
   {
