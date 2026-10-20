@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-20T09:57:41",
+ "derniere_maj": "2026-10-20T14:41:03",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4181,14 +4181,6 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Réglages opérationnels"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
-    {
-     "tache": "Mise a l arche",
      "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
     }
    ]
@@ -4242,14 +4234,6 @@
    "duree_min": 461,
    "objectif_min": 115,
    "details": [
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Réglages opérationnels"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
     {
      "tache": "Mise a l arche",
      "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
@@ -4413,7 +4397,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Retard Dévoilage arche"
+     "texte": "Retard Dévoilage arche (3h23 vs norme 1h30)"
     }
    ]
   },
@@ -4477,7 +4461,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Retard Dévoilage arche"
+     "texte": "Retard Dévoilage arche (3h23 vs norme 1h30)"
     }
    ]
   },
@@ -4787,7 +4771,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 section"
+     "texte": "Moule de bague incorrect (conception?)-Ajustement paraison (changement lame et entonnoir)"
     }
    ]
   },
@@ -4858,7 +4842,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec 2 section"
+     "texte": "Moule de bague incorrect (conception?)-Ajustement paraison (changement lame et entonnoir)"
     }
    ]
   },
@@ -5100,6 +5084,27 @@
   {
    "date": "2026-10-20",
    "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 41,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Changement Charnière\n- Un fond de moule complètement endommagé. (Moulerie)"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Changement Charnière"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec é sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222",
    "metrique": "NET",
    "duree_min": 15,
    "objectif_min": 15,
@@ -5145,6 +5150,19 @@
   },
   {
    "date": "2026-10-20",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 169,
+   "objectif_min": 90,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec é sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
    "ligne": "235",
    "metrique": "NET",
    "duree_min": 64,
@@ -5164,7 +5182,7 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Fourreau non préparé pour le changement. (Moulerie)\n- Entonnoir incorrect. (Moulerie)\n- Changement procédé\n- Changement déflecteurs\n- Changement cartouches\n- Changement charnière"
+     "texte": "Moulerie non conforme | Nouvelle moulerie 5'' non conforme avec montage charnières"
     }
    ]
   },
@@ -5514,6 +5532,14 @@
   {
    "date": "2026-10-21",
    "ligne": "224"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "236"
+  },
+  {
+   "date": "2026-10-22",
+   "ligne": "233"
   }
  ],
  "causes": [
@@ -9336,13 +9362,6 @@
    "date": "2026-10-07",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-07",
-   "ligne": "222",
-   "tache": "Mise a l arche",
    "cause": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte.",
    "type": "libre"
   },
@@ -9518,7 +9537,7 @@
    "date": "2026-10-12",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "Retard Dévoilage arche",
+   "cause": "Retard Dévoilage arche (3h23 vs norme 1h30)",
    "type": "libre"
   },
   {
@@ -9882,7 +9901,7 @@
    "date": "2026-10-15",
    "ligne": "236",
    "tache": "Mise a l arche",
-   "cause": "Mise a l'arche avec 2 section",
+   "cause": "Moule de bague incorrect (conception?)-Ajustement paraison (changement lame et entonnoir)",
    "type": "libre"
   },
   {
@@ -10168,6 +10187,13 @@
   {
    "date": "2026-10-20",
    "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec é sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-20",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "90 min",
    "type": "normal"
@@ -10225,7 +10251,7 @@
    "date": "2026-10-20",
    "ligne": "235",
    "tache": "Cote Ebaucheur",
-   "cause": "- Fourreau non préparé pour le changement. (Moulerie)\n- Entonnoir incorrect. (Moulerie)\n- Changement procédé\n- Changement déflecteurs\n- Changement cartouches\n- Changement charnière",
+   "cause": "Nouvelle moulerie 5'' non conforme avec montage charnières",
    "type": "libre"
   },
   {
@@ -10275,6 +10301,48 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "95 min = catégorie 3 + changement déflecteur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "165 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min= catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-22",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "120 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-22",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-22",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min =catégorie 3",
    "type": "libre"
   }
  ]
