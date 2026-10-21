@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-21T10:01:38",
+ "derniere_maj": "2026-10-21T14:51:57",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5273,12 +5273,12 @@
    "date": "2026-10-21",
    "ligne": "224",
    "metrique": "RON",
-   "duree_min": 1448,
+   "duree_min": 22,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "Réchauffage de la cuvette"
+     "texte": "- Réchauffage de la cuvette"
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -10437,7 +10437,7 @@
    "date": "2026-10-21",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "Réchauffage de la cuvette",
+   "cause": "- Réchauffage de la cuvette",
    "type": "libre"
   },
   {
@@ -10479,7 +10479,7 @@
    "date": "2026-10-21",
    "ligne": "224",
    "tache": "Machine complete avec flacon",
-   "cause": "Sec. 6 et 8 -",
+   "cause": "Sec. 6 et 8",
    "type": "libre"
   },
   {
