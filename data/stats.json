@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-22T07:37:11",
+ "derniere_maj": "2026-10-22T10:02:44",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5755,6 +5755,14 @@
   {
    "date": "2026-10-22",
    "ligne": "233"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235"
   }
  ],
  "causes": [
@@ -10669,7 +10677,7 @@
    "date": "2026-10-22",
    "ligne": "233",
    "tache": "Machine complete avec flacon",
-   "cause": "- Sec.7 - Remplacement des électrovannes du BV1 et réparation du système d’amortissement en fin de course du mécanisme de fond ébaucher\n- Sec.2 - Remplacement de la plaque de guidage supérieure des mécanismes de poinçon.",
+   "cause": "- Sec.7 - Remplacement des électrovannes du BV1 et réparation du système d’amortissement en fin de course du mécanisme de fond ébaucher. (Terminé às 9h)\n- Sec.2 - Remplacement de la plaque de guidage supérieure des mécanismes de poinçon.(Terminé às 9h)",
    "type": "libre"
   },
   {
@@ -10698,6 +10706,48 @@
    "ligne": "233",
    "tache": "TARGET (Petit t1)",
    "cause": "85 min =catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "150 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "120 = catégorie 3 + changement procédé + Changement charnières EB = 75+ 30 + 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "115 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "70 min = catégorie 3 + changement déflecteurs + changement charnières EB/FI",
    "type": "libre"
   }
  ]
