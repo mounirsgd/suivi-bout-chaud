@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-23T09:56:53",
+ "derniere_maj": "2026-10-23T14:40:43",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5918,6 +5918,14 @@
   {
    "date": "2026-10-28",
    "ligne": "236"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235"
   }
  ],
  "causes": [
@@ -11041,8 +11049,22 @@
   {
    "date": "2026-10-28",
    "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "3h00",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "120 min = catégorie 3 + Changement procédés + charnières =75 + 30 = 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "30 min = anticipation +21°C",
    "type": "libre"
   },
   {
@@ -11064,6 +11086,55 @@
    "ligne": "236",
    "tache": "TARGET (Petit t1)",
    "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "3h00",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "120 min = catégorie 3 + changement procédé + charnière = 75+15+30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "30 min =anticipation +34°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h10",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "100 min = catégorie 3+  changement procédé + charnières + déflecteurs = 40+15+30+15",
    "type": "libre"
   }
  ]
