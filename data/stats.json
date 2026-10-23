@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-23T07:34:27",
+ "derniere_maj": "2026-10-23T09:56:53",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5429,6 +5429,137 @@
      "texte": "- Mise a l'arche avec 2 section."
     }
    ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 0,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement Charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement procédé\n- Changement Charnière\n- Sections 7 et 8 - Les dernières sections."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 105,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement Charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement procédé\n- Changement Charnière\n- Sections 7 et 8 - Les dernières sections."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 120,
+   "objectif_min": 150,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 17,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement déflecteurs\n- Changement charnière"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 110,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement déflecteurs\n- Changement charnière"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 162,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -5763,6 +5894,30 @@
   {
    "date": "2026-10-23",
    "ligne": "235"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "236"
   }
  ],
  "causes": [
@@ -10711,6 +10866,34 @@
   {
    "date": "2026-10-23",
    "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement Charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement procédé\n- Changement Charnière\n- Sections 7 et 8 - Les dernières sections.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sections 7 et 8 - Les dernières sections.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "150 min",
    "type": "normal"
@@ -10732,6 +10915,41 @@
   {
    "date": "2026-10-23",
    "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 7 sections\n- Changement charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 7 sections\n- Changement déflecteurs\n- Changement charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.5A - changement cartouche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-23",
+   "ligne": "235",
    "tache": "TARGET (Grand T1)",
    "cause": "115 min",
    "type": "normal"
@@ -10748,6 +10966,104 @@
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
    "cause": "70 min = catégorie 3 + changement déflecteurs + changement charnières EB/FI",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h45",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "105 min = catégorie 3+ changement procédé+charnières+déflecteurs=45+20+15+25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "30 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "15 min = catégorie 1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h10",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "120 min = catégorie 3 + Changement procédés + charnières =75 + 30 = 15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h05",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
    "type": "libre"
   }
  ]
