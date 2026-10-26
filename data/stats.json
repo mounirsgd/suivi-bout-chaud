@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-26T07:49:48",
+ "derniere_maj": "2026-10-26T10:58:46",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5499,14 +5499,6 @@
     {
      "tache": "Cote Finisseur",
      "texte": "- 7 sections\n- Changement charnière"
-    },
-    {
-     "tache": "Cote Ebaucheur",
-     "texte": "- 7 sections\n- Changement déflecteurs\n- Changement charnière"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
   },
@@ -5528,10 +5520,6 @@
     {
      "tache": "Cote Finisseur",
      "texte": "- 7 sections\n- Changement charnière"
-    },
-    {
-     "tache": "Cote Ebaucheur",
-     "texte": "- 7 sections\n- Changement déflecteurs\n- Changement charnière"
     }
    ]
   },
@@ -5554,10 +5542,22 @@
    "metrique": "TCH",
    "duree_min": 162,
    "objectif_min": 115,
+   "details": []
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 17,
+   "objectif_min": 15,
    "details": [
     {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.7 - Vis de fixation des cartouches cassées sur le mécanisme de poinçon."
+    },
+    {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
+     "texte": "Retard : 40 min vs 15 min (réel vs standard) pour réchauffage cuvette QP plus long"
     }
    ]
   },
@@ -5574,15 +5574,11 @@
    "ligne": "222",
    "metrique": "PT1",
    "duree_min": 85,
-   "objectif_min": 120,
+   "objectif_min": 85,
    "details": [
     {
-     "tache": "Cote Finisseur",
-     "texte": "- Changement charnière"
-    },
-    {
      "tache": "Cote Ebaucheur",
-     "texte": "- Changement déflecteurs"
+     "texte": "- Sec.7 - Vis de fixation des cartouches cassées sur le mécanisme de poinçon."
     }
    ]
   },
@@ -5609,6 +5605,36 @@
   },
   {
    "date": "2026-10-26",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 132,
+   "objectif_min": 130,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Retard : 40 min vs 15 min (réel vs standard) pour réchauffage cuvette QP plus long"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 17,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
    "ligne": "235",
    "metrique": "PT1",
    "duree_min": 10,
@@ -5617,6 +5643,19 @@
     {
      "tache": "Cote Finisseur",
      "texte": "- Changement fond"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "metrique": "SO3",
+   "duree_min": 2,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "Démarrage SO3"
     }
    ]
   }
@@ -10996,22 +11035,8 @@
   {
    "date": "2026-10-23",
    "ligne": "235",
-   "tache": "Cote Ebaucheur",
-   "cause": "- 7 sections\n- Changement déflecteurs\n- Changement charnière",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-23",
-   "ligne": "235",
    "tache": "Machine complete avec flacon",
    "cause": "- Sec.5A - changement cartouche",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-23",
-   "ligne": "235",
-   "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
@@ -11059,22 +11084,22 @@
   {
    "date": "2026-10-26",
    "ligne": "222",
-   "tache": "Cote Finisseur",
-   "cause": "- Changement charnière",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.7 - Vis de fixation des cartouches cassées sur le mécanisme de poinçon.",
    "type": "libre"
   },
   {
    "date": "2026-10-26",
    "ligne": "222",
-   "tache": "Cote Ebaucheur",
-   "cause": "- Changement déflecteurs",
+   "tache": "Mise a l arche",
+   "cause": "Retard : 40 min vs 15 min (réel vs standard) pour réchauffage cuvette QP plus long",
    "type": "libre"
   },
   {
    "date": "2026-10-26",
    "ligne": "222",
    "tache": "TARGET (Grand T1)",
-   "cause": "2h45",
+   "cause": "2h10",
    "type": "normal"
   },
   {
@@ -11088,7 +11113,7 @@
    "date": "2026-10-26",
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
-   "cause": "105 min = catégorie 3+ changement procédé+charnières+déflecteurs=45+20+15+25",
+   "cause": "85 min = catégorie 3+charnières+déflecteurs=45+15+25",
    "type": "libre"
   },
   {
@@ -11096,6 +11121,20 @@
    "ligne": "235",
    "tache": "Cote Finisseur",
    "cause": "- Changement fond",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec tout sections",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "tache": "Nettoyage SO3",
+   "cause": "Démarrage SO3",
    "type": "libre"
   },
   {
