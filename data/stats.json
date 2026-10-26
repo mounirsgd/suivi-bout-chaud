@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-26T01:22:09",
+ "derniere_maj": "2026-10-26T07:49:48",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5560,6 +5560,65 @@
      "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 16,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 85,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 36,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la cuvette."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement fond"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -10979,6 +11038,41 @@
   {
    "date": "2026-10-26",
    "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la cuvette.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "2h45",
    "type": "normal"
@@ -10995,6 +11089,13 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "105 min = catégorie 3+ changement procédé+charnières+déflecteurs=45+20+15+25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-26",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement fond",
    "type": "libre"
   },
   {
