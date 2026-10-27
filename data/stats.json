@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-27T07:54:27",
+ "derniere_maj": "2026-10-27T10:24:40",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5658,6 +5658,116 @@
      "texte": "Démarrage SO3"
     }
    ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 10,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement moule de bague"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 4 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 6,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement moule de bague"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 62,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement plaque de repos carbone-antiperte"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2 - Mise à niveau du bras de transfert."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 92,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement plaque de repos carbone-antiperte"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.2 - Mise à niveau du bras de transfert."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 37,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 182,
+   "objectif_min": 130,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -11154,6 +11264,27 @@
   {
    "date": "2026-10-27",
    "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement moule de bague",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.12 - Problème mécanique : calibrage des angles d’ouverture et de fermeture du mécanisme ébaucheur. Section 11 mise à l’arrêt pour faciliter l’intervention.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 4 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "30 min",
    "type": "normal"
@@ -11163,6 +11294,55 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement plaque de repos carbone-antiperte",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.2 - Mise à niveau du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.1 - Changement insert ébaucher - vis cassée.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-27",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
