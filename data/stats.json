@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-27T10:24:40",
+ "derniere_maj": "2026-10-27T15:44:26",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5702,11 +5702,11 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- Sec.2 - Mise à niveau du bras de transfert."
+     "texte": "- Retard Début changement outillage EB car attente réchauffe cuvette QP"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
+     "texte": "Retard mise en régime : évacuation personnel suite alarme incendie"
     }
    ]
   },
@@ -5731,7 +5731,7 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- Sec.2 - Mise à niveau du bras de transfert."
+     "texte": "- Retard Début changement outillage EB car attente réchauffe cuvette QP"
     }
    ]
   },
@@ -5744,15 +5744,7 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Changement rondelle"
-    },
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la rondelle réfractaire."
-    },
-    {
-     "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
+     "texte": "- Réchauffage Cuvette QP"
     }
    ]
   },
@@ -5765,7 +5757,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
+     "texte": "Retard mise en régime : évacuation personnel suite alarme incendie"
     }
    ]
   }
@@ -11300,22 +11292,8 @@
    "date": "2026-10-27",
    "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Changement rondelle",
+   "cause": "- Réchauffage Cuvette QP",
    "type": "libre"
-  },
-  {
-   "date": "2026-10-27",
-   "ligne": "233",
-   "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la rondelle réfractaire.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-27",
-   "ligne": "233",
-   "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
   },
   {
    "date": "2026-10-27",
@@ -11328,7 +11306,7 @@
    "date": "2026-10-27",
    "ligne": "233",
    "tache": "Cote Ebaucheur",
-   "cause": "- Sec.2 - Mise à niveau du bras de transfert.",
+   "cause": "- Retard Début changement outillage EB car attente réchauffe cuvette QP",
    "type": "libre"
   },
   {
@@ -11342,7 +11320,7 @@
    "date": "2026-10-27",
    "ligne": "233",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
+   "cause": "Retard mise en régime : évacuation personnel suite alarme incendie",
    "type": "libre"
   },
   {
