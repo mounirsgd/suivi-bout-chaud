@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-28T11:14:40",
+ "derniere_maj": "2026-10-28T16:26:35",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5811,7 +5811,7 @@
    "date": "2026-10-28",
    "ligne": "224",
    "metrique": "RON",
-   "duree_min": 19,
+   "duree_min": 99,
    "objectif_min": 15,
    "details": [
     {
@@ -5820,11 +5820,11 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la rondelle réfractaire."
+     "texte": "- Réchauffage de la rondelle réfractaire.\n- Coupe"
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
+     "texte": "- Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36."
     }
    ]
   },
@@ -11524,15 +11524,15 @@
    "date": "2026-10-28",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "cause": "- Réchauffage de la rondelle réfractaire.\n- Coupe",
    "type": "libre"
   },
   {
    "date": "2026-10-28",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
+   "cause": "- Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36.",
+   "type": "libre"
   },
   {
    "date": "2026-10-28",
@@ -11546,6 +11546,13 @@
    "ligne": "224",
    "tache": "Cote Ebaucheur",
    "cause": "- 6 sections (2 - 6)\n- Changement procédé PS => SS\n- Changement insert charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-28",
+   "ligne": "224",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.2 - Bloc de commande manuelle côté finisseur.",
    "type": "libre"
   },
   {
