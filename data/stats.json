@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-10-30T08:40:56",
+ "derniere_maj": "2026-10-30T11:19:06",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5929,6 +5929,170 @@
      "texte": "Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 64,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec. 1, 4 et 6 - Changement corp take out"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert de charnière\n- Changement procédé SS => PS"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine prête pour la mise à l’arche avec 2 sections à 8h52.\n- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 23,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 70,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec. 1, 4 et 6 - Changement corp take out"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert de charnière\n- Changement procédé SS => PS"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 162,
+   "objectif_min": 180,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine prête pour la mise à l’arche avec 2 sections à 8h52.\n- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 89,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement procédé SS => PS\n- Changement charnière ébaucher"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a i'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 68,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière finisseur"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement procédé SS => PS\n- Changement charnière ébaucher"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 53,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage du poids et de la température."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 182,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a i'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -11649,6 +11813,62 @@
   {
    "date": "2026-10-30",
    "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Sec. 1, 4 et 6 - Changement corp take out",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert de charnière\n- Changement procédé SS => PS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Machine prête pour la mise à l’arche avec 2 sections à 8h52.\n- Mise a l'arche avec tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Changement Traitement Surface",
+   "cause": "Retard réglages",
+   "type": "motif"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
+   "tache": "Changement Traitement Surface",
+   "cause": "- Ajustement et réglage de traitement de surface.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "3h00",
    "type": "normal"
@@ -11677,8 +11897,64 @@
   {
    "date": "2026-10-30",
    "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage du poids et de la température.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 7 sections\n- Changement charnière finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 7 sections\n- Changement procédé SS => PS\n- Changement charnière ébaucher",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Distributeur sous verre",
+   "cause": "- Remplacement de deux flexibles de refroidissement des scoops.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a i'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-30",
+   "ligne": "235",
    "tache": "TARGET (Grand T1)",
-   "cause": "2h10",
+   "cause": "1h55",
    "type": "normal"
   },
   {
@@ -11692,7 +11968,7 @@
    "date": "2026-10-30",
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
-   "cause": "100 min = catégorie 3+  changement procédé + charnières + déflecteurs = 40+15+30+15",
+   "cause": "85 min = catégorie 3 + changement procédé + charnières = 40+15+30",
    "type": "libre"
   }
  ]
