@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-02T09:32:46",
+ "derniere_maj": "2026-11-02T13:23:19",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4084,11 +4084,11 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10."
+     "texte": "Retard : Dévoilage arche 2h40 vs 1h30 (satndard)"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
+     "texte": "- Réglage Roue de transfert – passage de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
     }
    ]
   },
@@ -4160,11 +4160,11 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10."
+     "texte": "Retard : Dévoilage arche 2h40 vs 1h30 (satndard)"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
+     "texte": "- Réglage Roue de transfert – passage de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités."
     }
    ]
   },
@@ -4181,7 +4181,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
+     "texte": "- Retard : retard dû au réchauffement cuvette QP et difficulté pour obtenir forme paraison (changement lames et cales)"
     }
    ]
   },
@@ -4236,7 +4236,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte."
+     "texte": "- Retard : retard dû au réchauffement cuvette QP et difficulté pour obtenir forme paraison (changement lames et cales)"
     }
    ]
   },
@@ -4407,12 +4407,7 @@
    "metrique": "NET",
    "duree_min": 30,
    "objectif_min": 15,
-   "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "Manque de personnel"
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-10-12",
@@ -4455,10 +4450,6 @@
    "duree_min": 331,
    "objectif_min": 105,
    "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "Manque de personnel"
-    },
     {
      "tache": "Mise a l arche",
      "texte": "Retard Dévoilage arche (3h23 vs norme 1h30)"
@@ -4860,18 +4851,6 @@
     {
      "tache": "Cote Ebaucheur",
      "texte": "Moulerie non conforme | - Erreur de préparation du matériel pour le changement : entonnoir à 3 chanfreins (machine 25) préparé au lieu de l’entonnoir à 2 chanfreins requis pour la machine 24.\n- Un poinçon présentant un filetage intérieur endommagé.\n- Changement déflecteurs\n- Changement insert de charnière"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Réglages opérationnels."
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'ache tout les sections"
     }
    ]
   },
@@ -4931,20 +4910,7 @@
    "metrique": "TCH",
    "duree_min": 302,
    "objectif_min": 185,
-   "details": [
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Réglages opérationnels."
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'ache tout les sections"
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-10-19",
@@ -5868,12 +5834,7 @@
    "metrique": "NET",
    "duree_min": 80,
    "objectif_min": 15,
-   "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "- Dépose des moules de 6h00 às 6h20"
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-10-28",
@@ -5920,10 +5881,6 @@
    "duree_min": 242,
    "objectif_min": 125,
    "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "- Dépose des moules de 6h00 às 6h20"
-    },
     {
      "tache": "Mise a l arche",
      "texte": "Retard 50 min : changement cuvette initialement pas prévu, pas possible avoir le poids avec cuvette prévue"
@@ -10178,14 +10135,14 @@
    "date": "2026-10-06",
    "ligne": "233",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 section\n- Sans le nettoyage du SO3, la mise à l’arche aurait été réalisée à 9h10.",
+   "cause": "Retard : Dévoilage arche 2h40 vs 1h30 (satndard)",
    "type": "libre"
   },
   {
    "date": "2026-10-06",
    "ligne": "233",
    "tache": "Mise a l arche",
-   "cause": "- Roue de transfert – Nécessité de passer de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités.",
+   "cause": "- Réglage Roue de transfert – passage de 48 à 64 doigts en raison du diamètre plus faible du flacon, afin de permettre le passage des 4 cavités.",
    "type": "libre"
   },
   {
@@ -10297,7 +10254,7 @@
    "date": "2026-10-07",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche apres changement des lames (3émé) - Cales a été mise en place pour améliorer la forme de la goutte.",
+   "cause": "- Retard : retard dû au réchauffement cuvette QP et difficulté pour obtenir forme paraison (changement lames et cales)",
    "type": "libre"
   },
   {
@@ -10453,13 +10410,6 @@
    "tache": "TARGET (Petit t1)",
    "cause": "45 min = catégorie 3",
    "type": "libre"
-  },
-  {
-   "date": "2026-10-12",
-   "ligne": "224",
-   "tache": "Nettoyage de machine",
-   "cause": "Manque de personnel",
-   "type": "motif"
   },
   {
    "date": "2026-10-12",
@@ -10914,27 +10864,6 @@
    "ligne": "224",
    "tache": "Machine complete avec flacon",
    "cause": "- Sec.5 - Réglage du niveau du bras de transfert.\n- Sec.6 -",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-16",
-   "ligne": "224",
-   "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-16",
-   "ligne": "224",
-   "tache": "Mise a l arche",
-   "cause": "- Réglages opérationnels.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-16",
-   "ligne": "224",
-   "tache": "Mise a l arche",
-   "cause": "- Mise a l'ache tout les sections",
    "type": "libre"
   },
   {
@@ -11761,13 +11690,6 @@
    "ligne": "224",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "30 min = anticipation +21°C",
-   "type": "libre"
-  },
-  {
-   "date": "2026-10-28",
-   "ligne": "236",
-   "tache": "Nettoyage de machine",
-   "cause": "- Dépose des moules de 6h00 às 6h20",
    "type": "libre"
   },
   {
