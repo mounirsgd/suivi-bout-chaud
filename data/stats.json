@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-04T09:16:36",
+ "derniere_maj": "2026-11-04T12:54:58",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6506,20 +6506,20 @@
    "ligne": "235"
   },
   {
-   "date": "2026-11-03",
-   "ligne": "222"
-  },
-  {
    "date": "2026-11-04",
    "ligne": "224"
   },
   {
    "date": "2026-11-05",
-   "ligne": "235"
+   "ligne": "222"
   },
   {
    "date": "2026-11-06",
    "ligne": "224"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235"
   }
  ],
  "causes": [
@@ -12005,27 +12005,6 @@
    "type": "libre"
   },
   {
-   "date": "2026-11-03",
-   "ligne": "222",
-   "tache": "TARGET (Grand T1)",
-   "cause": "2h30",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-03",
-   "ligne": "222",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "15 min",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-03",
-   "ligne": "222",
-   "tache": "TARGET (Petit t1)",
-   "cause": "105 min = catégorie 3",
-   "type": "libre"
-  },
-  {
    "date": "2026-11-04",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
@@ -12097,30 +12076,23 @@
   },
   {
    "date": "2026-11-05",
-   "ligne": "235",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
-   "cause": "1h55",
+   "cause": "2h30",
    "type": "normal"
   },
   {
    "date": "2026-11-05",
-   "ligne": "235",
-   "tache": "TARGET (Petit t1)",
-   "cause": "40 min = catégorie 3",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-05",
-   "ligne": "235",
-   "tache": "TARGET (Rondelle)",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
    "cause": "15 min",
    "type": "normal"
   },
   {
    "date": "2026-11-05",
-   "ligne": "235",
-   "tache": "TARGET (Anticipation Feeder)",
-   "cause": "60 min = anticipation +29°C",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "105 min = catégorie 3",
    "type": "libre"
   },
   {
@@ -12135,6 +12107,34 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "1h55",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "40 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "TARGET (Rondelle)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "60 min = anticipation +29°C",
    "type": "libre"
   }
  ]
