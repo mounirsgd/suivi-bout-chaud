@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-04T03:03:43",
+ "derniere_maj": "2026-11-04T09:16:36",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -5110,7 +5110,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la cuvette."
+     "texte": "- Réchauffage de la rondelle réfractaire."
     }
    ]
   },
@@ -5244,7 +5244,11 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la cuvette"
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -5303,11 +5307,11 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "Changement cuvette"
+     "texte": "- Changement cuvette"
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la cuvette."
+     "texte": "- Réchauffage de la rondelle réfractaire."
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -5561,7 +5565,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réchauffage de la cuvette."
+     "texte": "- Réchauffage de la rondelle réfractaire."
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -6048,6 +6052,90 @@
     {
      "tache": "Mise a l arche",
      "texte": "Retard 50 min : changement cuvette après changement outillage, feederman seul pour faire 2 changements cuvettes (support équipe prod)"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 37,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière.\n- Sec.2 - Réglage niveau bras de transfert \n- Changement tout bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière.\n- Changement déflecteurs"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 17,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 65,
+   "objectif_min": 110,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière.\n- Sec.2 - Réglage niveau bras de transfert \n- Changement tout bras de transfert"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière.\n- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 74,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- 1ère lame.\n- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- 2émé lame. \n- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 127,
+   "objectif_min": 155,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
   }
@@ -11024,7 +11112,7 @@
    "date": "2026-10-20",
    "ligne": "222",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la cuvette.",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
    "type": "libre"
   },
   {
@@ -11150,7 +11238,14 @@
    "date": "2026-10-21",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la cuvette",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-10-21",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
    "type": "libre"
   },
   {
@@ -11227,14 +11322,14 @@
    "date": "2026-10-21",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "Changement cuvette",
+   "cause": "- Changement cuvette",
    "type": "libre"
   },
   {
    "date": "2026-10-21",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la cuvette.",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
    "type": "libre"
   },
   {
@@ -11451,7 +11546,7 @@
    "date": "2026-10-26",
    "ligne": "222",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réchauffage de la cuvette.",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
    "type": "libre"
   },
   {
@@ -11928,6 +12023,55 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "105 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- 1ère lame.\n- Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- 2émé lame. \n- Coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert charnière.\n- Sec.2 - Réglage niveau bras de transfert \n- Changement tout bras de transfert",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière.\n- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-04",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
