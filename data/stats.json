@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-05T09:31:36",
+ "derniere_maj": "2026-11-05T13:04:14",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -4820,7 +4820,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte."
+     "texte": "(Réalisé en temps masqué sur 2nde partie outillage) - Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte."
     }
    ]
   },
@@ -5794,7 +5794,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36."
+     "texte": "- (Pas d'intervertion Feederman mais machine arrêtée) Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36."
     }
    ]
   },
@@ -5874,7 +5874,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Coupe"
+     "texte": "- Coupe (2min d'intervention)"
     }
    ]
   },
@@ -6026,7 +6026,7 @@
    "details": [
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Changement cuvette"
+     "texte": "- Changement cuvette (réalisé après outillage - 1 seul federman présent)"
     },
     {
      "tache": "Changement rondelle (cuvette)",
@@ -6038,7 +6038,7 @@
     },
     {
      "tache": "Changement rondelle (cuvette)",
-     "texte": "- Réglage du poids et de la température."
+     "texte": "- Réglage du poids et de la température suite difficulté montée en température."
     }
    ]
   },
@@ -10835,7 +10835,7 @@
    "date": "2026-10-15",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte.",
+   "cause": "(Réalisé en temps masqué sur 2nde partie outillage) - Deuxième lame\n- Remplacement de l’entonnoir afin d’améliorer la chute de la goutte.",
    "type": "libre"
   },
   {
@@ -11752,7 +11752,7 @@
    "date": "2026-10-28",
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36.",
+   "cause": "- (Pas d'intervertion Feederman mais machine arrêtée) Temps d’attente pour le remplacement de la rondelle réfractaire, en raison d’une intervention non prévue sur la machine 36.",
    "type": "libre"
   },
   {
@@ -11822,8 +11822,8 @@
    "date": "2026-10-28",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Coupe",
-   "type": "normal"
+   "cause": "- Coupe (2min d'intervention)",
+   "type": "libre"
   },
   {
    "date": "2026-10-28",
@@ -11948,7 +11948,7 @@
    "date": "2026-10-30",
    "ligne": "235",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Changement cuvette",
+   "cause": "- Changement cuvette (réalisé après outillage - 1 seul federman présent)",
    "type": "libre"
   },
   {
@@ -11969,7 +11969,7 @@
    "date": "2026-10-30",
    "ligne": "235",
    "tache": "Changement rondelle (cuvette)",
-   "cause": "- Réglage du poids et de la température.",
+   "cause": "- Réglage du poids et de la température suite difficulté montée en température.",
    "type": "libre"
   },
   {
