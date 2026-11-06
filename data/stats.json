@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-06T03:29:18",
+ "derniere_maj": "2026-11-06T09:26:32",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6140,19 +6140,145 @@
    ]
   },
   {
-   "date": "2026-11-05",
-   "ligne": "222",
-   "metrique": "PT1",
-   "duree_min": 50,
-   "objectif_min": 105,
+   "date": "2026-11-06",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 20,
+   "objectif_min": 15,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- 12 sections\n- Entre sec.11 et 12 - Remplacement de la base de l’empilage.\n- Sec. 7, 8 et 11 - Changement du bras de transfert"
+     "texte": "Moulerie non conforme | - Remplacement du moule, du fond et du moule de bague.\n- Changement tout le bras du transfert - Moule de bague présentant un diamètre inférieur à celui du moule précédemment monté.\n- Réglage de la hauteur du bras de transfert."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- 12 sections\n- Changement charnière ébaucher\n-  Sec.7 - Réglage du niveau du bras d’inversion."
+     "texte": "- Réglage en hauteur du mécanisme de poinçon."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 section"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 52,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Remplacement du moule, du fond et du moule de bague.\n- Changement tout le bras du transfert - Moule de bague présentant un diamètre inférieur à celui du moule précédemment monté.\n- Réglage de la hauteur du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Réglage en hauteur du mécanisme de poinçon."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 6,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réglage du poids"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 73,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Sec.3 - Réglage du niveau du bras d’inversion."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Tout les sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 1283,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 55,
+   "objectif_min": 40,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Sec.3 - Réglage du niveau du bras d’inversion."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 18,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement rondelle"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "SO3",
+   "duree_min": 140,
+   "objectif_min": null,
+   "details": []
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 1416,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Tout les sections"
     }
    ]
   }
@@ -6527,16 +6653,28 @@
    "ligne": "224"
   },
   {
-   "date": "2026-11-05",
-   "ligne": "222"
-  },
-  {
    "date": "2026-11-06",
    "ligne": "224"
   },
   {
    "date": "2026-11-06",
    "ligne": "235"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232"
   }
  ],
  "causes": [
@@ -12092,38 +12230,45 @@
    "type": "libre"
   },
   {
-   "date": "2026-11-05",
-   "ligne": "222",
+   "date": "2026-11-06",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réglage du poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- 12 sections\n- Entre sec.11 et 12 - Remplacement de la base de l’empilage.\n- Sec. 7, 8 et 11 - Changement du bras de transfert",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Remplacement du moule, du fond et du moule de bague.\n- Changement tout le bras du transfert - Moule de bague présentant un diamètre inférieur à celui du moule précédemment monté.\n- Réglage de la hauteur du bras de transfert.",
    "type": "libre"
   },
   {
-   "date": "2026-11-05",
-   "ligne": "222",
+   "date": "2026-11-06",
+   "ligne": "224",
    "tache": "Cote Ebaucheur",
-   "cause": "- 12 sections\n- Changement charnière ébaucher\n-  Sec.7 - Réglage du niveau du bras d’inversion.",
+   "cause": "- Réglage en hauteur du mécanisme de poinçon.",
    "type": "libre"
   },
   {
-   "date": "2026-11-05",
-   "ligne": "222",
-   "tache": "TARGET (Grand T1)",
-   "cause": "2h30",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-05",
-   "ligne": "222",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "15 min",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-05",
-   "ligne": "222",
-   "tache": "TARGET (Petit t1)",
-   "cause": "105 min = catégorie 3",
+   "date": "2026-11-06",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 section",
    "type": "libre"
   },
   {
@@ -12138,6 +12283,48 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement rondelle",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 7 sections\n- Sec.3 - Réglage du niveau du bras d’inversion.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 7 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Tout les sections",
    "type": "libre"
   },
   {
@@ -12166,6 +12353,55 @@
    "ligne": "235",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "60 min = anticipation +29°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "15 min = catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "3h50",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min =catégorie 3 + changement procédé + changement plaque vertiflow = 40+30+25",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "90 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232",
+   "tache": "TARGET (Petit t1)",
+   "cause": "=",
    "type": "libre"
   }
  ]
