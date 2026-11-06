@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-06T09:26:32",
+ "derniere_maj": "2026-11-06T12:51:43",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6181,7 +6181,7 @@
    "date": "2026-11-06",
    "ligne": "224",
    "metrique": "RON",
-   "duree_min": 6,
+   "duree_min": 55,
    "objectif_min": null,
    "details": [
     {
@@ -6191,6 +6191,10 @@
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Réglage du poids"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement de cuvette (suite instabilité poids)"
     }
    ]
   },
@@ -6219,7 +6223,7 @@
    "date": "2026-11-06",
    "ligne": "235",
    "metrique": "NET",
-   "duree_min": 1283,
+   "duree_min": 23,
    "objectif_min": 15,
    "details": []
   },
@@ -6273,7 +6277,7 @@
    "date": "2026-11-06",
    "ligne": "235",
    "metrique": "TCH",
-   "duree_min": 1416,
+   "duree_min": 156,
    "objectif_min": 115,
    "details": [
     {
@@ -12241,6 +12245,13 @@
    "ligne": "224",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Réglage du poids",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-06",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement de cuvette (suite instabilité poids)",
    "type": "libre"
   },
   {
