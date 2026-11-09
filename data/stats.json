@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-09T13:47:53",
+ "derniere_maj": "2026-11-09T20:25:40",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -12439,14 +12439,14 @@
    "date": "2026-11-09",
    "ligne": "222",
    "tache": "Changement Traitement Surface",
-   "cause": "- Réglage et démarrage C&S\n- Problème d’extraction d’air\n- Démarrage du dispositif A.",
+   "cause": "- Réglage et démarrage C&S\n- Problème d’extraction d’air\n- Démarrage de la machine A de traitement Clear n'Safe.",
    "type": "libre"
   },
   {
    "date": "2026-11-09",
    "ligne": "222",
    "tache": "Changement Traitement Surface",
-   "cause": "- Problème électrique sur le dispositif B.",
+   "cause": "- Problème électrique de la machine B de traitement Clear n'Safe.",
    "type": "libre"
   },
   {
