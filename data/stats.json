@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-09T09:50:05",
+ "derniere_maj": "2026-11-09T13:47:53",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6289,6 +6289,27 @@
   {
    "date": "2026-11-09",
    "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 289,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine A et B\n- Changement fond finisseur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine A: 10h55\n- Mise a l'arche avec tout sections\n- Selon la Production, mise à l’arche à 8h48."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine B: 12h18"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
    "metrique": "PT1",
    "duree_min": 10,
    "objectif_min": 15,
@@ -12397,14 +12418,35 @@
    "date": "2026-11-09",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Machine A et B\n- Mise a l'arche avec tout sections\n- Selon la Production, mise à l’arche à 8h48.",
+   "cause": "- Machine A: 10h55\n- Mise a l'arche avec tout sections\n- Selon la Production, mise à l’arche à 8h48.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Machine B: 12h18",
+   "type": "releve"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Changement Traitement Surface",
+   "cause": "Retard réglages",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Changement Traitement Surface",
+   "cause": "- Réglage et démarrage C&S\n- Problème d’extraction d’air\n- Démarrage du dispositif A.",
    "type": "libre"
   },
   {
    "date": "2026-11-09",
    "ligne": "222",
    "tache": "Changement Traitement Surface",
-   "cause": "- Réglage et démarrage C&S\n- Problème d’extraction d’air",
+   "cause": "- Problème électrique sur le dispositif B.",
    "type": "libre"
   },
   {
