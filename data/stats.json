@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-09T02:45:06",
+ "derniere_maj": "2026-11-09T09:50:05",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6285,6 +6285,19 @@
      "texte": "- Tout les sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 10,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Machine A et B\n- Changement fond finisseur"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -12364,6 +12377,34 @@
    "ligne": "235",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "60 min = anticipation +29°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "- Machine A et B\n- Changement fond finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "- Machine A et B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Machine A et B\n- Mise a l'arche avec tout sections\n- Selon la Production, mise à l’arche à 8h48.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-09",
+   "ligne": "222",
+   "tache": "Changement Traitement Surface",
+   "cause": "- Réglage et démarrage C&S\n- Problème d’extraction d’air",
    "type": "libre"
   },
   {
