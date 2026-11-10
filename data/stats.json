@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-10T09:53:35",
+ "derniere_maj": "2026-11-10T13:24:50",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6354,20 +6354,20 @@
    "date": "2026-11-10",
    "ligne": "235",
    "metrique": "MR2",
-   "duree_min": 50,
+   "duree_min": 59,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- 7 sections\n- Changement charnière"
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "- Coupe le tapis du convoyeur."
+     "texte": "- 7 sections\n- Changement charnière\n- Changement plaque vertflow"
     },
     {
      "tache": "Cote Ebaucheur",
      "texte": "- 7 sections\n- Changement charnière"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche 2 section"
     }
    ]
   },
@@ -6375,7 +6375,7 @@
    "date": "2026-11-10",
    "ligne": "235",
    "metrique": "NET",
-   "duree_min": 37,
+   "duree_min": 27,
    "objectif_min": 15,
    "details": []
   },
@@ -6383,16 +6383,12 @@
    "date": "2026-11-10",
    "ligne": "235",
    "metrique": "PT1",
-   "duree_min": 66,
-   "objectif_min": 95,
+   "duree_min": 57,
+   "objectif_min": 85,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- 7 sections\n- Changement charnière"
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "- Coupe le tapis du convoyeur."
+     "texte": "- 7 sections\n- Changement charnière\n- Changement plaque vertflow"
     },
     {
      "tache": "Cote Ebaucheur",
@@ -6417,9 +6413,14 @@
    "date": "2026-11-10",
    "ligne": "235",
    "metrique": "TCH",
-   "duree_min": 161,
+   "duree_min": 151,
    "objectif_min": 200,
-   "details": []
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche 2 section"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -6813,7 +6814,19 @@
   },
   {
    "date": "2026-11-12",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-11-12",
    "ligne": "232"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236"
   }
  ],
  "causes": [
@@ -12596,14 +12609,14 @@
    "date": "2026-11-10",
    "ligne": "235",
    "tache": "Cote Finisseur",
-   "cause": "- 7 sections\n- Changement charnière",
+   "cause": "- 7 sections\n- Changement charnière\n- Changement plaque vertflow",
    "type": "libre"
   },
   {
    "date": "2026-11-10",
    "ligne": "235",
-   "tache": "Cote Finisseur",
-   "cause": "- Coupe le tapis du convoyeur.",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 7 sections\n- Changement charnière",
    "type": "libre"
   },
   {
@@ -12618,6 +12631,13 @@
    "ligne": "235",
    "tache": "Machine complete avec flacon",
    "cause": "- Sec.6 - Jeu excessif du corps take out et retard d’ouverture de la pince.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche 2 section",
    "type": "libre"
   },
   {
@@ -12638,7 +12658,7 @@
    "date": "2026-11-10",
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
-   "cause": "95 min =catégorie 3 + changement procédé + changement plaque vertiflow = 40+30+25",
+   "cause": "85 min =catégorie 3 + changement procédé + changement charnières = 40+30+15",
    "type": "libre"
   },
   {
@@ -12650,9 +12670,93 @@
   },
   {
    "date": "2026-11-12",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "55 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "40 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h30",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-12",
    "ligne": "232",
    "tache": "TARGET (Petit t1)",
-   "cause": "=",
+   "cause": "105 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h10",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min= catégorie 3 + changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "20 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "75 min = catégorie 3",
    "type": "libre"
   }
  ]
