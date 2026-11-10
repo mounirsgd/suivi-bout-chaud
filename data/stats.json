@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-10T13:24:50",
+ "derniere_maj": "2026-11-10T17:30:06",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6215,7 +6215,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Tout les sections"
+     "texte": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)"
     }
    ]
   },
@@ -6282,7 +6282,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "- Tout les sections"
+     "texte": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)"
     }
    ]
   },
@@ -12483,7 +12483,7 @@
    "date": "2026-11-06",
    "ligne": "235",
    "tache": "Mise a l arche",
-   "cause": "- Tout les sections",
+   "cause": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)",
    "type": "libre"
   },
   {
