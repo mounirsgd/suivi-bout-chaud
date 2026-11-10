@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-10T04:41:12",
+ "derniere_maj": "2026-11-10T09:53:35",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6319,6 +6319,107 @@
      "texte": "- Machine A et B\n- Changement fond finisseur"
     }
    ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
+   "metrique": "MR2",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement finisseur et fond"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
+   "metrique": "PT1",
+   "duree_min": 6,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement finisseur et fond"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 50,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Coupe le tapis du convoyeur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement charnière"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 37,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 66,
+   "objectif_min": 95,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections\n- Changement charnière"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Coupe le tapis du convoyeur."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement charnière"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 1,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 161,
+   "objectif_min": 200,
+   "details": []
   }
  ],
  "demarrages": [
@@ -12459,6 +12560,20 @@
   {
    "date": "2026-11-10",
    "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement finisseur et fond",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "232",
    "tache": "TARGET (Grand T1)",
    "cause": "15 min",
    "type": "normal"
@@ -12473,8 +12588,50 @@
   {
    "date": "2026-11-10",
    "ligne": "235",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 7 sections\n- Changement charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Coupe le tapis du convoyeur.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "Distributeur sous verre",
+   "cause": "- Enverrage goulotte",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.6 - Jeu excessif du corps take out et retard d’ouverture de la pince.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
    "tache": "TARGET (Grand T1)",
    "cause": "3h50",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-10",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
    "type": "normal"
   },
   {
