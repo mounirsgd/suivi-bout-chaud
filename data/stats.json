@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-12T03:55:44",
+ "derniere_maj": "2026-11-12T09:52:00",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6827,6 +6827,22 @@
   {
    "date": "2026-11-13",
    "ligne": "236"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-11-17",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222"
   }
  ],
  "causes": [
@@ -12757,6 +12773,97 @@
    "ligne": "236",
    "tache": "TARGET (Petit t1)",
    "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "3 h",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "135 min = Catégorie 3 + Changement procédé + changement charnières EB et FI + changement déflecteurs = 75+30+15+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "90 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h30",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-17",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "105 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "1h40",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "70 = catégorie 3 + changement procédé = 40+30",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "30 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "15 min = catégorie 1",
    "type": "libre"
   }
  ]
