@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-12T13:40:49",
+ "derniere_maj": "2026-11-12T17:55:46",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6426,7 +6426,7 @@
    "date": "2026-11-12",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": 1349,
+   "duree_min": 39,
    "objectif_min": 15,
    "details": [
     {
@@ -6443,7 +6443,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Nouvelle mise à l’arche."
+     "texte": "- Nouvelle mise à l’arche"
     }
    ]
   },
@@ -6476,7 +6476,7 @@
    "date": "2026-11-12",
    "ligne": "224",
    "metrique": "TCH",
-   "duree_min": 46,
+   "duree_min": 176,
    "objectif_min": 55,
    "details": [
     {
@@ -6485,7 +6485,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Nouvelle mise à l’arche."
+     "texte": "- Nouvelle mise à l’arche"
     }
    ]
   },
@@ -6493,7 +6493,7 @@
    "date": "2026-11-12",
    "ligne": "232",
    "metrique": "MR2",
-   "duree_min": 71,
+   "duree_min": 151,
    "objectif_min": 15,
    "details": [
     {
@@ -6593,7 +6593,7 @@
    "date": "2026-11-12",
    "ligne": "232",
    "metrique": "TCH",
-   "duree_min": 326,
+   "duree_min": 406,
    "objectif_min": 150,
    "details": [
     {
@@ -12926,7 +12926,7 @@
    "date": "2026-11-12",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "- Nouvelle mise à l’arche.",
+   "cause": "- Nouvelle mise à l’arche",
    "type": "libre"
   },
   {
