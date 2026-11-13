@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-13T09:33:40",
+ "derniere_maj": "2026-11-13T12:59:37",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6215,7 +6215,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)"
+     "texte": "Dépassement T1 Dévoilage arche 2h20 vs 1h30 (standard)"
     }
    ]
   },
@@ -6282,7 +6282,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)"
+     "texte": "Dépassement T1 Dévoilage arche 2h20 vs 1h30 (standard)"
     }
    ]
   },
@@ -6426,16 +6426,12 @@
    "date": "2026-11-12",
    "ligne": "224",
    "metrique": "MR2",
-   "duree_min": 39,
+   "duree_min": 151,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement Finisseur/Fond/Tété de soufflage"
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "Moulerie non conforme | - Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB."
+     "texte": "Moulerie non conforme | - Changement Finisseur/Fond/Tété de soufflage, - 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB."
     },
     {
      "tache": "Mise a l arche",
@@ -6443,7 +6439,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Nouvelle mise à l’arche"
+     "texte": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche"
     }
    ]
   },
@@ -6459,16 +6455,12 @@
    "date": "2026-11-12",
    "ligne": "224",
    "metrique": "PT1",
-   "duree_min": 132,
+   "duree_min": 20,
    "objectif_min": 40,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement Finisseur/Fond/Tété de soufflage"
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "Moulerie non conforme | - Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB."
+     "texte": "Moulerie non conforme | - Changement Finisseur/Fond/Tété de soufflage, - 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB."
     }
    ]
   },
@@ -6485,7 +6477,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Nouvelle mise à l’arche"
+     "texte": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche"
     }
    ]
   },
@@ -6502,7 +6494,7 @@
     },
     {
      "tache": "Cote Finisseur",
-     "texte": "- Machine B\n- Sec.12 - Réglage du niveau du bras de bague."
+     "texte": "Problème Communication | - Machine B - Attente mise en place plaques protection feeder\n- Sec.12 - Réglage du niveau du bras de bague."
     },
     {
      "tache": "Cote Ebaucheur",
@@ -6510,7 +6502,7 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- Machine B\n- Sec.12 - Réglage du niveau du bras de bague."
+     "texte": "Problème Communication | - Machine B - Attente mise en place plaques protection feeder\n- Sec.12 - Réglage du niveau du bras de bague."
     },
     {
      "tache": "Mise a l arche",
@@ -6552,7 +6544,7 @@
     },
     {
      "tache": "Cote Finisseur",
-     "texte": "- Machine B\n- Sec.12 - Réglage du niveau du bras de bague."
+     "texte": "Problème Communication | - Machine B - Attente mise en place plaques protection feeder\n- Sec.12 - Réglage du niveau du bras de bague."
     },
     {
      "tache": "Cote Ebaucheur",
@@ -6560,7 +6552,7 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- Machine B\n- Sec.12 - Réglage du niveau du bras de bague."
+     "texte": "Problème Communication | - Machine B - Attente mise en place plaques protection feeder\n- Sec.12 - Réglage du niveau du bras de bague."
     }
    ]
   },
@@ -6617,6 +6609,31 @@
   {
    "date": "2026-11-13",
    "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 127,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Sec.6 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs\n- Sec.6 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Premier mise a l'arche avec tout sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- 2émé mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
    "metrique": "NET",
    "duree_min": 26,
    "objectif_min": 15,
@@ -6641,22 +6658,73 @@
   },
   {
    "date": "2026-11-13",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 23,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Formation | - Changement lame - Centrage de la goutte"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Formation | - Remplacement du tube guide par de diamètre inférieur  - Centrage de la goutte"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "metrique": "SO3",
+   "duree_min": 130,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "- Démarrage SO3 (Installation et réglage)"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 196,
+   "objectif_min": 130,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Premier mise a l'arche avec tout sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- 2émé mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
    "ligne": "236",
    "metrique": "MR2",
-   "duree_min": 41,
+   "duree_min": 181,
    "objectif_min": 15,
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- 8 sections\n- Coupe le tapis du convoyeur.\n- Sec.7 - Réglage du niveau du bras de transfert."
+     "texte": "Moulerie non conforme | - Sec.7 - Réglage du niveau du bras de transfert.\n-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- 8 sections\n- Sec.7 - Réglage du niveau du bras de transfert."
+     "texte": "- Sec.7 - Réglage du niveau du bras de transfert."
     },
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec tout sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections"
     }
    ]
   },
@@ -6677,11 +6745,11 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- 8 sections\n- Coupe le tapis du convoyeur.\n- Sec.7 - Réglage du niveau du bras de transfert."
+     "texte": "Moulerie non conforme | - Sec.7 - Réglage du niveau du bras de transfert.\n-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "- 8 sections\n- Sec.7 - Réglage du niveau du bras de transfert."
+     "texte": "- Sec.7 - Réglage du niveau du bras de transfert."
     }
    ]
   },
@@ -6714,12 +6782,16 @@
    "date": "2026-11-13",
    "ligne": "236",
    "metrique": "TCH",
-   "duree_min": 191,
+   "duree_min": 331,
    "objectif_min": 120,
    "details": [
     {
      "tache": "Mise a l arche",
      "texte": "Mise a l'arche avec tout sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections"
     }
    ]
   }
@@ -12808,7 +12880,7 @@
    "date": "2026-11-06",
    "ligne": "235",
    "tache": "Mise a l arche",
-   "cause": "Dépassement T1 Dévoilage arche éh20 vs 1h30 (standard)",
+   "cause": "Dépassement T1 Dévoilage arche 2h20 vs 1h30 (standard)",
    "type": "libre"
   },
   {
@@ -12997,13 +13069,6 @@
    "date": "2026-11-12",
    "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- Changement Finisseur/Fond/Tété de soufflage",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-12",
-   "ligne": "224",
-   "tache": "Cote Finisseur",
    "cause": "Moulerie non conforme",
    "type": "motif"
   },
@@ -13011,7 +13076,7 @@
    "date": "2026-11-12",
    "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.",
+   "cause": "- Changement Finisseur/Fond/Tété de soufflage, - 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.",
    "type": "libre"
   },
   {
@@ -13039,7 +13104,7 @@
    "date": "2026-11-12",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "- Nouvelle mise à l’arche",
+   "cause": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche",
    "type": "libre"
   },
   {
@@ -13088,7 +13153,14 @@
    "date": "2026-11-12",
    "ligne": "232",
    "tache": "Cote Finisseur",
-   "cause": "- Machine B\n- Sec.12 - Réglage du niveau du bras de bague.",
+   "cause": "Problème Communication",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-12",
+   "ligne": "232",
+   "tache": "Cote Finisseur",
+   "cause": "- Machine B - Attente mise en place plaques protection feeder\n- Sec.12 - Réglage du niveau du bras de bague.",
    "type": "libre"
   },
   {
@@ -13129,6 +13201,27 @@
   {
    "date": "2026-11-13",
    "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Formation",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement lame - Centrage de la goutte",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Remplacement du tube guide par de diamètre inférieur  - Centrage de la goutte",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
    "tache": "Cote Finisseur",
    "cause": "- Sec.6 - Réglage du niveau du bras de transfert.",
    "type": "libre"
@@ -13138,6 +13231,20 @@
    "ligne": "224",
    "tache": "Cote Ebaucheur",
    "cause": "- Changement déflecteurs\n- Sec.6 - Réglage du niveau du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Premier mise a l'arche avec tout sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- 2émé mise a l'arche avec tout sections",
    "type": "libre"
   },
   {
@@ -13207,14 +13314,21 @@
    "date": "2026-11-13",
    "ligne": "236",
    "tache": "Cote Finisseur",
-   "cause": "- 8 sections\n- Coupe le tapis du convoyeur.\n- Sec.7 - Réglage du niveau du bras de transfert.",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "- Sec.7 - Réglage du niveau du bras de transfert.\n-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde.",
    "type": "libre"
   },
   {
    "date": "2026-11-13",
    "ligne": "236",
    "tache": "Cote Ebaucheur",
-   "cause": "- 8 sections\n- Sec.7 - Réglage du niveau du bras de transfert.",
+   "cause": "- Sec.7 - Réglage du niveau du bras de transfert.",
    "type": "libre"
   },
   {
@@ -13223,6 +13337,13 @@
    "tache": "Mise a l arche",
    "cause": "Mise a l'arche avec tout sections",
    "type": "normal"
+  },
+  {
+   "date": "2026-11-13",
+   "ligne": "236",
+   "tache": "Mise a l arche",
+   "cause": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections",
+   "type": "libre"
   },
   {
    "date": "2026-11-13",
@@ -13249,7 +13370,7 @@
    "date": "2026-11-16",
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
-   "cause": "3 h",
+   "cause": "3 h 10",
    "type": "normal"
   },
   {
@@ -13263,7 +13384,7 @@
    "date": "2026-11-16",
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
-   "cause": "135 min = Catégorie 3 + Changement procédé + changement charnières EB et FI + changement déflecteurs = 75+30+15+15",
+   "cause": "145 min = Catégorie 3 + Changement procédé + changement charnières EB et FI + changement déflecteurs + bras de transfert = 75+30+15+15+10",
    "type": "libre"
   },
   {
