@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-16T09:47:07",
+ "derniere_maj": "2026-11-16T13:31:42",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6804,11 +6804,19 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "- Changement inserte charnière\n- Changement bras de transfert."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
     },
     {
      "tache": "Mise a l arche",
@@ -6833,11 +6841,19 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "- Changement inserte charnière\n- Changement bras de transfert."
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
     }
    ]
   },
@@ -13479,21 +13495,28 @@
    "date": "2026-11-16",
    "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "cause": "- Changement inserte charnière\n- Changement bras de transfert.",
    "type": "libre"
   },
   {
    "date": "2026-11-16",
    "ligne": "224",
-   "tache": "Cote Ebaucheur",
+   "tache": "Cote Finisseur",
    "cause": "Moulerie non conforme",
    "type": "motif"
   },
   {
    "date": "2026-11-16",
    "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
    "tache": "Cote Ebaucheur",
-   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.",
    "type": "libre"
   },
   {
