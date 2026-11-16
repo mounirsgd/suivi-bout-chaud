@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-16T02:52:42",
+ "derniere_maj": "2026-11-16T09:47:07",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6794,6 +6794,94 @@
      "texte": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 26,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 36,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 160,
+   "objectif_min": 145,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 17,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "SO3",
+   "duree_min": 160,
+   "objectif_min": 90,
+   "details": []
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 231,
+   "objectif_min": 190,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -13364,6 +13452,55 @@
    "ligne": "236",
    "tache": "TARGET (Petit t1)",
    "cause": "75 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement inserte charnière\n- Changement bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Changement inserte charnière\n- Changement déflecteur\n- Changement procédé\n- Sec.3 et 6 - Réglage du bras de transfert.\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
