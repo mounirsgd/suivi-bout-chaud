@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-17T10:45:34",
+ "derniere_maj": "2026-11-17T14:16:24",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6804,11 +6804,7 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement inserte charnière\n- Changement bras de transfert."
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "Moulerie non conforme | - Changement inserte charnière\n- Changement bras de transfert."
     },
     {
      "tache": "Cote Ebaucheur",
@@ -6820,7 +6816,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
+     "texte": "- Mise a l'arche avec 2 sections\n- 8h30 à 9h55 : Problème montage série neuve EB 4''1/4 sur M24 : changement avec moulerie EB ancienne"
     }
    ]
   },
@@ -6841,11 +6837,7 @@
    "details": [
     {
      "tache": "Cote Finisseur",
-     "texte": "- Changement inserte charnière\n- Changement bras de transfert."
-    },
-    {
-     "tache": "Cote Finisseur",
-     "texte": "Moulerie non conforme | - Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes."
+     "texte": "Moulerie non conforme | - Changement inserte charnière\n- Changement bras de transfert."
     },
     {
      "tache": "Cote Ebaucheur",
@@ -6895,7 +6887,7 @@
    "details": [
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
+     "texte": "- Mise a l'arche avec 2 sections\n- 8h30 à 9h55 : Problème montage série neuve EB 4''1/4 sur M24 : changement avec moulerie EB ancienne"
     }
    ]
   },
@@ -6903,7 +6895,7 @@
    "date": "2026-11-17",
    "ligne": "222",
    "metrique": "MR2",
-   "duree_min": 73,
+   "duree_min": 105,
    "objectif_min": 15,
    "details": [
     {
@@ -6928,7 +6920,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (__h__)"
+     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections"
     }
    ]
   },
@@ -6936,7 +6928,7 @@
    "date": "2026-11-17",
    "ligne": "222",
    "metrique": "NET",
-   "duree_min": 66,
+   "duree_min": 21,
    "objectif_min": 30,
    "details": [
     {
@@ -7012,7 +7004,7 @@
    "date": "2026-11-17",
    "ligne": "222",
    "metrique": "TCH",
-   "duree_min": 289,
+   "duree_min": 276,
    "objectif_min": 150,
    "details": [
     {
@@ -7025,7 +7017,7 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (__h__)"
+     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections"
     }
    ]
   }
@@ -13625,13 +13617,6 @@
    "date": "2026-11-16",
    "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- Changement inserte charnière\n- Changement bras de transfert.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-16",
-   "ligne": "224",
-   "tache": "Cote Finisseur",
    "cause": "Moulerie non conforme",
    "type": "motif"
   },
@@ -13639,7 +13624,7 @@
    "date": "2026-11-16",
    "ligne": "224",
    "tache": "Cote Finisseur",
-   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "cause": "- Changement inserte charnière\n- Changement bras de transfert.",
    "type": "libre"
   },
   {
@@ -13652,8 +13637,15 @@
   {
    "date": "2026-11-16",
    "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Problème d’emboîtement du moule dans l’insert de charnière : le bloc de positionnement est surdimensionné par rapport au logement prévu dans le moule\n- Fluctuations de l’alimentation électrique perturbant le fonctionnement des commandes de mouvement des mécanismes.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-16",
+   "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
+   "cause": "- Mise a l'arche avec 2 sections\n- 8h30 à 9h55 : Problème montage série neuve EB 4''1/4 sur M24 : changement avec moulerie EB ancienne",
    "type": "libre"
   },
   {
@@ -13772,7 +13764,7 @@
    "date": "2026-11-17",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (__h__)",
+   "cause": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections",
    "type": "libre"
   },
   {
@@ -13814,7 +13806,7 @@
    "date": "2026-11-18",
    "ligne": "235",
    "tache": "TARGET (Grand T1)",
-   "cause": "1h40",
+   "cause": "1h55",
    "type": "normal"
   },
   {
@@ -13828,7 +13820,14 @@
    "date": "2026-11-18",
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
-   "cause": "70 = catégorie 3 + changement procédé = 40+30",
+   "cause": "85 = catégorie 3 + changement procédé + changement charnières = 40+30 +15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "90 min = Dévoilage arche",
    "type": "libre"
   },
   {
