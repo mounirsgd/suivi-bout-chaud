@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-18T10:12:33",
+ "derniere_maj": "2026-11-18T13:49:12",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7042,7 +7042,11 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux."
+     "texte": "Moulerie non conforme | - Poinçons bloqués dans quatre fourreaux."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
   },
@@ -7080,7 +7084,7 @@
     },
     {
      "tache": "Cote Ebaucheur",
-     "texte": "Moulerie non conforme | - Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux."
+     "texte": "Moulerie non conforme | - Poinçons bloqués dans quatre fourreaux."
     }
    ]
   },
@@ -7102,6 +7106,10 @@
     {
      "tache": "Nettoyage de machine",
      "texte": "- Nettoyage incomplet."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
   }
@@ -7526,6 +7534,10 @@
   {
    "date": "2026-11-19",
    "ligne": "222"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224"
   },
   {
    "date": "2026-11-20",
@@ -13925,7 +13937,7 @@
    "date": "2026-11-18",
    "ligne": "235",
    "tache": "Cote Ebaucheur",
-   "cause": "- Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux.",
+   "cause": "- Poinçons bloqués dans quatre fourreaux.",
    "type": "libre"
   },
   {
@@ -13933,6 +13945,13 @@
    "ligne": "235",
    "tache": "Machine complete avec flacon",
    "cause": "- Entre les sections 5 et 6 – Remplacement de la tour d’empilage endommagée.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
    "type": "libre"
   },
   {
@@ -13975,6 +13994,41 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "15 min = catégorie 1",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "tache": "TARGET (Passage en SO3)",
+   "cause": "Dévoilage arche = 90 min",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h35",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "110 min= catégorie 3+ changement charnières EB et FI + changement déflecteurs = 75+15+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "30 min = anticipation -27°C",
    "type": "libre"
   },
   {
