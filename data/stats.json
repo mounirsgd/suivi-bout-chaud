@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-18T04:34:39",
+ "derniere_maj": "2026-11-18T10:12:33",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7020,6 +7020,90 @@
      "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 25,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 8 sections"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 8 sections\n- Changement procédé PS => SS\n- Changement charnière\n- Changement cartouches\n- Installation de l’entonnoir"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 48,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage incomplet."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 85,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 8 sections"
+    },
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement charnière"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 8 sections\n- Changement procédé PS => SS\n- Changement charnière\n- Changement cartouches\n- Installation de l’entonnoir"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "Moulerie non conforme | - Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "metrique": "SO3",
+   "duree_min": 105,
+   "objectif_min": 90,
+   "details": []
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 142,
+   "objectif_min": 115,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "- Nettoyage incomplet."
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -13800,6 +13884,55 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "105 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Nettoyage de machine",
+   "cause": "- Nettoyage incomplet.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 8 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement charnière",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- 8 sections\n- Changement procédé PS => SS\n- Changement charnière\n- Changement cartouches\n- Installation de l’entonnoir",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "Moulerie non conforme",
+   "type": "motif"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Poinçons mélangés (présence de 2 poinçons plus courts).\n- Poinçons bloqués dans quatre fourreaux.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-18",
+   "ligne": "235",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Entre les sections 5 et 6 – Remplacement de la tour d’empilage endommagée.",
    "type": "libre"
   },
   {
