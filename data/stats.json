@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-19T10:23:28",
+ "derniere_maj": "2026-11-19T14:18:36",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -6435,10 +6435,6 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
-    {
-     "tache": "Mise a l arche",
      "texte": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche"
     }
    ]
@@ -6471,10 +6467,6 @@
    "duree_min": 176,
    "objectif_min": 55,
    "details": [
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Mise a l'arche avec 2 sections"
-    },
     {
      "tache": "Mise a l arche",
      "texte": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche"
@@ -6720,10 +6712,6 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec tout sections"
-    },
-    {
-     "tache": "Mise a l arche",
      "texte": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections"
     }
    ]
@@ -6785,10 +6773,6 @@
    "duree_min": 331,
    "objectif_min": 120,
    "details": [
-    {
-     "tache": "Mise a l arche",
-     "texte": "Mise a l'arche avec tout sections"
-    },
     {
      "tache": "Mise a l arche",
      "texte": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections"
@@ -6916,11 +6900,11 @@
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Machine B\n- Rejet au niveau du SO3 pour effectuer les réglages. (10h33) - tout sections"
+     "texte": "- Machine B Retard réglage SO3"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections"
+     "texte": "- Machine A Retard réglage SO3"
     }
    ]
   },
@@ -6930,12 +6914,7 @@
    "metrique": "NET",
    "duree_min": 21,
    "objectif_min": 30,
-   "details": [
-    {
-     "tache": "Nettoyage de machine",
-     "texte": "- Machine A et B- Anticipation en raison de manque de personnel au bout froid."
-    }
-   ]
+   "details": []
   },
   {
    "date": "2026-11-17",
@@ -7008,16 +6987,12 @@
    "objectif_min": 150,
    "details": [
     {
-     "tache": "Nettoyage de machine",
-     "texte": "- Machine A et B- Anticipation en raison de manque de personnel au bout froid."
+     "tache": "Mise a l arche",
+     "texte": "- Machine B Retard réglage SO3"
     },
     {
      "tache": "Mise a l arche",
-     "texte": "- Machine B\n- Rejet au niveau du SO3 pour effectuer les réglages. (10h33) - tout sections"
-    },
-    {
-     "tache": "Mise a l arche",
-     "texte": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections"
+     "texte": "- Machine A Retard réglage SO3"
     }
    ]
   },
@@ -7116,6 +7091,23 @@
   {
    "date": "2026-11-19",
    "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 135,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement fond finisseur"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Machine A et B"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
    "metrique": "PT1",
    "duree_min": 15,
    "objectif_min": 15,
@@ -7125,6 +7117,14 @@
      "texte": "Changement fond finisseur"
     }
    ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "metrique": "SO3",
+   "duree_min": 175,
+   "objectif_min": 90,
+   "details": []
   },
   {
    "date": "2026-11-19",
@@ -13536,13 +13536,6 @@
    "date": "2026-11-12",
    "ligne": "224",
    "tache": "Mise a l arche",
-   "cause": "- Mise a l'arche avec 2 sections",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-12",
-   "ligne": "224",
-   "tache": "Mise a l arche",
    "cause": "- 11h30 à 12h02  Changement moule de bague et bras du transfert, en raison d’une erreur d’usinage de la contre-bague du MDB.  12h40 Nouvelle mise à l’arche",
    "type": "libre"
   },
@@ -13774,13 +13767,6 @@
    "date": "2026-11-13",
    "ligne": "236",
    "tache": "Mise a l arche",
-   "cause": "Mise a l'arche avec tout sections",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-13",
-   "ligne": "236",
-   "tache": "Mise a l arche",
    "cause": "-10h45 à 10h55  Remplacement du finisseur en raison de la gravure insuffisamment profonde - Mise a l'arche avec tout sections",
    "type": "libre"
   },
@@ -13892,13 +13878,6 @@
   {
    "date": "2026-11-17",
    "ligne": "222",
-   "tache": "Nettoyage de machine",
-   "cause": "- Machine A et B- Anticipation en raison de manque de personnel au bout froid.",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-17",
-   "ligne": "222",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Changement cuvette - Machine B",
    "type": "libre"
@@ -13970,14 +13949,14 @@
    "date": "2026-11-17",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Machine B\n- Rejet au niveau du SO3 pour effectuer les réglages. (10h33) - tout sections",
+   "cause": "- Machine B Retard réglage SO3",
    "type": "libre"
   },
   {
    "date": "2026-11-17",
    "ligne": "222",
    "tache": "Mise a l arche",
-   "cause": "- Machine A\n- Rejet au niveau du SO3 pour effectuer les réglages. (11h10) - tout sections",
+   "cause": "- Machine A Retard réglage SO3",
    "type": "libre"
   },
   {
@@ -14123,6 +14102,13 @@
   {
    "date": "2026-11-19",
    "ligne": "222",
+   "tache": "Mise a l arche",
+   "cause": "- Machine A et B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "30 min",
    "type": "normal"
@@ -14208,7 +14194,7 @@
    "date": "2026-11-19",
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
-   "cause": "120 min= catégorie 3+ changement charnières EB et FI + changement déflecteurs = bras de trasnfert= 75+15+20+10",
+   "cause": "120 min= catégorie 3+ changement charnières EB et FI + changement déflecteurs + bras de transfert= 75+15+20+10",
    "type": "libre"
   },
   {
