@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-19T04:16:13",
+ "derniere_maj": "2026-11-19T10:23:28",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7112,6 +7112,103 @@
      "texte": "- Mise a l'arche avec 2 sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "Changement fond finisseur"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 33,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement du bras de transfert\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière \n- Changement déflecteurs\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 5 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 97,
+   "objectif_min": 120,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement insert charnière\n- Changement du bras de transfert\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert."
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement insert charnière \n- Changement déflecteurs\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 116,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Remplacement des lames."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 158,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 5 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7546,6 +7643,26 @@
   {
    "date": "2026-11-20",
    "ligne": "235"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222"
   }
  ],
  "causes": [
@@ -13985,6 +14102,27 @@
   {
    "date": "2026-11-19",
    "ligne": "222",
+   "tache": "Cote Finisseur",
+   "cause": "Changement fond finisseur",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "tache": "Entonnoir sous verre",
+   "cause": "- Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
+   "tache": "Distributeur sous verre",
+   "cause": "- Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "30 min",
    "type": "normal"
@@ -14006,6 +14144,55 @@
   {
    "date": "2026-11-19",
    "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Remplacement des lames.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement insert charnière\n- Changement du bras de transfert\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement insert charnière \n- Changement déflecteurs\n- Sec.1, 2, 3, 4, 5 et 6 - Réglage du niveau du bras de transfert.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 5 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-19",
+   "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "2h35",
    "type": "normal"
@@ -14021,7 +14208,7 @@
    "date": "2026-11-19",
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
-   "cause": "110 min= catégorie 3+ changement charnières EB et FI + changement déflecteurs = 75+15+20",
+   "cause": "120 min= catégorie 3+ changement charnières EB et FI + changement déflecteurs = bras de trasnfert= 75+15+20+10",
    "type": "libre"
   },
   {
@@ -14078,6 +14265,125 @@
    "ligne": "235",
    "tache": "TARGET (Petit t1)",
    "cause": "1h40= catégorie 3 + changement procédé+changemet charnières + déflecteurs = 40 + 30+15+15",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min =catégorie 2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h35",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min = Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min = Machine B",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min= catégorie 3 + changement déflecteurs  = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "TARGET (Rondelle)",
+   "cause": "15 min =Machine A",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h20",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h25",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "30 min = changement poinçons réfractaires",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h45",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "105 min = catégorie 3",
    "type": "libre"
   }
  ]
