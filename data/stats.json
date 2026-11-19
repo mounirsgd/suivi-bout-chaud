@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-19T14:18:36",
+ "derniere_maj": "2026-11-19T18:52:24",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7663,6 +7663,14 @@
   {
    "date": "2026-11-25",
    "ligne": "222"
+  },
+  {
+   "date": "2026-11-26",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235"
   }
  ],
  "causes": [
@@ -14370,6 +14378,41 @@
    "ligne": "222",
    "tache": "TARGET (Petit t1)",
    "cause": "105 min = catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-26",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h10",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-26",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "85 min= catégorie 3",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-26",
+   "ligne": "233",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "20 min = anticipation +23°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h25",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "100 min= catégorie 3 + changement procédé + changement charnières + changement déflecteurs = 40+15+30+15",
    "type": "libre"
   }
  ]
