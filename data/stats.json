@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-20T10:03:35",
+ "derniere_maj": "2026-11-20T13:56:35",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7212,6 +7212,49 @@
   },
   {
    "date": "2026-11-20",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 17,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement indice 02->05"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 15,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- Changement indice 02->05"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 65,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Nécessité de régler la position zéro (butée de limitation) au niveau le plus bas afin d’améliorer la régulation du poids de la goutte par le mécanisme de poinçon du feeder."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
    "ligne": "233",
    "metrique": "MR2",
    "duree_min": 59,
@@ -7293,6 +7336,27 @@
   {
    "date": "2026-11-20",
    "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 46,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections\n- Changement charnière\n- Changement déflecteurs\n- Changement Procédé SS => PS"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 3 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "235",
    "metrique": "NET",
    "duree_min": 25,
    "objectif_min": 15,
@@ -7333,6 +7397,19 @@
     {
      "tache": "Changement rondelle (cuvette)",
      "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 159,
+   "objectif_min": 145,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Mise a l'arche avec 3 sections"
     }
    ]
   }
@@ -7760,6 +7837,10 @@
   },
   {
    "date": "2026-11-19",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-11-20",
    "ligne": "224"
   },
   {
@@ -14340,6 +14421,34 @@
   },
   {
    "date": "2026-11-20",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Nécessité de régler la position zéro (butée de limitation) au niveau le plus bas afin d’améliorer la régulation du poids de la goutte par le mécanisme de poinçon du feeder.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "224",
+   "tache": "Cote Finisseur",
+   "cause": "- Changement indice 02->05",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec tout sections",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "- Changement d'indice",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-20",
    "ligne": "233",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Changement cuvette",
@@ -14448,6 +14557,20 @@
    "ligne": "235",
    "tache": "Cote Ebaucheur",
    "cause": "- 7 sections\n- Changement charnière\n- Changement déflecteurs\n- Changement Procédé SS => PS",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "235",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Section 7 - Démarrage tardif, sans problème technique, uniquement pour des raisons opérationnelles.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-20",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Mise a l'arche avec 3 sections",
    "type": "libre"
   },
   {
