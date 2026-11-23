@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-23T03:48:55",
+ "derniere_maj": "2026-11-23T10:48:36",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7412,6 +7412,77 @@
      "texte": "Mise a l'arche avec 3 sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "metrique": "MR2",
+   "duree_min": 60,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 10 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "metrique": "NET",
+   "duree_min": 55,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "metrique": "PT1",
+   "duree_min": 63,
+   "objectif_min": 95,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 10 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "metrique": "RON",
+   "duree_min": 25,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "metrique": "TCH",
+   "duree_min": 205,
+   "objectif_min": 155,
+   "details": []
   }
  ],
  "demarrages": [
@@ -14611,6 +14682,48 @@
   {
    "date": "2026-11-23",
    "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "Cote Finisseur",
+   "cause": "- 10 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
+   "tache": "Machine complete avec flacon",
+   "cause": "- Sec.10 - Remontage de la section avec le mécanisme de poinçon de la cavité A, les cartouches et le MDP, remplacement du flexible d’alimentation en air de la tête de soufflage. (8h15 à 10h09)\n- Sec.1 - Problème avec corp du Take out.  (8h15 à 9h05)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-23",
+   "ligne": "236",
    "tache": "TARGET (Grand T1)",
    "cause": "2h35",
    "type": "normal"
@@ -14619,15 +14732,8 @@
    "date": "2026-11-23",
    "ligne": "236",
    "tache": "TARGET (Nettoyage)",
-   "cause": "15 min = Machine A",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-23",
-   "ligne": "236",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "15 min = Machine B",
-   "type": "libre"
+   "cause": "15 min",
+   "type": "normal"
   },
   {
    "date": "2026-11-23",
@@ -14637,17 +14743,10 @@
    "type": "libre"
   },
   {
-   "date": "2026-11-23",
-   "ligne": "236",
-   "tache": "TARGET (Rondelle)",
-   "cause": "15 min =Machine A",
-   "type": "libre"
-  },
-  {
    "date": "2026-11-24",
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
-   "cause": "2h20",
+   "cause": "3h05",
    "type": "normal"
   },
   {
@@ -14655,6 +14754,13 @@
    "ligne": "224",
    "tache": "TARGET (Petit t1)",
    "cause": "95 min = catégorie 3 + changement déflecteurs = 75+20",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "30 min = Changement poinçons réfractaires",
    "type": "libre"
   },
   {
