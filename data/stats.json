@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-23T10:48:36",
+ "derniere_maj": "2026-11-23T15:52:22",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -14746,7 +14746,7 @@
    "date": "2026-11-24",
    "ligne": "224",
    "tache": "TARGET (Grand T1)",
-   "cause": "3h05",
+   "cause": "2h35",
    "type": "normal"
   },
   {
