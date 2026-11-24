@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-24T06:59:00",
+ "derniere_maj": "2026-11-24T12:31:17",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7483,6 +7483,201 @@
    "duree_min": 205,
    "objectif_min": 155,
    "details": []
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "metrique": "MR2",
+   "duree_min": 94,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "metrique": "NET",
+   "duree_min": 22,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "metrique": "PT1",
+   "duree_min": 45,
+   "objectif_min": 95,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Changement déflecteurs"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "metrique": "RON",
+   "duree_min": 35,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "metrique": "TCH",
+   "duree_min": 162,
+   "objectif_min": 155,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "MR2",
+   "duree_min": 33,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.4 - Remplacement de la partie supérieure de la cartouche de la cavité intérieure."
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "NET",
+   "duree_min": 30,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "PT1",
+   "duree_min": 81,
+   "objectif_min": 85,
+   "details": [
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- Sec.4 - Remplacement de la partie supérieure de la cartouche de la cavité intérieure."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "RON",
+   "duree_min": 86,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Changement cuvette"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Réchauffage de la rondelle réfractaire."
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "- Coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "SO3",
+   "duree_min": 90,
+   "objectif_min": null,
+   "details": [
+    {
+     "tache": "Nettoyage SO3",
+     "texte": "- Installation et réglage SO3"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "metrique": "TCH",
+   "duree_min": 145,
+   "objectif_min": 145,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec 2 sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 32,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "- Mise a l'arche avec tout sections"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 11,
+   "objectif_min": 10,
+   "details": [
+    {
+     "tache": "Cote Finisseur",
+     "texte": "- 7 sections"
+    },
+    {
+     "tache": "Cote Ebaucheur",
+     "texte": "- 7 sections"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -7924,10 +8119,6 @@
   },
   {
    "date": "2026-11-23",
-   "ligne": "235"
-  },
-  {
-   "date": "2026-11-23",
    "ligne": "236"
   },
   {
@@ -7937,6 +8128,10 @@
   {
    "date": "2026-11-24",
    "ligne": "233"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235"
   },
   {
    "date": "2026-11-25",
@@ -14667,20 +14862,6 @@
   },
   {
    "date": "2026-11-23",
-   "ligne": "235",
-   "tache": "TARGET (Grand T1)",
-   "cause": "25 min",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-23",
-   "ligne": "235",
-   "tache": "TARGET (Petit t1)",
-   "cause": "10 min =catégorie 2",
-   "type": "libre"
-  },
-  {
-   "date": "2026-11-23",
    "ligne": "236",
    "tache": "Changement rondelle (cuvette)",
    "cause": "- Changement cuvette",
@@ -14745,6 +14926,41 @@
   {
    "date": "2026-11-24",
    "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Changement déflecteurs",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "224",
    "tache": "TARGET (Grand T1)",
    "cause": "2h35",
    "type": "normal"
@@ -14761,6 +14977,48 @@
    "ligne": "224",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "30 min = Changement poinçons réfractaires",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Changement cuvette",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Réchauffage de la rondelle réfractaire.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "- Coupe",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Cote Ebaucheur",
+   "cause": "- Sec.4 - Remplacement de la partie supérieure de la cartouche de la cavité intérieure.",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec 2 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "233",
+   "tache": "Nettoyage SO3",
+   "cause": "- Installation et réglage SO3",
    "type": "libre"
   },
   {
@@ -14789,6 +15047,34 @@
    "ligne": "233",
    "tache": "TARGET (Anticipation Feeder)",
    "cause": "30 min = changement poinçons réfractaires",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "tache": "Cote Finisseur",
+   "cause": "- 7 sections",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "- Mise a l'arche avec tout sections",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-24",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min =catégorie 2",
    "type": "libre"
   },
   {
