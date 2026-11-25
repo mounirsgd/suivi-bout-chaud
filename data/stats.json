@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-25T05:31:15",
+ "derniere_maj": "2026-11-25T11:20:13",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7678,6 +7678,86 @@
      "texte": "- 7 sections"
     }
    ]
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "metrique": "MR2",
+   "duree_min": 167,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "metrique": "NET",
+   "duree_min": 25,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "machine A"
+    },
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine B"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "metrique": "PT1",
+   "duree_min": 90,
+   "objectif_min": 105,
+   "details": []
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "metrique": "RON",
+   "duree_min": 150,
+   "objectif_min": 30,
+   "details": [
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Machine A"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Changement rondelle (cuvette)",
+     "texte": "Réchauffage cuvette B et mise en coupe"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "metrique": "TCH",
+   "duree_min": 287,
+   "objectif_min": 165,
+   "details": [
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "machine A"
+    },
+    {
+     "tache": "Nettoyage de machine",
+     "texte": "Machine B"
+    },
+    {
+     "tache": "Mise a l arche",
+     "texte": "Machine B"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -15080,22 +15160,36 @@
   {
    "date": "2026-11-25",
    "ligne": "222",
+   "tache": "Nettoyage de machine",
+   "cause": "machine A",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "Nettoyage de machine",
+   "cause": "Machine B",
+   "type": "normal"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "Changement rondelle (cuvette)",
+   "cause": "Réchauffage cuvette B et mise en coupe",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
+   "tache": "Machine complete avec flacon",
+   "cause": "Machine A - alarme électrique gob (surintensite) x2",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-25",
+   "ligne": "222",
    "tache": "TARGET (Grand T1)",
    "cause": "2h45",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-25",
-   "ligne": "222",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "Machine A",
-   "type": "normal"
-  },
-  {
-   "date": "2026-11-25",
-   "ligne": "222",
-   "tache": "TARGET (Nettoyage)",
-   "cause": "Machine B",
    "type": "normal"
   },
   {
