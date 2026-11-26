@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-26T14:59:40",
+ "derniere_maj": "2026-11-26T19:25:12",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -8295,6 +8295,34 @@
   {
    "date": "2026-11-30",
    "ligne": "235"
+  },
+  {
+   "date": "2026-12-01",
+   "ligne": "235"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "221"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "233"
+  },
+  {
+   "date": "2026-12-03",
+   "ligne": "222"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "224"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "233"
   }
  ],
  "causes": [
@@ -15353,6 +15381,111 @@
    "tache": "TARGET (Petit t1)",
    "cause": "10 min",
    "type": "normal"
+  },
+  {
+   "date": "2026-12-01",
+   "ligne": "235",
+   "tache": "TARGET (Petit t1)",
+   "cause": "7h = changement cavités (catégorie 4)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "221",
+   "tache": "TARGET (Grand T1)",
+   "cause": "15 min - démarrage machine (changement de fabrication réalisé S48)",
+   "type": "libre"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h35",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "100 min = catégorie 3 + changement charnières EB et FI",
+   "type": "libre"
+  },
+  {
+   "date": "2026-12-02",
+   "ligne": "233",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "1h",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-03",
+   "ligne": "222",
+   "tache": "TARGET (Grand T1)",
+   "cause": "25 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-03",
+   "ligne": "222",
+   "tache": "TARGET (Petit t1)",
+   "cause": "10min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "224",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h15",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "224",
+   "tache": "TARGET (Petit t1)",
+   "cause": "90 min = catégorie 3+changement charnières",
+   "type": "libre"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "224",
+   "tache": "TARGET (Anticipation Feeder)",
+   "cause": "40 min = anticipation 35°C",
+   "type": "libre"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "233",
+   "tache": "TARGET (Grand T1)",
+   "cause": "2h10",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "233",
+   "tache": "TARGET (Nettoyage)",
+   "cause": "15 min",
+   "type": "normal"
+  },
+  {
+   "date": "2026-12-04",
+   "ligne": "233",
+   "tache": "TARGET (Petit t1)",
+   "cause": "100 min = catégorie 3 + changement charnières",
+   "type": "libre"
   }
  ]
 }
