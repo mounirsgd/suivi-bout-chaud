@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-27T05:09:53",
+ "derniere_maj": "2026-11-27T10:54:03",
  "metriques": {
   "TCH": "T1 = Temps de changement",
   "NET": "Nettoyage machine",
@@ -7821,6 +7821,56 @@
      "texte": "Démontage Roue de transfert"
     }
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "metrique": "MR2",
+   "duree_min": 57,
+   "objectif_min": 15,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Erreur entonnoir et impossible monter fond EB neuf . Reprise usinage à la moulerie"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "metrique": "NET",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "metrique": "PT1",
+   "duree_min": 80,
+   "objectif_min": 100,
+   "details": []
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "metrique": "RON",
+   "duree_min": 20,
+   "objectif_min": 15,
+   "details": []
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "metrique": "TCH",
+   "duree_min": 177,
+   "objectif_min": 145,
+   "details": [
+    {
+     "tache": "Mise a l arche",
+     "texte": "Erreur entonnoir et impossible monter fond EB neuf . Reprise usinage à la moulerie"
+    }
+   ]
   }
  ],
  "demarrages": [
@@ -15338,6 +15388,13 @@
    "ligne": "233",
    "tache": "TARGET (Passage en SO3)",
    "cause": "Devoilage arche",
+   "type": "libre"
+  },
+  {
+   "date": "2026-11-27",
+   "ligne": "235",
+   "tache": "Mise a l arche",
+   "cause": "Erreur entonnoir et impossible monter fond EB neuf . Reprise usinage à la moulerie",
    "type": "libre"
   },
   {
